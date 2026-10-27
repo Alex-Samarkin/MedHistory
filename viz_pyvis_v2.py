@@ -86,6 +86,16 @@ def main() -> None:
     net = Network(height="750px", width="100%", directed=True,
                   bgcolor="#ffffff", font_color="#222222")
 
+    # Улучшаем наведение на рёбра: кривые линии (разделяет встречные/наложенные
+    # рёбра), больший разнос узлов и более толстые рёбра, чтобы по стрелке было
+    # легко попасть курсором.
+    net.set_edge_smooth("dynamic")
+    net.repulsion(node_distance=200, spring_length=150)
+    net.options.edges.width = 2.5
+    net.options.edges.hoverWidth = 3.5
+    net.options.edges.selectionWidth = 3.5
+    net.options.interaction.tooltipDelay = 120
+
     for nid, d in G.nodes(data=True):
         net.add_node(
             nid,
