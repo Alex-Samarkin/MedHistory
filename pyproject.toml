@@ -7,7 +7,12 @@ authors = [
     { name = "Alex Samarkin", email = "alexsamarkinru@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "networkx>=3.7",
+    "numpy>=2.5.4",
+    "plotly>=7.1.0",
+    "pyvis>=0.3.2",
+]
 
 [project.scripts]
 medhistory = "medhistory:main"

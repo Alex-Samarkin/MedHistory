@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Gephi workspace (changing binary)
+gephi/
+
+# HTML-визуализации и их ресурсы (генерируемые артефакты)
+graph.html
+graph_timeline.html
+lib/

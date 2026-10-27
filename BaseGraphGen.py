@@ -878,8 +878,24 @@ dangling = [(e["Source"], e["Target"]) for e in EDGES
 if dangling:
     raise ValueError(f"Связи с несуществующими узлами: {dangling}")
 
-node_cols = [":ID", "ID", "Label", "Kind", "Start", "End", "Region", "Note", "Size"]
+node_cols = [":ID", "ID", "Label", "Kind", "Start", "End", "Region", "Note", "Size",
+             "Degree", "Color"]
 edge_cols = ["Source", "Target", "Relation", "Label", "Type"]
+
+# Степень узла (для выделения хабов) и цвет по типу (для окраски в Gephi)
+degree = Counter()
+for e in EDGES:
+    degree[e["Source"]] += 1
+    degree[e["Target"]] += 1
+KIND_COLORS = {
+    "era": "#9E9E9E", "concept": "#43A047", "practice": "#00897B",
+    "discovery": "#FB8C00", "institution": "#8E24AA", "person": "#1E88E5",
+    "text": "#6D4C41", "team": "#3949AB", "context": "#D81B60",
+    "ethic": "#E53935", "disease": "#B71C1C",
+}
+for n in NODES.values():
+    n["Degree"] = degree[n["ID"]]
+    n["Color"] = KIND_COLORS.get(n["Kind"], "#607D8B")
 
 with open(OUT / "nodes.csv", "w", newline="", encoding="utf-8-sig") as f:
     w = csv.DictWriter(f, fieldnames=node_cols, extrasaction="ignore")
@@ -893,14 +909,19 @@ with open(OUT / "edges.csv", "w", newline="", encoding="utf-8-sig") as f:
     for e in EDGES:
         w.writerow(e)
 
-# GEXF 1.3
+# GEXF 1.3 (динамический: start/end на узлах, цвет по типу)
+def _hex_rgb(h):
+    h = h.lstrip("#")
+    return int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+
 node_attrs = [("Kind", "string"), ("Start", "long"), ("End", "long"),
-              ("Region", "string"), ("Note", "string"), ("Size", "double")]
+              ("Region", "string"), ("Note", "string"), ("Size", "double"),
+              ("Degree", "long"), ("Color", "string")]
 edge_attrs = [("Relation", "string"), ("Label", "string")]
 xml = ['<?xml version="1.0" encoding="UTF-8"?>',
-       '<gexf xmlns="http://www.gexf.net/1.3" version="1.3">',
+       '<gexf xmlns="http://www.gexf.net/1.3" xmlns:viz="http://www.gexf.net/1.3/viz" version="1.3">',
        '<meta><creator>History of Medicine concept graph</creator></meta>',
-       '<graph defaultedgetype="directed" timeformat="double">',
+       '<graph mode="dynamic" defaultedgetype="directed" timeformat="double">',
        '<attributes class="node">']
 for i, (title, typ) in enumerate(node_attrs, 1):
     xml.append(f'<attribute id="n{i}" title="{title}" type="{typ}"/>')
@@ -909,11 +930,12 @@ for i, (title, typ) in enumerate(edge_attrs, 1):
     xml.append(f'<attribute id="e{i}" title="{title}" type="{typ}"/>')
 xml.append('</attributes><nodes>')
 for n in NODES.values():
-    xml.append(f'<node id="{n["ID"]}" label="{escape(n["Label"])}"><attvalues>')
+    r, g, b = _hex_rgb(n["Color"])
+    xml.append(f'<node id="{n["ID"]}" label="{escape(n["Label"])}" start="{n["Start"]}" end="{n["End"]}"><attvalues>')
     for i, (title, _) in enumerate(node_attrs, 1):
         val = n.get(title, "")
         xml.append(f'<attvalue for="n{i}" value="{escape(str(val))}"/>')
-    xml.append('</attvalues></node>')
+    xml.append(f'</attvalues><viz:color r="{r}" g="{g}" b="{b}"/></node>')
 xml.append('</nodes><edges>')
 for i, e in enumerate(EDGES):
     xml.append(f'<edge id="{i}" source="{e["Source"]}" target="{e["Target"]}" label="{escape(e["Label"])}"><attvalues>')
