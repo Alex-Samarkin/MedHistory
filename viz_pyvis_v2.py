@@ -2,7 +2,7 @@
 """Интерактивный граф с карточками-подсказками и ссылками на поиск (pyvis).
 
 Отличие от viz_pyvis.py: карточки показываются при наведении на узел или на
-маркер-точку в середине ребра (комментарий Note/Relation + ссылки на поиск).
+маркер-тег в середине ребра (подпись — тема ребра, рамка и тень).
 Запуск: uv run python viz_pyvis_v2.py
 Выход: graphV2.html
 """
@@ -19,6 +19,57 @@ OUT = Path("graphV2.html")
 
 GOOGLE = "https://www.google.com/search?q={q}"
 WIKI = "https://ru.wikipedia.org/w/index.php?search={q}"
+
+# Русские подписи для типов отношений (метки маркеров-тегов на рёбрах)
+REL_RU = {
+    "APPLIED_BY": "применён",
+    "AUTHORED": "автор",
+    "BACKGROUND_TO": "предпосылка",
+    "CONCERNS": "касается",
+    "CONSTRAINS": "ограничивает",
+    "CONTEXTUALIZES": "контекстуализирует",
+    "CONTEXT_FOR": "контекст",
+    "CONTRIBUTED_TO": "внёс вклад",
+    "DEFINES": "определяет",
+    "DERIVED_FROM": "происходит из",
+    "DESCRIBES": "описывает",
+    "DEVELOPED_BY": "развивали",
+    "DISCOVERED": "открыл",
+    "EMPIRICAL_PRECURSOR": "эмпир. предшественник",
+    "ENABLED": "сделал возможным",
+    "EPIDEMIC_IN": "эпидемия в",
+    "ESTABLISHED_BY": "установлен",
+    "ETHICAL_CHALLENGE_TO": "этич. вызов",
+    "ETHICAL_CONSTRAINT_ON": "этич. ограничение",
+    "EXPLAINED_BY": "объяснено",
+    "EXTENDED_TO": "расширено до",
+    "FOUNDATION_OF": "основа для",
+    "FUNDS": "финансирует",
+    "HOSTS": "место работы",
+    "INFLUENCED": "повлиял",
+    "INSTITUTIONALIZES": "институционализировал",
+    "MENTORED": "наставник",
+    "MOLECULARIZED_IN": "молекуляризовано",
+    "MOTIVATED": "мотивировал",
+    "ORGANIZES": "организует",
+    "PRECEDED": "предшествовал",
+    "REDUCED_TO": "сведено к",
+    "REFUTED_BUT_PRESERVES": "опровергнуто",
+    "REINTERPRETED_AS": "переосмыслено",
+    "REPLACED_BY": "заменено",
+    "SOURCE_FOR": "источник для",
+    "SPECIFIED_BY": "конкретизировано",
+    "STRUCTURAL_ANALOGUE": "структурный аналог",
+    "SUCCEEDED_BY": "сменилась",
+    "TARGETS": "цель",
+    "TECHNIQUE_TRANSFER": "перенос техники",
+    "TENSION_WITH": "напряжение с",
+    "TRACED": "проследил",
+    "TREATS": "лечит",
+    "UNDERPINS": "обосновывает",
+    "USES": "использует",
+    "VACCINE_FOR": "вакцина от",
+}
 
 
 def load_graph() -> nx.DiGraph:
@@ -84,7 +135,7 @@ def edge_card(u_label: str, v_label: str, d: dict) -> str:
 def main() -> None:
     G = load_graph()
     net = Network(height="750px", width="100%", directed=True,
-                  bgcolor="#ffffff", font_color="#222222")
+                  bgcolor="#ffffff")
 
     # Улучшаем наведение на рёбра: кривые линии (разделяет встречные/наложенные
     # рёбра), больший разнос узлов и более толстые рёбра, чтобы по стрелке было
@@ -103,21 +154,25 @@ def main() -> None:
             title=node_card(d),
             color=d["Color"],
             size=8 + d["Degree"] * 0.6,
+            font={"color": "#222222", "face": "sans-serif"},
         )
 
-    # Маркеры в середине рёбер: маленький узел, при наведении на который
-    # показывается карточка ребра (узловые тултипы работают надёжно).
+    # Маркеры в середине рёбер: подпись-«тег» с темой ребра, тонкой рамкой и
+    # тенью; при наведении показывается карточка ребра.
     for i, (u, v, d) in enumerate(G.edges(data=True)):
         mid = f"__edge_{i}"
         u_label = G.nodes[u]["Label"]
         v_label = G.nodes[v]["Label"]
         net.add_node(
             mid,
-            label="",
+            label=REL_RU.get(d["Relation"], d["Relation"].replace("_", " ").lower()),
             title=edge_card(u_label, v_label, d),
-            color="#333333",
-            size=7,
-            shape="dot",
+            shape="box",
+            color={"background": "#ffffff", "border": "#999999"},
+            borderWidth=1,
+            font={"size": 9, "color": "#333333", "face": "sans-serif"},
+            shadow={"enabled": True, "color": "rgba(0,0,0,0.25)",
+                    "size": 4, "x": 1, "y": 1},
         )
         net.add_edge(u, mid, arrows="", color="#999999", width=1.2)
         net.add_edge(mid, v, arrows="to", color="#999999", width=1.2)
