@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Интерактивный граф с карточками-подсказками и ссылками на поиск (pyvis).
 
-Отличие от viz_pyvis.py: при наведении на узел/ребро показывается карточка
-с комментарием (Note / Relation) и гиперссылками на поиск топика.
+Отличие от viz_pyvis.py: карточки показываются при наведении на узел или на
+маркер-точку в середине ребра (комментарий Note/Relation + ссылки на поиск).
 Запуск: uv run python viz_pyvis_v2.py
 Выход: graphV2.html
 """
@@ -105,16 +105,28 @@ def main() -> None:
             size=8 + d["Degree"] * 0.6,
         )
 
-    for u, v, d in G.edges(data=True):
-        net.add_edge(
-            u, v,
-            title=edge_card(G.nodes[u]["Label"], G.nodes[v]["Label"], d),
-            arrows="to",
+    # Маркеры в середине рёбер: маленький узел, при наведении на который
+    # показывается карточка ребра (узловые тултипы работают надёжно).
+    for i, (u, v, d) in enumerate(G.edges(data=True)):
+        mid = f"__edge_{i}"
+        u_label = G.nodes[u]["Label"]
+        v_label = G.nodes[v]["Label"]
+        net.add_node(
+            mid,
+            label="",
+            title=edge_card(u_label, v_label, d),
+            color="#333333",
+            size=7,
+            shape="dot",
         )
+        net.add_edge(u, mid, arrows="", color="#999999", width=1.2)
+        net.add_edge(mid, v, arrows="to", color="#999999", width=1.2)
 
     net.write_html(str(OUT))
+    n_markers = G.number_of_edges()
     print(f"Сохранено: {OUT.resolve()} "
-          f"(узлов: {G.number_of_nodes()}, связей: {G.number_of_edges()})")
+          f"(узлов: {G.number_of_nodes()} + {n_markers} маркеров, "
+          f"связей: {2 * n_markers})")
 
 
 if __name__ == "__main__":
