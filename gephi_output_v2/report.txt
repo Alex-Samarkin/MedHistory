@@ -1,5 +1,5 @@
-Узлов: 279
-Связей: 227
-Типы узлов: {'era': 24, 'concept': 41, 'practice': 9, 'discovery': 22, 'institution': 22, 'person': 128, 'text': 21, 'team': 1, 'context': 6, 'ethic': 5}
-Регионы: 106
+Узлов: 299
+Связей: 329
+Типы узлов: {'era': 24, 'concept': 45, 'practice': 9, 'discovery': 23, 'institution': 22, 'person': 129, 'text': 21, 'team': 1, 'context': 6, 'ethic': 5, 'disease': 14}
+Регионы: 109
 Проверка: подвешенных рёбер нет.

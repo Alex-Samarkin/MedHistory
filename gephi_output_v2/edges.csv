@@ -168,8 +168,8 @@ sub_transplant,pt_murray,DEVELOPED_BY,Трансплантология от со
 sub_transplant,pt_barnard,DEVELOPED_BY,Трансплантология от сосудистого шва к иммуносупрессии.,directed
 sub_transplant,pt_dausset,DEVELOPED_BY,Трансплантология от сосудистого шва к иммуносупрессии.,directed
 sub_reproductive,pt_ivf,DEVELOPED_BY,Репродуктивная медицина и её этические рамки.,directed
-sub_reproductive,pt_hela,DEVELOPED_BY,Репродуктивная медицина и её этические рамки.,directed
 sub_reproductive,pt_edwards,DEVELOPED_BY,Репродуктивная медицина и её этические рамки.,directed
+sub_reproductive,pt_steptoe,DEVELOPED_BY,Репродуктивная медицина и её этические рамки.,directed
 sub_palliative,pt_hospice,DEVELOPED_BY,Паллиативная помощь как дисциплина.,directed
 sub_palliative,pt_saunders,DEVELOPED_BY,Паллиативная помощь как дисциплина.,directed
 inst_cos,pt_hippocrates,HOSTS,Косская школа как институциональная основа Гиппократа.,directed
@@ -226,3 +226,105 @@ pt_eugenics,sub_genetics,ETHICAL_CHALLENGE_TO,Наследственность �
 pt_asylum,pt_antipsych,REPLACED_BY,Институционализация уступает фармакологии.,directed
 pt_lobotomy,pt_antipsych,REPLACED_BY,Нейрохирургия уступает психиатрической фармакологии.,directed
 pt_psychoanalysis,pt_antipsych,TENSION_WITH,Разговорная терапия против биологической психиатрии.,directed
+era_meso,era_indus,SUCCEEDED_BY,era_meso → era_indus,directed
+era_indus,era_egypt,SUCCEEDED_BY,era_indus → era_egypt,directed
+era_egypt,era_vedic,SUCCEEDED_BY,era_egypt → era_vedic,directed
+era_vedic,era_greece_arch,SUCCEEDED_BY,era_vedic → era_greece_arch,directed
+era_greece_arch,era_greece_class,SUCCEEDED_BY,era_greece_arch → era_greece_class,directed
+era_greece_class,era_hellen,SUCCEEDED_BY,era_greece_class → era_hellen,directed
+era_hellen,era_rome,SUCCEEDED_BY,era_hellen → era_rome,directed
+era_rome,era_byz,SUCCEEDED_BY,era_rome → era_byz,directed
+era_byz,era_mediev_eur,SUCCEEDED_BY,era_byz → era_mediev_eur,directed
+era_mediev_eur,era_early_islam,SUCCEEDED_BY,era_mediev_eur → era_early_islam,directed
+era_early_islam,era_islam_gold,SUCCEEDED_BY,era_early_islam → era_islam_gold,directed
+era_islam_gold,era_renaiss,SUCCEEDED_BY,era_islam_gold → era_renaiss,directed
+era_renaiss,era_scientific,SUCCEEDED_BY,era_renaiss → era_scientific,directed
+era_scientific,era_enlight,SUCCEEDED_BY,era_scientific → era_enlight,directed
+era_enlight,era_industrial,SUCCEEDED_BY,era_enlight → era_industrial,directed
+era_industrial,era_victorian,SUCCEEDED_BY,era_industrial → era_victorian,directed
+era_victorian,era_imperial,SUCCEEDED_BY,era_victorian → era_imperial,directed
+era_imperial,era_wwi,SUCCEEDED_BY,era_imperial → era_wwi,directed
+era_wwi,era_interwar,SUCCEEDED_BY,era_wwi → era_interwar,directed
+era_interwar,era_wwii,SUCCEEDED_BY,era_interwar → era_wwii,directed
+era_wwii,era_coldwar,SUCCEEDED_BY,era_wwii → era_coldwar,directed
+era_coldwar,era_info,SUCCEEDED_BY,era_coldwar → era_info,directed
+era_info,era_precision,SUCCEEDED_BY,era_info → era_precision,directed
+pt_hippocrates,pt_airswaters,AUTHORED,Тексты гиппократова корпуса.,directed
+pt_hippocrates,pt_sacred_disease,AUTHORED,Тексты гиппократова корпуса.,directed
+pt_galen,pt_galen_use,AUTHORED,Телеологическая анатомия Галена.,directed
+pt_al_razi,pt_hawi,AUTHORED,Клинические труды аль-Рази.,directed
+pt_al_razi,pt_smallpox_book,AUTHORED,Клинические труды аль-Рази.,directed
+pt_avicenna,pt_canon,AUTHORED,Канон врачебной науки.,directed
+pt_al_zahrawi,pt_tasrif,AUTHORED,Хирургическая энциклопедия.,directed
+pt_vesalius,pt_fabrica,AUTHORED,Анатомический атлас.,directed
+pt_harvey,pt_de_motu,AUTHORED,Доказательство кровообращения.,directed
+pt_fleming,pt_penicillin,DISCOVERED,Случайное наблюдение пенициллина (1928).,directed
+pt_banting,pt_insulin,DISCOVERED,Выделение инсулина (1921).,directed
+pt_best,pt_insulin,DISCOVERED,Совместное выделение инсулина.,directed
+pt_domagk,pt_sulfa,DISCOVERED,Антибактериальный эффект пронтозила.,directed
+pt_ehrlich,pt_salvarsan,DISCOVERED,Первое химиотерапевтическое средство (1909).,directed
+pt_einthoven,pt_ecg,DISCOVERED,Струнный гальванометр и ЭКГ (1903).,directed
+pt_jenner,sub_vaccine,DISCOVERED,Вакцинация против оспы (1796).,directed
+pt_koch,dis_tb,DISCOVERED,Возбудитель туберкулёза (1882).,directed
+pt_koch,dis_anthrax,DISCOVERED,Возбудитель сибирской язвы (1876).,directed
+pt_yersin,dis_plague,DISCOVERED,Возбудитель чумы (1894).,directed
+pt_watson,pt_dna_helix,DISCOVERED,Модель двойной спирали ДНК.,directed
+pt_crick,pt_dna_helix,DISCOVERED,Модель двойной спирали ДНК.,directed
+pt_franklin,pt_dna_helix,CONTRIBUTED_TO,Рентгеновская дифракция; фотография 51.,directed
+pt_wilkins,pt_dna_helix,CONTRIBUTED_TO,Рентгеновская дифракция ДНК.,directed
+pt_florey,pt_penicillin,DEVELOPED_BY,Клиническое применение пенициллина.,directed
+pt_chain,pt_penicillin,DEVELOPED_BY,Выделение и очистка пенициллина.,directed
+pt_edwards,pt_ivf,DISCOVERED,Экстракорпоральное оплодотворение.,directed
+pt_steptoe,pt_ivf,DISCOVERED,Экстракорпоральное оплодотворение.,directed
+pt_snow,dis_cholera,TRACED,Водный путь передачи холеры.,directed
+pt_jenner,dis_smallpox,VACCINE_FOR,Вакцинация против оспы.,directed
+pt_pasteur,dis_anthrax,VACCINE_FOR,Вакцина против сибирской язвы.,directed
+pt_pasteur,dis_rabies,VACCINE_FOR,Вакцина против бешенства (1885).,directed
+pt_salk,dis_polio,VACCINE_FOR,Инактивированная полиовакцина.,directed
+pt_sabin,dis_polio,VACCINE_FOR,Живая оральная полиовакцина.,directed
+pt_calmette,dis_tb,VACCINE_FOR,БЦЖ против туберкулёза.,directed
+pt_guerin,dis_tb,VACCINE_FOR,БЦЖ против туберкулёза.,directed
+pt_salvarsan,dis_syphilis,TREATS,Сальварсан против сифилиса.,directed
+sub_quinine,dis_malaria,TREATS,Хинин против малярии.,directed
+sub_artemisinin,dis_malaria,TREATS,Артемизинин против малярии.,directed
+pt_penicillin,dis_syphilis,TREATS,Пенициллин против сифилиса.,directed
+pt_insulin,dis_diabetes,TREATS,Инсулин при диабете 1 типа.,directed
+pt_behring,dis_diphtheria,TREATS,Сывороточная терапия дифтерии.,directed
+dis_plague,era_mediev_eur,EPIDEMIC_IN,Чёрная смерть (1347–1351).,directed
+dis_cholera,era_victorian,EPIDEMIC_IN,Холера в Лондоне (1854).,directed
+dis_influenza,era_wwi,EPIDEMIC_IN,Пандемия «испанки» (1918–1919).,directed
+pt_tuskegee,dis_syphilis,CONCERNS,Нелеченный сифилис у афроамериканцев.,directed
+pt_hela,dis_cancer,DERIVED_FROM,Линия клеток из цервикальной опухоли Генриетты Лакс.,directed
+pt_smallpox_erad,dis_smallpox,TARGETS,Глобальная эрадикация оспы.,directed
+pt_fabricius,pt_harvey,MENTORED,Учитель Гарвея в Падуе.,directed
+pt_koch,pt_ehrlich,MENTORED,Эрлих работал в лаборатории Коха.,directed
+pt_boerhaave,pt_haller,MENTORED,Галлер — ученик Бургаве.,directed
+pt_magendie,pt_bernard,MENTORED,Бернар — ученик и ассистент Мажанди.,directed
+pt_bichat,pt_laennec,MENTORED,Биша — учитель Лаэннека.,directed
+pt_pasteur,pt_roux,MENTORED,Ру — сотрудник и ученик Пастера.,directed
+pt_morgagni,pt_bichat,INFLUENCED,Морганьи заложил основу патологической анатомии Биша.,directed
+pt_harvey,pt_malpighi,INFLUENCED,Мальпиги подтвердил кровообращение капиллярами.,directed
+sub_germtheory,pt_pasteur,DEVELOPED_BY,Микробная теория Пастера и постулаты Коха.,directed
+sub_germtheory,pt_koch,DEVELOPED_BY,Микробная теория Пастера и постулаты Коха.,directed
+sub_germtheory,pt_lister,APPLIED_BY,Антисептика как применение микробной теории.,directed
+sub_germtheory,sub_microbio,UNDERPINS,Теоретическое ядро микробиологии.,directed
+sub_circulation,pt_ibn_nafis,DEVELOPED_BY,От малого круга к полному доказательству и капиллярам.,directed
+sub_circulation,pt_cesalpino,DEVELOPED_BY,От малого круга к полному доказательству и капиллярам.,directed
+sub_circulation,pt_harvey,DEVELOPED_BY,От малого круга к полному доказательству и капиллярам.,directed
+sub_circulation,pt_malpighi,DEVELOPED_BY,От малого круга к полному доказательству и капиллярам.,directed
+sub_circulation,sub_cardio,FOUNDATION_OF,Кровообращение как основа кардиологии.,directed
+pt_de_motu,sub_circulation,DESCRIBES,Доказательство круга кровообращения.,directed
+sub_antisepsis,pt_semmelweis,DEVELOPED_BY,От дезинфекции рук к асептике.,directed
+sub_antisepsis,pt_lister,DEVELOPED_BY,От дезинфекции рук к асептике.,directed
+sub_antisepsis,pt_kocher,DEVELOPED_BY,От дезинфекции рук к асептике.,directed
+sub_antisepsis,sub_surgery,ENABLED,Асептика сделала полостную хирургию возможной.,directed
+sub_antisepsis,sub_germtheory,DERIVED_FROM,"Практика, выведенная из микробной теории.",directed
+sub_consent,pt_nuremberg,ESTABLISHED_BY,Принцип добровольного согласия в этических кодексах.,directed
+sub_consent,pt_helsinki,ESTABLISHED_BY,Принцип добровольного согласия в этических кодексах.,directed
+sub_consent,pt_belmont,ESTABLISHED_BY,Принцип добровольного согласия в этических кодексах.,directed
+pt_tuskegee,pt_belmont,MOTIVATED,Разоблачение Таскиги (1972) привело к Бельмонтскому докладу (1979).,directed
+pt_nuremberg,pt_helsinki,PRECEDED,Нюрнбергский кодекс (1947) предшествовал Хельсинкской декларации (1964).,directed
+pt_nuremberg,sub_expmed,CONSTRAINS,Ограничение экспериментов на людях.,directed
+pt_eugenics,pt_nuremberg,BACKGROUND_TO,Расовая гигиена — предпосылка нацистских экспериментов.,directed
+pt_hela,pt_belmont,MOTIVATED,Линия без согласия подтолкнула дебаты об информированном согласии.,directed
+pt_hela,sub_consent,MOTIVATED,Случай Генриетты Лакс и требование согласия.,directed

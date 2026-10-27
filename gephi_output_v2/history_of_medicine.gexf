@@ -573,6 +573,38 @@
 <attvalue for="n5" value="Золотой стандарт клинического доказательства; испытание стрептомицина MRC (1948)."/>
 <attvalue for="n6" value="30"/>
 </attvalues></node>
+<node id="sub_germtheory" label="Микробная теория"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1860"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Франция / Германия"/>
+<attvalue for="n5" value="Болезни вызываются микроорганизмами; Пастер, Кох и постулаты."/>
+<attvalue for="n6" value="30"/>
+</attvalues></node>
+<node id="sub_circulation" label="Кровообращение"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1242"/>
+<attvalue for="n3" value="1628"/>
+<attvalue for="n4" value="Дамаск / Европа"/>
+<attvalue for="n5" value="От малого круга Ибн ан-Нафиса к доказательству Гарвея и капиллярам Мальпиги."/>
+<attvalue for="n6" value="30"/>
+</attvalues></node>
+<node id="sub_antisepsis" label="Асептика и антисептика"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1847"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Европа / США"/>
+<attvalue for="n5" value="От дезинфекции рук Земмельвейса к карболовой кислоте Листера и асептике."/>
+<attvalue for="n6" value="30"/>
+</attvalues></node>
+<node id="sub_consent" label="Информированное согласие"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1947"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Добровольное согласие пациента и испытуемого; Нюрнберг, Хельсинки, Бельмонт."/>
+<attvalue for="n6" value="30"/>
+</attvalues></node>
 <node id="inst_crotona" label="Пифагорейская школа (Кротон)"><attvalues>
 <attvalue for="n1" value="institution"/>
 <attvalue for="n2" value="-530"/>
@@ -2245,6 +2277,134 @@
 <attvalue for="n5" value="Основательница современного хосписного движения; хоспис Святого Кристофера."/>
 <attvalue for="n6" value="22"/>
 </attvalues></node>
+<node id="dis_smallpox" label="Оспа"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="-3000"/>
+<attvalue for="n3" value="1980"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Вирусная инфекция; вариоляция и вакцина Дженнера, глобальная эрадикация (1980)."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="dis_plague" label="Чума"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="541"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Возбудитель Yersinia pestis; Юстинианова чума, Чёрная смерть, третья пандемия."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="dis_cholera" label="Холера"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="1817"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Возбудитель Vibrio cholerae; Джон Сноу и водный путь передачи."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="dis_tb" label="Туберкулёз"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="-3000"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Возбудитель Mycobacterium tuberculosis; постулаты Коха, БЦЖ, стрептомицин."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="dis_syphilis" label="Сифилис"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="1495"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Бактериальная инфекция; сальварсан Эрлиха, Таскигский эксперимент."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="dis_malaria" label="Малярия"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="-2000"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Возбудитель Plasmodium; хинин и артемизинин."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="dis_diphtheria" label="Дифтерия"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="1821"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Дифтерийный токсин; сывороточная терапия Беринга и анатоксин."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="dis_rabies" label="Бешенство"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="-2000"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Вирусная инфекция; вакцина Пастера (1885)."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="dis_polio" label="Полиомиелит"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="-1500"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Вирусная инфекция; вакцины Солка и Сэйбина."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="dis_anthrax" label="Сибирская язва"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="-700"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Возбудитель Bacillus anthracis; постулаты Коха, вакцина Пастера."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="dis_influenza" label="Грипп"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="1510"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Вирусная инфекция; пандемия «испанки» (1918)."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="dis_cancer" label="Рак"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="-3000"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Злокачественные опухоли; хирургия, лучевая и таргетная терапия."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="dis_leprosy" label="Проказа"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="-1500"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Возбудитель Mycobacterium leprae; изоляция и лечение дапсоном."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="dis_diabetes" label="Сахарный диабет"><attvalues>
+<attvalue for="n1" value="disease"/>
+<attvalue for="n2" value="-1500"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Метаболическое заболевание; инсулин Бантинга и Беста (1921)."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="pt_dna_helix" label="Двойная спираль ДНК"><attvalues>
+<attvalue for="n1" value="discovery"/>
+<attvalue for="n2" value="1953"/>
+<attvalue for="n3" value="1953"/>
+<attvalue for="n4" value="Кембридж"/>
+<attvalue for="n5" value="Структура ДНК Уотсона и Крика; рентгеновские данные Франклин и Уилкинса."/>
+<attvalue for="n6" value="28"/>
+</attvalues></node>
+<node id="pt_steptoe" label="Патрик Степто"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1913"/>
+<attvalue for="n3" value="1988"/>
+<attvalue for="n4" value="Англия"/>
+<attvalue for="n5" value="Лапароскопия и ЭКО; работа с Робертом Эдвардсом."/>
+<attvalue for="n6" value="22"/>
+</attvalues></node>
 </nodes><edges>
 <edge id="0" source="era_greece_class" target="pt_hippocrates" label="Эпоха era_greece_class как контекст для pt_hippocrates"><attvalues>
 <attvalue for="e1" value="CONTEXT_FOR"/>
@@ -2922,11 +3082,11 @@
 <attvalue for="e1" value="DEVELOPED_BY"/>
 <attvalue for="e2" value="Репродуктивная медицина и её этические рамки."/>
 </attvalues></edge>
-<edge id="169" source="sub_reproductive" target="pt_hela" label="Репродуктивная медицина и её этические рамки."><attvalues>
+<edge id="169" source="sub_reproductive" target="pt_edwards" label="Репродуктивная медицина и её этические рамки."><attvalues>
 <attvalue for="e1" value="DEVELOPED_BY"/>
 <attvalue for="e2" value="Репродуктивная медицина и её этические рамки."/>
 </attvalues></edge>
-<edge id="170" source="sub_reproductive" target="pt_edwards" label="Репродуктивная медицина и её этические рамки."><attvalues>
+<edge id="170" source="sub_reproductive" target="pt_steptoe" label="Репродуктивная медицина и её этические рамки."><attvalues>
 <attvalue for="e1" value="DEVELOPED_BY"/>
 <attvalue for="e2" value="Репродуктивная медицина и её этические рамки."/>
 </attvalues></edge>
@@ -3153,5 +3313,413 @@
 <edge id="226" source="pt_psychoanalysis" target="pt_antipsych" label="Разговорная терапия против биологической психиатрии."><attvalues>
 <attvalue for="e1" value="TENSION_WITH"/>
 <attvalue for="e2" value="Разговорная терапия против биологической психиатрии."/>
+</attvalues></edge>
+<edge id="227" source="era_meso" target="era_indus" label="era_meso → era_indus"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_meso → era_indus"/>
+</attvalues></edge>
+<edge id="228" source="era_indus" target="era_egypt" label="era_indus → era_egypt"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_indus → era_egypt"/>
+</attvalues></edge>
+<edge id="229" source="era_egypt" target="era_vedic" label="era_egypt → era_vedic"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_egypt → era_vedic"/>
+</attvalues></edge>
+<edge id="230" source="era_vedic" target="era_greece_arch" label="era_vedic → era_greece_arch"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_vedic → era_greece_arch"/>
+</attvalues></edge>
+<edge id="231" source="era_greece_arch" target="era_greece_class" label="era_greece_arch → era_greece_class"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_greece_arch → era_greece_class"/>
+</attvalues></edge>
+<edge id="232" source="era_greece_class" target="era_hellen" label="era_greece_class → era_hellen"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_greece_class → era_hellen"/>
+</attvalues></edge>
+<edge id="233" source="era_hellen" target="era_rome" label="era_hellen → era_rome"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_hellen → era_rome"/>
+</attvalues></edge>
+<edge id="234" source="era_rome" target="era_byz" label="era_rome → era_byz"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_rome → era_byz"/>
+</attvalues></edge>
+<edge id="235" source="era_byz" target="era_mediev_eur" label="era_byz → era_mediev_eur"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_byz → era_mediev_eur"/>
+</attvalues></edge>
+<edge id="236" source="era_mediev_eur" target="era_early_islam" label="era_mediev_eur → era_early_islam"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_mediev_eur → era_early_islam"/>
+</attvalues></edge>
+<edge id="237" source="era_early_islam" target="era_islam_gold" label="era_early_islam → era_islam_gold"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_early_islam → era_islam_gold"/>
+</attvalues></edge>
+<edge id="238" source="era_islam_gold" target="era_renaiss" label="era_islam_gold → era_renaiss"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_islam_gold → era_renaiss"/>
+</attvalues></edge>
+<edge id="239" source="era_renaiss" target="era_scientific" label="era_renaiss → era_scientific"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_renaiss → era_scientific"/>
+</attvalues></edge>
+<edge id="240" source="era_scientific" target="era_enlight" label="era_scientific → era_enlight"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_scientific → era_enlight"/>
+</attvalues></edge>
+<edge id="241" source="era_enlight" target="era_industrial" label="era_enlight → era_industrial"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_enlight → era_industrial"/>
+</attvalues></edge>
+<edge id="242" source="era_industrial" target="era_victorian" label="era_industrial → era_victorian"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_industrial → era_victorian"/>
+</attvalues></edge>
+<edge id="243" source="era_victorian" target="era_imperial" label="era_victorian → era_imperial"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_victorian → era_imperial"/>
+</attvalues></edge>
+<edge id="244" source="era_imperial" target="era_wwi" label="era_imperial → era_wwi"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_imperial → era_wwi"/>
+</attvalues></edge>
+<edge id="245" source="era_wwi" target="era_interwar" label="era_wwi → era_interwar"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_wwi → era_interwar"/>
+</attvalues></edge>
+<edge id="246" source="era_interwar" target="era_wwii" label="era_interwar → era_wwii"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_interwar → era_wwii"/>
+</attvalues></edge>
+<edge id="247" source="era_wwii" target="era_coldwar" label="era_wwii → era_coldwar"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_wwii → era_coldwar"/>
+</attvalues></edge>
+<edge id="248" source="era_coldwar" target="era_info" label="era_coldwar → era_info"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_coldwar → era_info"/>
+</attvalues></edge>
+<edge id="249" source="era_info" target="era_precision" label="era_info → era_precision"><attvalues>
+<attvalue for="e1" value="SUCCEEDED_BY"/>
+<attvalue for="e2" value="era_info → era_precision"/>
+</attvalues></edge>
+<edge id="250" source="pt_hippocrates" target="pt_airswaters" label="Тексты гиппократова корпуса."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Тексты гиппократова корпуса."/>
+</attvalues></edge>
+<edge id="251" source="pt_hippocrates" target="pt_sacred_disease" label="Тексты гиппократова корпуса."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Тексты гиппократова корпуса."/>
+</attvalues></edge>
+<edge id="252" source="pt_galen" target="pt_galen_use" label="Телеологическая анатомия Галена."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Телеологическая анатомия Галена."/>
+</attvalues></edge>
+<edge id="253" source="pt_al_razi" target="pt_hawi" label="Клинические труды аль-Рази."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Клинические труды аль-Рази."/>
+</attvalues></edge>
+<edge id="254" source="pt_al_razi" target="pt_smallpox_book" label="Клинические труды аль-Рази."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Клинические труды аль-Рази."/>
+</attvalues></edge>
+<edge id="255" source="pt_avicenna" target="pt_canon" label="Канон врачебной науки."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Канон врачебной науки."/>
+</attvalues></edge>
+<edge id="256" source="pt_al_zahrawi" target="pt_tasrif" label="Хирургическая энциклопедия."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Хирургическая энциклопедия."/>
+</attvalues></edge>
+<edge id="257" source="pt_vesalius" target="pt_fabrica" label="Анатомический атлас."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Анатомический атлас."/>
+</attvalues></edge>
+<edge id="258" source="pt_harvey" target="pt_de_motu" label="Доказательство кровообращения."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Доказательство кровообращения."/>
+</attvalues></edge>
+<edge id="259" source="pt_fleming" target="pt_penicillin" label="Случайное наблюдение пенициллина (1928)."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Случайное наблюдение пенициллина (1928)."/>
+</attvalues></edge>
+<edge id="260" source="pt_banting" target="pt_insulin" label="Выделение инсулина (1921)."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Выделение инсулина (1921)."/>
+</attvalues></edge>
+<edge id="261" source="pt_best" target="pt_insulin" label="Совместное выделение инсулина."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Совместное выделение инсулина."/>
+</attvalues></edge>
+<edge id="262" source="pt_domagk" target="pt_sulfa" label="Антибактериальный эффект пронтозила."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Антибактериальный эффект пронтозила."/>
+</attvalues></edge>
+<edge id="263" source="pt_ehrlich" target="pt_salvarsan" label="Первое химиотерапевтическое средство (1909)."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Первое химиотерапевтическое средство (1909)."/>
+</attvalues></edge>
+<edge id="264" source="pt_einthoven" target="pt_ecg" label="Струнный гальванометр и ЭКГ (1903)."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Струнный гальванометр и ЭКГ (1903)."/>
+</attvalues></edge>
+<edge id="265" source="pt_jenner" target="sub_vaccine" label="Вакцинация против оспы (1796)."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Вакцинация против оспы (1796)."/>
+</attvalues></edge>
+<edge id="266" source="pt_koch" target="dis_tb" label="Возбудитель туберкулёза (1882)."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Возбудитель туберкулёза (1882)."/>
+</attvalues></edge>
+<edge id="267" source="pt_koch" target="dis_anthrax" label="Возбудитель сибирской язвы (1876)."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Возбудитель сибирской язвы (1876)."/>
+</attvalues></edge>
+<edge id="268" source="pt_yersin" target="dis_plague" label="Возбудитель чумы (1894)."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Возбудитель чумы (1894)."/>
+</attvalues></edge>
+<edge id="269" source="pt_watson" target="pt_dna_helix" label="Модель двойной спирали ДНК."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Модель двойной спирали ДНК."/>
+</attvalues></edge>
+<edge id="270" source="pt_crick" target="pt_dna_helix" label="Модель двойной спирали ДНК."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Модель двойной спирали ДНК."/>
+</attvalues></edge>
+<edge id="271" source="pt_franklin" target="pt_dna_helix" label="Рентгеновская дифракция; фотография 51."><attvalues>
+<attvalue for="e1" value="CONTRIBUTED_TO"/>
+<attvalue for="e2" value="Рентгеновская дифракция; фотография 51."/>
+</attvalues></edge>
+<edge id="272" source="pt_wilkins" target="pt_dna_helix" label="Рентгеновская дифракция ДНК."><attvalues>
+<attvalue for="e1" value="CONTRIBUTED_TO"/>
+<attvalue for="e2" value="Рентгеновская дифракция ДНК."/>
+</attvalues></edge>
+<edge id="273" source="pt_florey" target="pt_penicillin" label="Клиническое применение пенициллина."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Клиническое применение пенициллина."/>
+</attvalues></edge>
+<edge id="274" source="pt_chain" target="pt_penicillin" label="Выделение и очистка пенициллина."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Выделение и очистка пенициллина."/>
+</attvalues></edge>
+<edge id="275" source="pt_edwards" target="pt_ivf" label="Экстракорпоральное оплодотворение."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Экстракорпоральное оплодотворение."/>
+</attvalues></edge>
+<edge id="276" source="pt_steptoe" target="pt_ivf" label="Экстракорпоральное оплодотворение."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Экстракорпоральное оплодотворение."/>
+</attvalues></edge>
+<edge id="277" source="pt_snow" target="dis_cholera" label="Водный путь передачи холеры."><attvalues>
+<attvalue for="e1" value="TRACED"/>
+<attvalue for="e2" value="Водный путь передачи холеры."/>
+</attvalues></edge>
+<edge id="278" source="pt_jenner" target="dis_smallpox" label="Вакцинация против оспы."><attvalues>
+<attvalue for="e1" value="VACCINE_FOR"/>
+<attvalue for="e2" value="Вакцинация против оспы."/>
+</attvalues></edge>
+<edge id="279" source="pt_pasteur" target="dis_anthrax" label="Вакцина против сибирской язвы."><attvalues>
+<attvalue for="e1" value="VACCINE_FOR"/>
+<attvalue for="e2" value="Вакцина против сибирской язвы."/>
+</attvalues></edge>
+<edge id="280" source="pt_pasteur" target="dis_rabies" label="Вакцина против бешенства (1885)."><attvalues>
+<attvalue for="e1" value="VACCINE_FOR"/>
+<attvalue for="e2" value="Вакцина против бешенства (1885)."/>
+</attvalues></edge>
+<edge id="281" source="pt_salk" target="dis_polio" label="Инактивированная полиовакцина."><attvalues>
+<attvalue for="e1" value="VACCINE_FOR"/>
+<attvalue for="e2" value="Инактивированная полиовакцина."/>
+</attvalues></edge>
+<edge id="282" source="pt_sabin" target="dis_polio" label="Живая оральная полиовакцина."><attvalues>
+<attvalue for="e1" value="VACCINE_FOR"/>
+<attvalue for="e2" value="Живая оральная полиовакцина."/>
+</attvalues></edge>
+<edge id="283" source="pt_calmette" target="dis_tb" label="БЦЖ против туберкулёза."><attvalues>
+<attvalue for="e1" value="VACCINE_FOR"/>
+<attvalue for="e2" value="БЦЖ против туберкулёза."/>
+</attvalues></edge>
+<edge id="284" source="pt_guerin" target="dis_tb" label="БЦЖ против туберкулёза."><attvalues>
+<attvalue for="e1" value="VACCINE_FOR"/>
+<attvalue for="e2" value="БЦЖ против туберкулёза."/>
+</attvalues></edge>
+<edge id="285" source="pt_salvarsan" target="dis_syphilis" label="Сальварсан против сифилиса."><attvalues>
+<attvalue for="e1" value="TREATS"/>
+<attvalue for="e2" value="Сальварсан против сифилиса."/>
+</attvalues></edge>
+<edge id="286" source="sub_quinine" target="dis_malaria" label="Хинин против малярии."><attvalues>
+<attvalue for="e1" value="TREATS"/>
+<attvalue for="e2" value="Хинин против малярии."/>
+</attvalues></edge>
+<edge id="287" source="sub_artemisinin" target="dis_malaria" label="Артемизинин против малярии."><attvalues>
+<attvalue for="e1" value="TREATS"/>
+<attvalue for="e2" value="Артемизинин против малярии."/>
+</attvalues></edge>
+<edge id="288" source="pt_penicillin" target="dis_syphilis" label="Пенициллин против сифилиса."><attvalues>
+<attvalue for="e1" value="TREATS"/>
+<attvalue for="e2" value="Пенициллин против сифилиса."/>
+</attvalues></edge>
+<edge id="289" source="pt_insulin" target="dis_diabetes" label="Инсулин при диабете 1 типа."><attvalues>
+<attvalue for="e1" value="TREATS"/>
+<attvalue for="e2" value="Инсулин при диабете 1 типа."/>
+</attvalues></edge>
+<edge id="290" source="pt_behring" target="dis_diphtheria" label="Сывороточная терапия дифтерии."><attvalues>
+<attvalue for="e1" value="TREATS"/>
+<attvalue for="e2" value="Сывороточная терапия дифтерии."/>
+</attvalues></edge>
+<edge id="291" source="dis_plague" target="era_mediev_eur" label="Чёрная смерть (1347–1351)."><attvalues>
+<attvalue for="e1" value="EPIDEMIC_IN"/>
+<attvalue for="e2" value="Чёрная смерть (1347–1351)."/>
+</attvalues></edge>
+<edge id="292" source="dis_cholera" target="era_victorian" label="Холера в Лондоне (1854)."><attvalues>
+<attvalue for="e1" value="EPIDEMIC_IN"/>
+<attvalue for="e2" value="Холера в Лондоне (1854)."/>
+</attvalues></edge>
+<edge id="293" source="dis_influenza" target="era_wwi" label="Пандемия «испанки» (1918–1919)."><attvalues>
+<attvalue for="e1" value="EPIDEMIC_IN"/>
+<attvalue for="e2" value="Пандемия «испанки» (1918–1919)."/>
+</attvalues></edge>
+<edge id="294" source="pt_tuskegee" target="dis_syphilis" label="Нелеченный сифилис у афроамериканцев."><attvalues>
+<attvalue for="e1" value="CONCERNS"/>
+<attvalue for="e2" value="Нелеченный сифилис у афроамериканцев."/>
+</attvalues></edge>
+<edge id="295" source="pt_hela" target="dis_cancer" label="Линия клеток из цервикальной опухоли Генриетты Лакс."><attvalues>
+<attvalue for="e1" value="DERIVED_FROM"/>
+<attvalue for="e2" value="Линия клеток из цервикальной опухоли Генриетты Лакс."/>
+</attvalues></edge>
+<edge id="296" source="pt_smallpox_erad" target="dis_smallpox" label="Глобальная эрадикация оспы."><attvalues>
+<attvalue for="e1" value="TARGETS"/>
+<attvalue for="e2" value="Глобальная эрадикация оспы."/>
+</attvalues></edge>
+<edge id="297" source="pt_fabricius" target="pt_harvey" label="Учитель Гарвея в Падуе."><attvalues>
+<attvalue for="e1" value="MENTORED"/>
+<attvalue for="e2" value="Учитель Гарвея в Падуе."/>
+</attvalues></edge>
+<edge id="298" source="pt_koch" target="pt_ehrlich" label="Эрлих работал в лаборатории Коха."><attvalues>
+<attvalue for="e1" value="MENTORED"/>
+<attvalue for="e2" value="Эрлих работал в лаборатории Коха."/>
+</attvalues></edge>
+<edge id="299" source="pt_boerhaave" target="pt_haller" label="Галлер — ученик Бургаве."><attvalues>
+<attvalue for="e1" value="MENTORED"/>
+<attvalue for="e2" value="Галлер — ученик Бургаве."/>
+</attvalues></edge>
+<edge id="300" source="pt_magendie" target="pt_bernard" label="Бернар — ученик и ассистент Мажанди."><attvalues>
+<attvalue for="e1" value="MENTORED"/>
+<attvalue for="e2" value="Бернар — ученик и ассистент Мажанди."/>
+</attvalues></edge>
+<edge id="301" source="pt_bichat" target="pt_laennec" label="Биша — учитель Лаэннека."><attvalues>
+<attvalue for="e1" value="MENTORED"/>
+<attvalue for="e2" value="Биша — учитель Лаэннека."/>
+</attvalues></edge>
+<edge id="302" source="pt_pasteur" target="pt_roux" label="Ру — сотрудник и ученик Пастера."><attvalues>
+<attvalue for="e1" value="MENTORED"/>
+<attvalue for="e2" value="Ру — сотрудник и ученик Пастера."/>
+</attvalues></edge>
+<edge id="303" source="pt_morgagni" target="pt_bichat" label="Морганьи заложил основу патологической анатомии Биша."><attvalues>
+<attvalue for="e1" value="INFLUENCED"/>
+<attvalue for="e2" value="Морганьи заложил основу патологической анатомии Биша."/>
+</attvalues></edge>
+<edge id="304" source="pt_harvey" target="pt_malpighi" label="Мальпиги подтвердил кровообращение капиллярами."><attvalues>
+<attvalue for="e1" value="INFLUENCED"/>
+<attvalue for="e2" value="Мальпиги подтвердил кровообращение капиллярами."/>
+</attvalues></edge>
+<edge id="305" source="sub_germtheory" target="pt_pasteur" label="Микробная теория Пастера и постулаты Коха."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Микробная теория Пастера и постулаты Коха."/>
+</attvalues></edge>
+<edge id="306" source="sub_germtheory" target="pt_koch" label="Микробная теория Пастера и постулаты Коха."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Микробная теория Пастера и постулаты Коха."/>
+</attvalues></edge>
+<edge id="307" source="sub_germtheory" target="pt_lister" label="Антисептика как применение микробной теории."><attvalues>
+<attvalue for="e1" value="APPLIED_BY"/>
+<attvalue for="e2" value="Антисептика как применение микробной теории."/>
+</attvalues></edge>
+<edge id="308" source="sub_germtheory" target="sub_microbio" label="Теоретическое ядро микробиологии."><attvalues>
+<attvalue for="e1" value="UNDERPINS"/>
+<attvalue for="e2" value="Теоретическое ядро микробиологии."/>
+</attvalues></edge>
+<edge id="309" source="sub_circulation" target="pt_ibn_nafis" label="От малого круга к полному доказательству и капиллярам."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="От малого круга к полному доказательству и капиллярам."/>
+</attvalues></edge>
+<edge id="310" source="sub_circulation" target="pt_cesalpino" label="От малого круга к полному доказательству и капиллярам."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="От малого круга к полному доказательству и капиллярам."/>
+</attvalues></edge>
+<edge id="311" source="sub_circulation" target="pt_harvey" label="От малого круга к полному доказательству и капиллярам."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="От малого круга к полному доказательству и капиллярам."/>
+</attvalues></edge>
+<edge id="312" source="sub_circulation" target="pt_malpighi" label="От малого круга к полному доказательству и капиллярам."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="От малого круга к полному доказательству и капиллярам."/>
+</attvalues></edge>
+<edge id="313" source="sub_circulation" target="sub_cardio" label="Кровообращение как основа кардиологии."><attvalues>
+<attvalue for="e1" value="FOUNDATION_OF"/>
+<attvalue for="e2" value="Кровообращение как основа кардиологии."/>
+</attvalues></edge>
+<edge id="314" source="pt_de_motu" target="sub_circulation" label="Доказательство круга кровообращения."><attvalues>
+<attvalue for="e1" value="DESCRIBES"/>
+<attvalue for="e2" value="Доказательство круга кровообращения."/>
+</attvalues></edge>
+<edge id="315" source="sub_antisepsis" target="pt_semmelweis" label="От дезинфекции рук к асептике."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="От дезинфекции рук к асептике."/>
+</attvalues></edge>
+<edge id="316" source="sub_antisepsis" target="pt_lister" label="От дезинфекции рук к асептике."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="От дезинфекции рук к асептике."/>
+</attvalues></edge>
+<edge id="317" source="sub_antisepsis" target="pt_kocher" label="От дезинфекции рук к асептике."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="От дезинфекции рук к асептике."/>
+</attvalues></edge>
+<edge id="318" source="sub_antisepsis" target="sub_surgery" label="Асептика сделала полостную хирургию возможной."><attvalues>
+<attvalue for="e1" value="ENABLED"/>
+<attvalue for="e2" value="Асептика сделала полостную хирургию возможной."/>
+</attvalues></edge>
+<edge id="319" source="sub_antisepsis" target="sub_germtheory" label="Практика, выведенная из микробной теории."><attvalues>
+<attvalue for="e1" value="DERIVED_FROM"/>
+<attvalue for="e2" value="Практика, выведенная из микробной теории."/>
+</attvalues></edge>
+<edge id="320" source="sub_consent" target="pt_nuremberg" label="Принцип добровольного согласия в этических кодексах."><attvalues>
+<attvalue for="e1" value="ESTABLISHED_BY"/>
+<attvalue for="e2" value="Принцип добровольного согласия в этических кодексах."/>
+</attvalues></edge>
+<edge id="321" source="sub_consent" target="pt_helsinki" label="Принцип добровольного согласия в этических кодексах."><attvalues>
+<attvalue for="e1" value="ESTABLISHED_BY"/>
+<attvalue for="e2" value="Принцип добровольного согласия в этических кодексах."/>
+</attvalues></edge>
+<edge id="322" source="sub_consent" target="pt_belmont" label="Принцип добровольного согласия в этических кодексах."><attvalues>
+<attvalue for="e1" value="ESTABLISHED_BY"/>
+<attvalue for="e2" value="Принцип добровольного согласия в этических кодексах."/>
+</attvalues></edge>
+<edge id="323" source="pt_tuskegee" target="pt_belmont" label="Разоблачение Таскиги (1972) привело к Бельмонтскому докладу (1979)."><attvalues>
+<attvalue for="e1" value="MOTIVATED"/>
+<attvalue for="e2" value="Разоблачение Таскиги (1972) привело к Бельмонтскому докладу (1979)."/>
+</attvalues></edge>
+<edge id="324" source="pt_nuremberg" target="pt_helsinki" label="Нюрнбергский кодекс (1947) предшествовал Хельсинкской декларации (1964)."><attvalues>
+<attvalue for="e1" value="PRECEDED"/>
+<attvalue for="e2" value="Нюрнбергский кодекс (1947) предшествовал Хельсинкской декларации (1964)."/>
+</attvalues></edge>
+<edge id="325" source="pt_nuremberg" target="sub_expmed" label="Ограничение экспериментов на людях."><attvalues>
+<attvalue for="e1" value="CONSTRAINS"/>
+<attvalue for="e2" value="Ограничение экспериментов на людях."/>
+</attvalues></edge>
+<edge id="326" source="pt_eugenics" target="pt_nuremberg" label="Расовая гигиена — предпосылка нацистских экспериментов."><attvalues>
+<attvalue for="e1" value="BACKGROUND_TO"/>
+<attvalue for="e2" value="Расовая гигиена — предпосылка нацистских экспериментов."/>
+</attvalues></edge>
+<edge id="327" source="pt_hela" target="pt_belmont" label="Линия без согласия подтолкнула дебаты об информированном согласии."><attvalues>
+<attvalue for="e1" value="MOTIVATED"/>
+<attvalue for="e2" value="Линия без согласия подтолкнула дебаты об информированном согласии."/>
+</attvalues></edge>
+<edge id="328" source="pt_hela" target="sub_consent" label="Случай Генриетты Лакс и требование согласия."><attvalues>
+<attvalue for="e1" value="MOTIVATED"/>
+<attvalue for="e2" value="Случай Генриетты Лакс и требование согласия."/>
 </attvalues></edge>
 </edges></graph></gexf>

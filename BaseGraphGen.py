@@ -22,7 +22,7 @@ def N(i, label, kind, start, end, region, note=""):
         Region=region, Note=note,
         Size={"paradigm": 42, "concept": 30, "discovery": 28, "person": 22,
               "team": 24, "text": 20, "institution": 26, "context": 24,
-              "practice": 24, "ethic": 28, "era": 20}.get(kind, 20),
+              "practice": 24, "ethic": 28, "era": 20, "disease": 28}.get(kind, 20),
     )
 
 def E(a, b, rel, note=""):
@@ -30,7 +30,7 @@ def E(a, b, rel, note=""):
 
 def star(hub, leaves, rel, note):
     for x in leaves:
-        E(x, hub, rel, note) if rel == "AUTHORED" else E(hub, x, rel, note)
+        E(hub, x, rel, note)
 
 # ==========================================================================
 # СЛОЙ ЭПОХ
@@ -179,6 +179,14 @@ N("sub_rhinoplasty", "Ринопластика", "practice", -600, 2026, "Инд
   "Реконструкция носа по Сушруте; техника, переданная европейской хирургии.")
 N("sub_rct", "Рандомизированное контролируемое испытание", "concept", 1948, 2026, "Великобритания",
   "Золотой стандарт клинического доказательства; испытание стрептомицина MRC (1948).")
+N("sub_germtheory", "Микробная теория", "concept", 1860, 2026, "Франция / Германия",
+  "Болезни вызываются микроорганизмами; Пастер, Кох и постулаты.")
+N("sub_circulation", "Кровообращение", "concept", 1242, 1628, "Дамаск / Европа",
+  "От малого круга Ибн ан-Нафиса к доказательству Гарвея и капиллярам Мальпиги.")
+N("sub_antisepsis", "Асептика и антисептика", "concept", 1847, 2026, "Европа / США",
+  "От дезинфекции рук Земмельвейса к карболовой кислоте Листера и асептике.")
+N("sub_consent", "Информированное согласие", "concept", 1947, 2026, "Глобально",
+  "Добровольное согласие пациента и испытуемого; Нюрнберг, Хельсинки, Бельмонт.")
 
 # ==========================================================================
 # ИНСТИТУТЫ И ШКОЛЫ
@@ -607,6 +615,42 @@ N("pt_saunders", "Сисели Сондерс", "person", 1918, 2005, "Англ�
   "Основательница современного хосписного движения; хоспис Святого Кристофера.")
 
 # ==========================================================================
+# БОЛЕЗНИ
+# ==========================================================================
+N("dis_smallpox", "Оспа", "disease", -3000, 1980, "Глобально",
+  "Вирусная инфекция; вариоляция и вакцина Дженнера, глобальная эрадикация (1980).")
+N("dis_plague", "Чума", "disease", 541, 2026, "Глобально",
+  "Возбудитель Yersinia pestis; Юстинианова чума, Чёрная смерть, третья пандемия.")
+N("dis_cholera", "Холера", "disease", 1817, 2026, "Глобально",
+  "Возбудитель Vibrio cholerae; Джон Сноу и водный путь передачи.")
+N("dis_tb", "Туберкулёз", "disease", -3000, 2026, "Глобально",
+  "Возбудитель Mycobacterium tuberculosis; постулаты Коха, БЦЖ, стрептомицин.")
+N("dis_syphilis", "Сифилис", "disease", 1495, 2026, "Глобально",
+  "Бактериальная инфекция; сальварсан Эрлиха, Таскигский эксперимент.")
+N("dis_malaria", "Малярия", "disease", -2000, 2026, "Глобально",
+  "Возбудитель Plasmodium; хинин и артемизинин.")
+N("dis_diphtheria", "Дифтерия", "disease", 1821, 2026, "Глобально",
+  "Дифтерийный токсин; сывороточная терапия Беринга и анатоксин.")
+N("dis_rabies", "Бешенство", "disease", -2000, 2026, "Глобально",
+  "Вирусная инфекция; вакцина Пастера (1885).")
+N("dis_polio", "Полиомиелит", "disease", -1500, 2026, "Глобально",
+  "Вирусная инфекция; вакцины Солка и Сэйбина.")
+N("dis_anthrax", "Сибирская язва", "disease", -700, 2026, "Глобально",
+  "Возбудитель Bacillus anthracis; постулаты Коха, вакцина Пастера.")
+N("dis_influenza", "Грипп", "disease", 1510, 2026, "Глобально",
+  "Вирусная инфекция; пандемия «испанки» (1918).")
+N("dis_cancer", "Рак", "disease", -3000, 2026, "Глобально",
+  "Злокачественные опухоли; хирургия, лучевая и таргетная терапия.")
+N("dis_leprosy", "Проказа", "disease", -1500, 2026, "Глобально",
+  "Возбудитель Mycobacterium leprae; изоляция и лечение дапсоном.")
+N("dis_diabetes", "Сахарный диабет", "disease", -1500, 2026, "Глобально",
+  "Метаболическое заболевание; инсулин Бантинга и Беста (1921).")
+N("pt_dna_helix", "Двойная спираль ДНК", "discovery", 1953, 1953, "Кембридж",
+  "Структура ДНК Уотсона и Крика; рентгеновские данные Франклин и Уилкинса.")
+N("pt_steptoe", "Патрик Степто", "person", 1913, 1988, "Англия",
+  "Лапароскопия и ЭКО; работа с Робертом Эдвардсом.")
+
+# ==========================================================================
 # СВЯЗИ
 # ==========================================================================
 # Эпохи как контекст
@@ -661,7 +705,7 @@ star("sub_virology", ["pt_ivanovsky", "pt_beijerinck", "pt_enders", "pt_salk"], 
 star("sub_radiology", ["pt_xray", "pt_ct", "pt_mri", "pt_ultrasound", "pt_pet"], "DEVELOPED_BY", "Радиология как диагностический орган.")
 star("sub_anesthes", ["pt_morton", "pt_hanaoka", "pt_simpson"], "DEVELOPED_BY", "Анестезиология от эфира к мониторингу.")
 star("sub_transplant", ["pt_carrel", "pt_murray", "pt_barnard", "pt_dausset"], "DEVELOPED_BY", "Трансплантология от сосудистого шва к иммуносупрессии.")
-star("sub_reproductive", ["pt_ivf", "pt_hela", "pt_edwards"], "DEVELOPED_BY", "Репродуктивная медицина и её этические рамки.")
+star("sub_reproductive", ["pt_ivf", "pt_edwards", "pt_steptoe"], "DEVELOPED_BY", "Репродуктивная медицина и её этические рамки.")
 star("sub_palliative", ["pt_hospice", "pt_saunders"], "DEVELOPED_BY", "Паллиативная помощь как дисциплина.")
 
 # Институциональные связи
@@ -725,6 +769,105 @@ bridge_rows = [
 ]
 for a, b, rel, note in bridge_rows:
     E(a, b, rel, note)
+
+# Хронологическая ось эпох (крупная последовательность)
+era_sequence = [
+    "era_meso", "era_indus", "era_egypt", "era_vedic", "era_greece_arch",
+    "era_greece_class", "era_hellen", "era_rome", "era_byz", "era_mediev_eur",
+    "era_early_islam", "era_islam_gold", "era_renaiss", "era_scientific",
+    "era_enlight", "era_industrial", "era_victorian", "era_imperial",
+    "era_wwi", "era_interwar", "era_wwii", "era_coldwar", "era_info",
+    "era_precision",
+]
+for a, b in zip(era_sequence, era_sequence[1:]):
+    E(a, b, "SUCCEEDED_BY", f"{a} → {b}")
+
+# Авторы → тексты
+star("pt_hippocrates", ["pt_airswaters", "pt_sacred_disease"], "AUTHORED", "Тексты гиппократова корпуса.")
+star("pt_galen", ["pt_galen_use"], "AUTHORED", "Телеологическая анатомия Галена.")
+star("pt_al_razi", ["pt_hawi", "pt_smallpox_book"], "AUTHORED", "Клинические труды аль-Рази.")
+star("pt_avicenna", ["pt_canon"], "AUTHORED", "Канон врачебной науки.")
+star("pt_al_zahrawi", ["pt_tasrif"], "AUTHORED", "Хирургическая энциклопедия.")
+star("pt_vesalius", ["pt_fabrica"], "AUTHORED", "Анатомический атлас.")
+star("pt_harvey", ["pt_de_motu"], "AUTHORED", "Доказательство кровообращения.")
+
+# Персоны → открытия и возбудители
+star("pt_fleming", ["pt_penicillin"], "DISCOVERED", "Случайное наблюдение пенициллина (1928).")
+star("pt_banting", ["pt_insulin"], "DISCOVERED", "Выделение инсулина (1921).")
+star("pt_best", ["pt_insulin"], "DISCOVERED", "Совместное выделение инсулина.")
+star("pt_domagk", ["pt_sulfa"], "DISCOVERED", "Антибактериальный эффект пронтозила.")
+star("pt_ehrlich", ["pt_salvarsan"], "DISCOVERED", "Первое химиотерапевтическое средство (1909).")
+star("pt_einthoven", ["pt_ecg"], "DISCOVERED", "Струнный гальванометр и ЭКГ (1903).")
+star("pt_jenner", ["sub_vaccine"], "DISCOVERED", "Вакцинация против оспы (1796).")
+star("pt_koch", ["dis_tb"], "DISCOVERED", "Возбудитель туберкулёза (1882).")
+star("pt_koch", ["dis_anthrax"], "DISCOVERED", "Возбудитель сибирской язвы (1876).")
+star("pt_yersin", ["dis_plague"], "DISCOVERED", "Возбудитель чумы (1894).")
+star("pt_watson", ["pt_dna_helix"], "DISCOVERED", "Модель двойной спирали ДНК.")
+star("pt_crick", ["pt_dna_helix"], "DISCOVERED", "Модель двойной спирали ДНК.")
+star("pt_franklin", ["pt_dna_helix"], "CONTRIBUTED_TO", "Рентгеновская дифракция; фотография 51.")
+star("pt_wilkins", ["pt_dna_helix"], "CONTRIBUTED_TO", "Рентгеновская дифракция ДНК.")
+star("pt_florey", ["pt_penicillin"], "DEVELOPED_BY", "Клиническое применение пенициллина.")
+star("pt_chain", ["pt_penicillin"], "DEVELOPED_BY", "Выделение и очистка пенициллина.")
+star("pt_edwards", ["pt_ivf"], "DISCOVERED", "Экстракорпоральное оплодотворение.")
+star("pt_steptoe", ["pt_ivf"], "DISCOVERED", "Экстракорпоральное оплодотворение.")
+star("pt_snow", ["dis_cholera"], "TRACED", "Водный путь передачи холеры.")
+
+# Вакцины против болезней
+star("pt_jenner", ["dis_smallpox"], "VACCINE_FOR", "Вакцинация против оспы.")
+star("pt_pasteur", ["dis_anthrax"], "VACCINE_FOR", "Вакцина против сибирской язвы.")
+star("pt_pasteur", ["dis_rabies"], "VACCINE_FOR", "Вакцина против бешенства (1885).")
+star("pt_salk", ["dis_polio"], "VACCINE_FOR", "Инактивированная полиовакцина.")
+star("pt_sabin", ["dis_polio"], "VACCINE_FOR", "Живая оральная полиовакцина.")
+star("pt_calmette", ["dis_tb"], "VACCINE_FOR", "БЦЖ против туберкулёза.")
+star("pt_guerin", ["dis_tb"], "VACCINE_FOR", "БЦЖ против туберкулёза.")
+
+# Лекарства против болезней
+star("pt_salvarsan", ["dis_syphilis"], "TREATS", "Сальварсан против сифилиса.")
+star("sub_quinine", ["dis_malaria"], "TREATS", "Хинин против малярии.")
+star("sub_artemisinin", ["dis_malaria"], "TREATS", "Артемизинин против малярии.")
+star("pt_penicillin", ["dis_syphilis"], "TREATS", "Пенициллин против сифилиса.")
+star("pt_insulin", ["dis_diabetes"], "TREATS", "Инсулин при диабете 1 типа.")
+star("pt_behring", ["dis_diphtheria"], "TREATS", "Сывороточная терапия дифтерии.")
+
+# Болезни ↔ эпохи (эпидемии)
+E("dis_plague", "era_mediev_eur", "EPIDEMIC_IN", "Чёрная смерть (1347–1351).")
+E("dis_cholera", "era_victorian", "EPIDEMIC_IN", "Холера в Лондоне (1854).")
+E("dis_influenza", "era_wwi", "EPIDEMIC_IN", "Пандемия «испанки» (1918–1919).")
+
+# Болезни ↔ этика и контекст
+E("pt_tuskegee", "dis_syphilis", "CONCERNS", "Нелеченный сифилис у афроамериканцев.")
+E("pt_hela", "dis_cancer", "DERIVED_FROM", "Линия клеток из цервикальной опухоли Генриетты Лакс.")
+E("pt_smallpox_erad", "dis_smallpox", "TARGETS", "Глобальная эрадикация оспы.")
+
+# Научная генеалогия: учитель → ученик / влияние
+star("pt_fabricius", ["pt_harvey"], "MENTORED", "Учитель Гарвея в Падуе.")
+star("pt_koch", ["pt_ehrlich"], "MENTORED", "Эрлих работал в лаборатории Коха.")
+star("pt_boerhaave", ["pt_haller"], "MENTORED", "Галлер — ученик Бургаве.")
+star("pt_magendie", ["pt_bernard"], "MENTORED", "Бернар — ученик и ассистент Мажанди.")
+star("pt_bichat", ["pt_laennec"], "MENTORED", "Биша — учитель Лаэннека.")
+star("pt_pasteur", ["pt_roux"], "MENTORED", "Ру — сотрудник и ученик Пастера.")
+star("pt_morgagni", ["pt_bichat"], "INFLUENCED", "Морганьи заложил основу патологической анатомии Биша.")
+star("pt_harvey", ["pt_malpighi"], "INFLUENCED", "Мальпиги подтвердил кровообращение капиллярами.")
+
+# Новые концепты
+star("sub_germtheory", ["pt_pasteur", "pt_koch"], "DEVELOPED_BY", "Микробная теория Пастера и постулаты Коха.")
+E("sub_germtheory", "pt_lister", "APPLIED_BY", "Антисептика как применение микробной теории.")
+E("sub_germtheory", "sub_microbio", "UNDERPINS", "Теоретическое ядро микробиологии.")
+star("sub_circulation", ["pt_ibn_nafis", "pt_cesalpino", "pt_harvey", "pt_malpighi"], "DEVELOPED_BY", "От малого круга к полному доказательству и капиллярам.")
+E("sub_circulation", "sub_cardio", "FOUNDATION_OF", "Кровообращение как основа кардиологии.")
+E("pt_de_motu", "sub_circulation", "DESCRIBES", "Доказательство круга кровообращения.")
+star("sub_antisepsis", ["pt_semmelweis", "pt_lister", "pt_kocher"], "DEVELOPED_BY", "От дезинфекции рук к асептике.")
+E("sub_antisepsis", "sub_surgery", "ENABLED", "Асептика сделала полостную хирургию возможной.")
+E("sub_antisepsis", "sub_germtheory", "DERIVED_FROM", "Практика, выведенная из микробной теории.")
+star("sub_consent", ["pt_nuremberg", "pt_helsinki", "pt_belmont"], "ESTABLISHED_BY", "Принцип добровольного согласия в этических кодексах.")
+
+# Этика: мотивация и последовательность
+E("pt_tuskegee", "pt_belmont", "MOTIVATED", "Разоблачение Таскиги (1972) привело к Бельмонтскому докладу (1979).")
+E("pt_nuremberg", "pt_helsinki", "PRECEDED", "Нюрнбергский кодекс (1947) предшествовал Хельсинкской декларации (1964).")
+E("pt_nuremberg", "sub_expmed", "CONSTRAINS", "Ограничение экспериментов на людях.")
+E("pt_eugenics", "pt_nuremberg", "BACKGROUND_TO", "Расовая гигиена — предпосылка нацистских экспериментов.")
+E("pt_hela", "pt_belmont", "MOTIVATED", "Линия без согласия подтолкнула дебаты об информированном согласии.")
+E("pt_hela", "sub_consent", "MOTIVATED", "Случай Генриетты Лакс и требование согласия.")
 
 # ==========================================================================
 # ПРОВЕРКА И ЭКСПОРТ
