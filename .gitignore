@@ -13,6 +13,5 @@ wheels/
 gephi/
 
 # HTML-визуализации и их ресурсы (генерируемые артефакты)
-graph.html
-graph_timeline.html
+graph*.html
 lib/
