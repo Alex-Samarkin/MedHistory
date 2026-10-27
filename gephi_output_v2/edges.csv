@@ -1,0 +1,228 @@
+﻿Source,Target,Relation,Label,Type
+era_greece_class,pt_hippocrates,CONTEXT_FOR,Эпоха era_greece_class как контекст для pt_hippocrates,directed
+era_greece_class,sub_humoral_balance,CONTEXT_FOR,Эпоха era_greece_class как контекст для sub_humoral_balance,directed
+era_hellen,pt_herophilus,CONTEXT_FOR,Эпоха era_hellen как контекст для pt_herophilus,directed
+era_hellen,pt_erasistratus,CONTEXT_FOR,Эпоха era_hellen как контекст для pt_erasistratus,directed
+era_hellen,inst_alexandria,CONTEXT_FOR,Эпоха era_hellen как контекст для inst_alexandria,directed
+era_rome,pt_galen,CONTEXT_FOR,Эпоха era_rome как контекст для pt_galen,directed
+era_rome,pt_dioscorides,CONTEXT_FOR,Эпоха era_rome как контекст для pt_dioscorides,directed
+era_byz,pt_oreibasius,CONTEXT_FOR,Эпоха era_byz как контекст для pt_oreibasius,directed
+era_byz,pt_aetius,CONTEXT_FOR,Эпоха era_byz как контекст для pt_aetius,directed
+era_byz,pt_paul_aegina,CONTEXT_FOR,Эпоха era_byz как контекст для pt_paul_aegina,directed
+era_early_islam,pt_hunayn,CONTEXT_FOR,Эпоха era_early_islam как контекст для pt_hunayn,directed
+era_early_islam,inst_gondishapur,CONTEXT_FOR,Эпоха era_early_islam как контекст для inst_gondishapur,directed
+era_islam_gold,pt_al_razi,CONTEXT_FOR,Эпоха era_islam_gold как контекст для pt_al_razi,directed
+era_islam_gold,pt_avicenna,CONTEXT_FOR,Эпоха era_islam_gold как контекст для pt_avicenna,directed
+era_islam_gold,pt_al_zahrawi,CONTEXT_FOR,Эпоха era_islam_gold как контекст для pt_al_zahrawi,directed
+era_islam_gold,pt_ibn_nafis,CONTEXT_FOR,Эпоха era_islam_gold как контекст для pt_ibn_nafis,directed
+era_islam_gold,inst_bimaristan,CONTEXT_FOR,Эпоха era_islam_gold как контекст для inst_bimaristan,directed
+era_mediev_eur,pt_constantine,CONTEXT_FOR,Эпоха era_mediev_eur как контекст для pt_constantine,directed
+era_mediev_eur,pt_trotula,CONTEXT_FOR,Эпоха era_mediev_eur как контекст для pt_trotula,directed
+era_mediev_eur,pt_hildegard,CONTEXT_FOR,Эпоха era_mediev_eur как контекст для pt_hildegard,directed
+era_mediev_eur,inst_salerno,CONTEXT_FOR,Эпоха era_mediev_eur как контекст для inst_salerno,directed
+era_renaiss,pt_vesalius,CONTEXT_FOR,Эпоха era_renaiss как контекст для pt_vesalius,directed
+era_renaiss,pt_paracelsus,CONTEXT_FOR,Эпоха era_renaiss как контекст для pt_paracelsus,directed
+era_renaiss,pt_leonardo,CONTEXT_FOR,Эпоха era_renaiss как контекст для pt_leonardo,directed
+era_renaiss,pt_fabricius,CONTEXT_FOR,Эпоха era_renaiss как контекст для pt_fabricius,directed
+era_renaiss,inst_padua,CONTEXT_FOR,Эпоха era_renaiss как контекст для inst_padua,directed
+era_scientific,pt_harvey,CONTEXT_FOR,Эпоха era_scientific как контекст для pt_harvey,directed
+era_scientific,pt_malpighi,CONTEXT_FOR,Эпоха era_scientific как контекст для pt_malpighi,directed
+era_scientific,pt_leeuwenhoek,CONTEXT_FOR,Эпоха era_scientific как контекст для pt_leeuwenhoek,directed
+era_scientific,pt_hooke,CONTEXT_FOR,Эпоха era_scientific как контекст для pt_hooke,directed
+era_scientific,pt_santorrio,CONTEXT_FOR,Эпоха era_scientific как контекст для pt_santorrio,directed
+era_enlight,pt_boerhaave,CONTEXT_FOR,Эпоха era_enlight как контекст для pt_boerhaave,directed
+era_enlight,pt_haller,CONTEXT_FOR,Эпоха era_enlight как контекст для pt_haller,directed
+era_enlight,pt_linnaeus,CONTEXT_FOR,Эпоха era_enlight как контекст для pt_linnaeus,directed
+era_enlight,pt_morgagni,CONTEXT_FOR,Эпоха era_enlight как контекст для pt_morgagni,directed
+era_enlight,pt_laennec,CONTEXT_FOR,Эпоха era_enlight как контекст для pt_laennec,directed
+era_industrial,pt_pasteur,CONTEXT_FOR,Эпоха era_industrial как контекст для pt_pasteur,directed
+era_industrial,pt_koch,CONTEXT_FOR,Эпоха era_industrial как контекст для pt_koch,directed
+era_industrial,pt_lister,CONTEXT_FOR,Эпоха era_industrial как контекст для pt_lister,directed
+era_industrial,pt_semmelweis,CONTEXT_FOR,Эпоха era_industrial как контекст для pt_semmelweis,directed
+era_industrial,pt_snow,CONTEXT_FOR,Эпоха era_industrial как контекст для pt_snow,directed
+era_victorian,pt_nightingale,CONTEXT_FOR,Эпоха era_victorian как контекст для pt_nightingale,directed
+era_victorian,pt_chadwick,CONTEXT_FOR,Эпоха era_victorian как контекст для pt_chadwick,directed
+era_victorian,pt_seacole,CONTEXT_FOR,Эпоха era_victorian как контекст для pt_seacole,directed
+era_victorian,inst_vienna,CONTEXT_FOR,Эпоха era_victorian как контекст для inst_vienna,directed
+era_imperial,pt_yersin,CONTEXT_FOR,Эпоха era_imperial как контекст для pt_yersin,directed
+era_imperial,pt_calmette,CONTEXT_FOR,Эпоха era_imperial как контекст для pt_calmette,directed
+era_imperial,pt_guerin,CONTEXT_FOR,Эпоха era_imperial как контекст для pt_guerin,directed
+era_imperial,inst_pasteur,CONTEXT_FOR,Эпоха era_imperial как контекст для inst_pasteur,directed
+era_imperial,inst_koch,CONTEXT_FOR,Эпоха era_imperial как контекст для inst_koch,directed
+era_wwi,pt_flexner,CONTEXT_FOR,Эпоха era_wwi как контекст для pt_flexner,directed
+era_wwi,pt_welch,CONTEXT_FOR,Эпоха era_wwi как контекст для pt_welch,directed
+era_wwi,pt_osler,CONTEXT_FOR,Эпоха era_wwi как контекст для pt_osler,directed
+era_interwar,pt_banting,CONTEXT_FOR,Эпоха era_interwar как контекст для pt_banting,directed
+era_interwar,pt_best,CONTEXT_FOR,Эпоха era_interwar как контекст для pt_best,directed
+era_interwar,pt_salk,CONTEXT_FOR,Эпоха era_interwar как контекст для pt_salk,directed
+era_interwar,pt_domagk,CONTEXT_FOR,Эпоха era_interwar как контекст для pt_domagk,directed
+era_wwii,pt_florey,CONTEXT_FOR,Эпоха era_wwii как контекст для pt_florey,directed
+era_wwii,pt_chain,CONTEXT_FOR,Эпоха era_wwii как контекст для pt_chain,directed
+era_wwii,pt_fleming,CONTEXT_FOR,Эпоха era_wwii как контекст для pt_fleming,directed
+era_coldwar,pt_watson,CONTEXT_FOR,Эпоха era_coldwar как контекст для pt_watson,directed
+era_coldwar,pt_crick,CONTEXT_FOR,Эпоха era_coldwar как контекст для pt_crick,directed
+era_coldwar,pt_franklin,CONTEXT_FOR,Эпоха era_coldwar как контекст для pt_franklin,directed
+era_coldwar,pt_sabin,CONTEXT_FOR,Эпоха era_coldwar как контекст для pt_sabin,directed
+era_coldwar,pt_enders,CONTEXT_FOR,Эпоха era_coldwar как контекст для pt_enders,directed
+era_info,pt_hgp,CONTEXT_FOR,Эпоха era_info как контекст для pt_hgp,directed
+era_info,pt_sequencing,CONTEXT_FOR,Эпоха era_info как контекст для pt_sequencing,directed
+era_info,pt_pcr,CONTEXT_FOR,Эпоха era_info как контекст для pt_pcr,directed
+era_precision,pt_crispr,CONTEXT_FOR,Эпоха era_precision как контекст для pt_crispr,directed
+era_precision,pt_precision_med,CONTEXT_FOR,Эпоха era_precision как контекст для pt_precision_med,directed
+sub_humoral_balance,pt_hippocrates,DEFINES,Гуморальный баланс как основа теории.,directed
+sub_humoral_balance,pt_galen,DEFINES,Гуморальный баланс как основа теории.,directed
+sub_humoral_balance,pt_airswaters,DEFINES,Гуморальный баланс как основа теории.,directed
+sub_dosha_vata,pt_charaka,DEFINES,Вата как принцип движения.,directed
+sub_dosha_vata,pt_sushruta,DEFINES,Вата как принцип движения.,directed
+sub_dosha_vata,pt_vagbhata,DEFINES,Вата как принцип движения.,directed
+sub_dosha_pitta,pt_charaka,DEFINES,Питта как принцип метаболизма.,directed
+sub_dosha_pitta,pt_sushruta,DEFINES,Питта как принцип метаболизма.,directed
+sub_dosha_pitta,pt_vagbhata,DEFINES,Питта как принцип метаболизма.,directed
+sub_dosha_kapha,pt_charaka,DEFINES,Капха как принцип структуры.,directed
+sub_dosha_kapha,pt_sushruta,DEFINES,Капха как принцип структуры.,directed
+sub_dosha_kapha,pt_vagbhata,DEFINES,Капха как принцип структуры.,directed
+sub_yin_yang,pt_huangdi_neijing,DEFINES,Инь-ян как диагностическая рамка.,directed
+sub_yin_yang,pt_nan_jing,DEFINES,Инь-ян как диагностическая рамка.,directed
+sub_yin_yang,sub_acupuncture,DEFINES,Инь-ян как диагностическая рамка.,directed
+sub_wuxing,pt_huangdi_neijing,DEFINES,Пять фаз как модель трансформации.,directed
+sub_wuxing,pt_nan_jing,DEFINES,Пять фаз как модель трансформации.,directed
+sub_qi,sub_meridian,DEFINES,Ци как основа циркуляции.,directed
+sub_qi,sub_acupuncture,DEFINES,Ци как основа циркуляции.,directed
+sub_qi,pt_huangdi_neijing,DEFINES,Ци как основа циркуляции.,directed
+sub_meridian,sub_acupuncture,DEFINES,Меридианы как карта иглоукалывания.,directed
+sub_meridian,pt_huangdi_neijing,DEFINES,Меридианы как карта иглоукалывания.,directed
+sub_uroscopy,pt_al_razi,USES,Уроскопия как визуальный диагностический метод.,directed
+sub_uroscopy,pt_galen,USES,Уроскопия как визуальный диагностический метод.,directed
+sub_uroscopy,pt_hippocrates,USES,Уроскопия как визуальный диагностический метод.,directed
+sub_anatomy,pt_herophilus,DEVELOPED_BY,Анатомия от вскрытия к атласу.,directed
+sub_anatomy,pt_galen,DEVELOPED_BY,Анатомия от вскрытия к атласу.,directed
+sub_anatomy,pt_vesalius,DEVELOPED_BY,Анатомия от вскрытия к атласу.,directed
+sub_anatomy,pt_leonardo,DEVELOPED_BY,Анатомия от вскрытия к атласу.,directed
+sub_physiology,pt_bernard,DEVELOPED_BY,Физиология как экспериментальная дисциплина.,directed
+sub_physiology,pt_haller,DEVELOPED_BY,Физиология как экспериментальная дисциплина.,directed
+sub_physiology,pt_magendie,DEVELOPED_BY,Физиология как экспериментальная дисциплина.,directed
+sub_physiology,pt_harvey,DEVELOPED_BY,Физиология как экспериментальная дисциплина.,directed
+sub_pharmacology,pt_dioscorides,DEVELOPED_BY,Фармакология от трав к молекулам.,directed
+sub_pharmacology,pt_paracelsus,DEVELOPED_BY,Фармакология от трав к молекулам.,directed
+sub_pharmacology,pt_ehrlich,DEVELOPED_BY,Фармакология от трав к молекулам.,directed
+sub_pharmacology,pt_domagk,DEVELOPED_BY,Фармакология от трав к молекулам.,directed
+sub_surgery,pt_sushruta,DEVELOPED_BY,Хирургия от инструментов к асептике.,directed
+sub_surgery,pt_al_zahrawi,DEVELOPED_BY,Хирургия от инструментов к асептике.,directed
+sub_surgery,pt_lister,DEVELOPED_BY,Хирургия от инструментов к асептике.,directed
+sub_surgery,pt_halsted,DEVELOPED_BY,Хирургия от инструментов к асептике.,directed
+sub_surgery,pt_kocher,DEVELOPED_BY,Хирургия от инструментов к асептике.,directed
+sub_obstetrics,pt_trotula,DEVELOPED_BY,Акушерство и женская медицина.,directed
+sub_obstetrics,pt_semmelweis,DEVELOPED_BY,Акушерство и женская медицина.,directed
+sub_obstetrics,pt_hela,DEVELOPED_BY,Акушерство и женская медицина.,directed
+sub_epidemiology,pt_snow,DEVELOPED_BY,Эпидемиология как популяционная наука.,directed
+sub_epidemiology,pt_nightingale,DEVELOPED_BY,Эпидемиология как популяционная наука.,directed
+sub_epidemiology,pt_pett,DEVELOPED_BY,Эпидемиология как популяционная наука.,directed
+sub_epidemiology,pt_seacole,DEVELOPED_BY,Эпидемиология как популяционная наука.,directed
+sub_immunology,pt_jenner,DEVELOPED_BY,Иммунология от вакцинации к клональной селекции.,directed
+sub_immunology,pt_metchnikoff,DEVELOPED_BY,Иммунология от вакцинации к клональной селекции.,directed
+sub_immunology,pt_behring,DEVELOPED_BY,Иммунология от вакцинации к клональной селекции.,directed
+sub_immunology,pt_ehrlich,DEVELOPED_BY,Иммунология от вакцинации к клональной селекции.,directed
+sub_immunology,pt_burnet,DEVELOPED_BY,Иммунология от вакцинации к клональной селекции.,directed
+sub_neuro,pt_galen,DEVELOPED_BY,Нейронауки от нервов к синапсам.,directed
+sub_neuro,pt_magendie,DEVELOPED_BY,Нейронауки от нервов к синапсам.,directed
+sub_neuro,pt_bernard,DEVELOPED_BY,Нейронауки от нервов к синапсам.,directed
+sub_neuro,pt_hodgkin,DEVELOPED_BY,Нейронауки от нервов к синапсам.,directed
+sub_neuro,pt_huxley,DEVELOPED_BY,Нейронауки от нервов к синапсам.,directed
+sub_neuro,pt_katz,DEVELOPED_BY,Нейронауки от нервов к синапсам.,directed
+sub_oncology,pt_virchow,DEVELOPED_BY,Онкология от патологии к таргетной терапии.,directed
+sub_oncology,pt_halsted,DEVELOPED_BY,Онкология от патологии к таргетной терапии.,directed
+sub_oncology,pt_calmette,DEVELOPED_BY,Онкология от патологии к таргетной терапии.,directed
+sub_oncology,pt_curie,DEVELOPED_BY,Онкология от патологии к таргетной терапии.,directed
+sub_cardio,pt_harvey,DEVELOPED_BY,Кардиология от кровообращения к интервенции.,directed
+sub_cardio,pt_laennec,DEVELOPED_BY,Кардиология от кровообращения к интервенции.,directed
+sub_cardio,pt_einthoven,DEVELOPED_BY,Кардиология от кровообращения к интервенции.,directed
+sub_cardio,pt_blalock,DEVELOPED_BY,Кардиология от кровообращения к интервенции.,directed
+sub_cardio,pt_tausig,DEVELOPED_BY,Кардиология от кровообращения к интервенции.,directed
+sub_endocrin,pt_bernard,DEVELOPED_BY,Эндокринология от внутренней секреции к инсулину.,directed
+sub_endocrin,pt_brown_sequard,DEVELOPED_BY,Эндокринология от внутренней секреции к инсулину.,directed
+sub_endocrin,pt_banting,DEVELOPED_BY,Эндокринология от внутренней секреции к инсулину.,directed
+sub_endocrin,pt_best,DEVELOPED_BY,Эндокринология от внутренней секреции к инсулину.,directed
+sub_genetics,pt_mendel,DEVELOPED_BY,Генетика от законов к геному.,directed
+sub_genetics,pt_watson,DEVELOPED_BY,Генетика от законов к геному.,directed
+sub_genetics,pt_crick,DEVELOPED_BY,Генетика от законов к геному.,directed
+sub_genetics,pt_franklin,DEVELOPED_BY,Генетика от законов к геному.,directed
+sub_genetics,pt_sequencing,DEVELOPED_BY,Генетика от законов к геному.,directed
+sub_microbio,pt_leeuwenhoek,DEVELOPED_BY,Микробиология от анималькулей к вакцинам.,directed
+sub_microbio,pt_pasteur,DEVELOPED_BY,Микробиология от анималькулей к вакцинам.,directed
+sub_microbio,pt_koch,DEVELOPED_BY,Микробиология от анималькулей к вакцинам.,directed
+sub_microbio,pt_metchnikoff,DEVELOPED_BY,Микробиология от анималькулей к вакцинам.,directed
+sub_virology,pt_ivanovsky,DEVELOPED_BY,Вирусология от фильтрующихся агентов к вакцинам.,directed
+sub_virology,pt_beijerinck,DEVELOPED_BY,Вирусология от фильтрующихся агентов к вакцинам.,directed
+sub_virology,pt_enders,DEVELOPED_BY,Вирусология от фильтрующихся агентов к вакцинам.,directed
+sub_virology,pt_salk,DEVELOPED_BY,Вирусология от фильтрующихся агентов к вакцинам.,directed
+sub_radiology,pt_xray,DEVELOPED_BY,Радиология как диагностический орган.,directed
+sub_radiology,pt_ct,DEVELOPED_BY,Радиология как диагностический орган.,directed
+sub_radiology,pt_mri,DEVELOPED_BY,Радиология как диагностический орган.,directed
+sub_radiology,pt_ultrasound,DEVELOPED_BY,Радиология как диагностический орган.,directed
+sub_radiology,pt_pet,DEVELOPED_BY,Радиология как диагностический орган.,directed
+sub_anesthes,pt_morton,DEVELOPED_BY,Анестезиология от эфира к мониторингу.,directed
+sub_anesthes,pt_hanaoka,DEVELOPED_BY,Анестезиология от эфира к мониторингу.,directed
+sub_anesthes,pt_simpson,DEVELOPED_BY,Анестезиология от эфира к мониторингу.,directed
+sub_transplant,pt_carrel,DEVELOPED_BY,Трансплантология от сосудистого шва к иммуносупрессии.,directed
+sub_transplant,pt_murray,DEVELOPED_BY,Трансплантология от сосудистого шва к иммуносупрессии.,directed
+sub_transplant,pt_barnard,DEVELOPED_BY,Трансплантология от сосудистого шва к иммуносупрессии.,directed
+sub_transplant,pt_dausset,DEVELOPED_BY,Трансплантология от сосудистого шва к иммуносупрессии.,directed
+sub_reproductive,pt_ivf,DEVELOPED_BY,Репродуктивная медицина и её этические рамки.,directed
+sub_reproductive,pt_hela,DEVELOPED_BY,Репродуктивная медицина и её этические рамки.,directed
+sub_reproductive,pt_edwards,DEVELOPED_BY,Репродуктивная медицина и её этические рамки.,directed
+sub_palliative,pt_hospice,DEVELOPED_BY,Паллиативная помощь как дисциплина.,directed
+sub_palliative,pt_saunders,DEVELOPED_BY,Паллиативная помощь как дисциплина.,directed
+inst_cos,pt_hippocrates,HOSTS,Косская школа как институциональная основа Гиппократа.,directed
+inst_alexandria,pt_herophilus,HOSTS,Александрийская школа и систематические вскрытия.,directed
+inst_alexandria,pt_erasistratus,HOSTS,Механистическая физиология Эрасистрата.,directed
+inst_gondishapur,pt_hunayn,HOSTS,Переводческое движение в Гондишапуре.,directed
+inst_bimaristan,pt_al_razi,HOSTS,Бимаристан как клиническая институция.,directed
+inst_bimaristan,pt_avicenna,HOSTS,Бимаристан и клинические записи.,directed
+inst_salerno,pt_constantine,HOSTS,Салерно и переводческое движение.,directed
+inst_salerno,pt_trotula,HOSTS,Салерно и женская медицина.,directed
+inst_padua,pt_vesalius,HOSTS,Падуя и анатомический театр.,directed
+inst_padua,pt_fabricius,HOSTS,Падуя и венозные клапаны.,directed
+inst_padua,pt_harvey,HOSTS,Гарвей учился в Падуе.,directed
+inst_leiden,pt_boerhaave,HOSTS,Лейден и клиническое преподавание.,directed
+inst_leiden,pt_malpighi,HOSTS,Микроскопическая анатомия.,directed
+inst_hotel_dieu,pt_laennec,HOSTS,Отель-Дьё и клиническая медицина.,directed
+inst_vienna,pt_semmelweis,HOSTS,Венская школа и дезинфекция.,directed
+inst_vienna,pt_corvisart,HOSTS,Венская школа и перкуссия.,directed
+inst_pasteur,pt_pasteur,HOSTS,Пастеровский институт как исследовательский центр.,directed
+inst_pasteur,pt_yersin,HOSTS,Йерсен и чумная палочка.,directed
+inst_pasteur,pt_calmette,HOSTS,Кальметт и БЦЖ.,directed
+inst_koch,pt_koch,HOSTS,Институт Коха и бактериология.,directed
+inst_roberts,pt_flexner,HOSTS,Рокфеллеровский институт и вирусология.,directed
+inst_mrc,sub_rct,INSTITUTIONALIZES,Стандартизация испытаний в Великобритании.,directed
+inst_nih,pt_hgp,FUNDS,Финансирование больших геномных проектов.,directed
+inst_who,pt_smallpox_erad,ORGANIZES,Глобальная программа эрадикации оспы.,directed
+inst_helios,pt_hospice,HOSTS,Хоспис Святого Кристофера как модель.,directed
+sub_humoral_balance,sub_endocrin,REINTERPRETED_AS,Баланс превращается в гормональную регуляцию.,directed
+sub_dosha_vata,sub_neuro,STRUCTURAL_ANALOGUE,Движение как нервная регуляция.,directed
+sub_dosha_pitta,sub_endocrin,STRUCTURAL_ANALOGUE,Пищеварение как метаболическая функция.,directed
+sub_dosha_kapha,sub_immunology,STRUCTURAL_ANALOGUE,Структура как защитная система.,directed
+sub_yin_yang,sub_homeostasis,STRUCTURAL_ANALOGUE,Равновесие как регуляторный принцип.,directed
+sub_wuxing,sub_systems_bio,STRUCTURAL_ANALOGUE,Циклы как сетевая регуляция.,directed
+sub_miasma,sub_microbio,REFUTED_BUT_PRESERVES,"Этиология отвергнута, санитарная практика сохранена.",directed
+sub_contagion,sub_microbio,SPECIFIED_BY,От абстрактной передачи к конкретному агенту.,directed
+sub_anatomoclin,sub_cellpath,REDUCED_TO,Орган → ткань → клетка.,directed
+sub_cellpath,sub_genetics,MOLECULARIZED_IN,Клеточная патология становится патологией гена.,directed
+sub_vaccine,sub_immunology,EXPLAINED_BY,"Профилактика, предшествующая теории иммунитета.",directed
+sub_quinine,sub_magicbullet,EMPIRICAL_PRECURSOR,Специфичность растения предвосхищает синтез.,directed
+sub_artemisinin,pt_precision_med,SOURCE_FOR,Этнофармакологическое знание → стандартизированная терапия.,directed
+sub_variolation,sub_vaccine,TECHNIQUE_TRANSFER,Практика без теории рождает профилактику.,directed
+sub_socialmedicine,sub_ebm,TENSION_WITH,Популяционный детерминизм против индивидуализированного испытания.,directed
+sub_socialmedicine,pt_one_health,EXTENDED_TO,Социальные условия расширяются до экологических.,directed
+pt_alma_ata,pt_precision_med,TENSION_WITH,Доступность базовой помощи против дорогостоящей персонализации.,directed
+pt_hela,sub_expmed,ETHICAL_CONSTRAINT_ON,Материал исследования не нейтрален.,directed
+pt_nuremberg,sub_rct,CONSTRAINS,Метод испытания подчиняется требованию согласия.,directed
+pt_decolonial,sub_microbio,CONTEXTUALIZES,Универсальность механизма не отменяет колониальной истории.,directed
+sub_rhinoplasty,sub_anatomoclin,TECHNIQUE_TRANSFER,Техника циркулирует раньше объяснительной анатомии.,directed
+sub_uroscopy,sub_radiology,TECHNIQUE_TRANSFER,Визуальная диагностика без вскрытия.,directed
+sub_pulse_diag,pt_ecg,TECHNIQUE_TRANSFER,Чтение ритма как диагностический навык.,directed
+sub_acupuncture,sub_anesthes,TECHNIQUE_TRANSFER,Стимуляция точек как модуляция боли.,directed
+pt_hospice,sub_palliative,INSTITUTIONALIZES,Хоспис как институциональная основа паллиативной помощи.,directed
+pt_eugenics,sub_genetics,ETHICAL_CHALLENGE_TO,Наследственность как инструмент социальной политики.,directed
+pt_asylum,pt_antipsych,REPLACED_BY,Институционализация уступает фармакологии.,directed
+pt_lobotomy,pt_antipsych,REPLACED_BY,Нейрохирургия уступает психиатрической фармакологии.,directed
+pt_psychoanalysis,pt_antipsych,TENSION_WITH,Разговорная терапия против биологической психиатрии.,directed
