@@ -41,9 +41,12 @@ def circular_positions(G: nx.DiGraph) -> dict:
     return pos
 
 
-def build_controls(circular: dict) -> str:
-    """HTML-панель + JS для смены раскладки и темы (встраивается в страницу)."""
+def build_controls(circular: dict, hubs: list) -> str:
+    """HTML-панель + JS для смены раскладки, темы и навигации к хабам."""
     circular_js = json.dumps(circular, ensure_ascii=False)
+    hub_options = "".join(
+        f'<option value="{nid}">{label}</option>' for nid, label in hubs
+    )
 
     panel = (
         '<div id="vizcontrols" style="position:fixed;top:12px;left:12px;z-index:1000;'
@@ -58,6 +61,14 @@ def build_controls(circular: dict) -> str:
         '&nbsp;&nbsp;<b>Тема:</b> '
         '<button onclick="setTheme(\'light\')">Светлая</button> '
         '<button onclick="setTheme(\'dark\')">Тёмная</button>'
+        '<div style="margin-top:6px;border-top:1px solid #eeeeee;padding-top:6px;">'
+        '<b>Хаб:</b> '
+        '<select id="hubselect" onchange="locateHub(this.value)" '
+        'style="padding:2px 4px;border:1px solid #cccccc;border-radius:4px;">'
+        '<option value="">— по умолчанию —</option>'
+        + hub_options +
+        '</select>'
+        '</div>'
         '<div style="margin-top:6px;border-top:1px solid #eeeeee;padding-top:6px;">'
         '<b>Поиск:</b> '
         '<input id="searchbox" type="text" placeholder="буквы или с опечаткой…" '
@@ -184,6 +195,16 @@ function doSearch(q){
     box.appendChild(d);
   });
 }
+function locateHub(id){
+  if(!window.network) return;
+  if(!id){
+    network.unselectAll();
+    network.fit({animation: true});
+  } else {
+    network.selectNodes([id], false);
+    network.focus(id, {scale: 1.5, animation: {duration: 500, easingFunction: "easeInOutQuad"}});
+  }
+}
 """
     js = js.replace("__CIRCULAR__", circular_js)
     return panel + "<script>" + js + "</script>"
@@ -248,7 +269,10 @@ def main() -> None:
 
     # Встраиваем панель управления и JS переключения раскладки/темы
     html = OUT.read_text(encoding="utf-8")
-    controls = build_controls(circular_positions(G))
+    deg = dict(G.degree())
+    top = sorted(G.nodes(), key=lambda n: -deg[n])[:10]
+    hubs = [(nid, G.nodes[nid]["Label"]) for nid in top]
+    controls = build_controls(circular_positions(G), hubs)
     html = html.replace("</body>", controls + "</body>")
     html = _inline_assets(html)
     OUT.write_text(html, encoding="utf-8")
