@@ -4,7 +4,9 @@
 Поверх pyvis-графа добавляется панель кнопок:
 - раскладка: Силовая (barnesHut), Расталкивание (repulsion), ForceAtlas2,
   Дерево (hierarchical) и Круг (предвычисленная упаковка);
-- тема: Светлая / Тёмная (меняется фон, рёбра и цвет подписей).
+- тема: Светлая / Тёмная (меняется фон, рёбра и цвет подписей);
+- поиск: умный поиск узлов по частичному вводу и с допуском опечаток
+  (подстрока + расстояние Левенштейна); клик по результату фокусирует узел.
 Запуск: uv run python viz_pyvis_v3.py
 Выход: graphV3.html
 """
@@ -55,6 +57,13 @@ def build_controls(circular: dict) -> str:
         '&nbsp;&nbsp;<b>Тема:</b> '
         '<button onclick="setTheme(\'light\')">Светлая</button> '
         '<button onclick="setTheme(\'dark\')">Тёмная</button>'
+        '<div style="margin-top:6px;border-top:1px solid #eeeeee;padding-top:6px;">'
+        '<b>Поиск:</b> '
+        '<input id="searchbox" type="text" placeholder="буквы или с опечаткой…" '
+        'style="width:170px;padding:2px 6px;border:1px solid #cccccc;border-radius:4px;" '
+        'oninput="doSearch(this.value)">'
+        '<div id="searchresults" style="max-height:170px;overflow:auto;margin-top:2px;"></div>'
+        '</div>'
         '</div>'
     )
 
@@ -113,6 +122,65 @@ function setTheme(theme){
       size: cur.size || (isMarker ? 9 : 14),
       face: "sans-serif"
     }});
+  });
+}
+function _lev(a, b){
+  var m = a.length, n = b.length;
+  if(!m) return n; if(!n) return m;
+  var prev = [], cur = [];
+  for(var j = 0; j <= n; j++) prev[j] = j;
+  for(var i = 1; i <= m; i++){
+    cur[0] = i;
+    for(var j = 1; j <= n; j++){
+      cur[j] = Math.min(prev[j] + 1, cur[j-1] + 1, prev[j-1] + (a[i-1] === b[j-1] ? 0 : 1));
+    }
+    var t = prev; prev = cur; cur = t;
+  }
+  return prev[n];
+}
+var _nodeIndex = null;
+function _buildIndex(){
+  _nodeIndex = nodes.map(function(n){
+    return {id: n.id, label: String(n.label || n.id), isMarker: String(n.id).indexOf("__edge_") === 0};
+  });
+}
+function doSearch(q){
+  if(!window.nodes) return;
+  if(!_nodeIndex) _buildIndex();
+  var box = document.getElementById("searchresults");
+  box.innerHTML = "";
+  q = String(q || "").trim().toLowerCase();
+  if(!q) return;
+  var maxDist = q.length <= 3 ? 1 : 2;
+  var res = [];
+  _nodeIndex.forEach(function(it){
+    var l = it.label.toLowerCase();
+    var score;
+    if(l.indexOf(q) !== -1){
+      score = 0;
+    } else {
+      var d = _lev(q, l.slice(0, q.length));
+      if(d <= maxDist) score = d + 1;
+    }
+    if(score !== undefined) res.push({it: it, score: score});
+  });
+  res.sort(function(a, b){ return a.score - b.score; });
+  res = res.slice(0, 12);
+  if(!res.length){
+    box.innerHTML = '<div style="color:#888888;font-size:12px;padding:2px 4px;">ничего не найдено</div>';
+    return;
+  }
+  res.forEach(function(r){
+    var d = document.createElement("div");
+    d.textContent = r.it.label + (r.it.isMarker ? " · связь" : "");
+    d.style.cssText = "cursor:pointer;padding:2px 4px;font-size:12px;border-radius:3px;";
+    d.onmouseenter = function(){ this.style.background = "#e0ecff"; };
+    d.onmouseleave = function(){ this.style.background = ""; };
+    d.onclick = function(){
+      network.selectNodes([r.it.id], false);
+      network.focus(r.it.id, {scale: 1.5, animation: {duration: 500, easingFunction: "easeInOutQuad"}});
+    };
+    box.appendChild(d);
   });
 }
 """
