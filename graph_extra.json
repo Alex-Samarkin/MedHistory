@@ -1,318 +1,3162 @@
 {
   "nodes": [
-    {"id": "pt_pirogov", "label": "Николай Пирогов", "kind": "person", "start": 1810, "end": 1881, "region": "Россия", "note": "Отец русской хирургии; эфирный наркоз в полевых условиях, топографическая анатомия, военно-полевая хирургия."},
-    {"id": "pt_botkin", "label": "Сергей Боткин", "kind": "person", "start": 1832, "end": 1889, "region": "Россия", "note": "Клиницист-терапевт; инфекционный гепатит (болезнь Боткина), клиническое преподавание."},
-    {"id": "pt_sechenov", "label": "Иван Сеченов", "kind": "person", "start": 1829, "end": 1905, "region": "Россия", "note": "Отец русской физиологии; центральное торможение нервной системы."},
-    {"id": "pt_pavlov", "label": "Иван Павлов", "kind": "person", "start": 1849, "end": 1936, "region": "Россия / СССР", "note": "Условные рефлексы, физиология пищеварения; Нобелевская премия (1904)."},
-    {"id": "pt_bekhterev", "label": "Владимир Бехтерев", "kind": "person", "start": 1857, "end": 1927, "region": "Россия / СССР", "note": "Неврология и психиатрия; анкилозирующий спондилит (болезнь Бехтерева)."},
-    {"id": "pt_korsakov", "label": "Сергей Корсаков", "kind": "person", "start": 1854, "end": 1900, "region": "Россия", "note": "Психиатрия; корсаковский (амнестический) синдром."},
-    {"id": "pt_sklifosovsky", "label": "Николай Склифосовский", "kind": "person", "start": 1836, "end": 1904, "region": "Россия", "note": "Хирургия; внедрение асептики и антисептики в России."},
-    {"id": "pt_filatov", "label": "Владимир Филатов", "kind": "person", "start": 1875, "end": 1956, "region": "СССР", "note": "Офтальмология; пересадка роговицы, тканевая терапия."},
-    {"id": "pt_yudin", "label": "Сергей Юдин", "kind": "person", "start": 1891, "end": 1954, "region": "СССР", "note": "Хирургия; переливание трупной крови, неотложная хирургия."},
-    {"id": "pt_burdenko", "label": "Николай Бурденко", "kind": "person", "start": 1876, "end": 1946, "region": "СССР", "note": "Нейрохирургия; военно-полевая хирургия."},
-    {"id": "pt_vishnevsky", "label": "Александр Вишневский", "kind": "person", "start": 1874, "end": 1948, "region": "СССР", "note": "Хирургия; местная анестезия (новокаиновая блокада), мазь Вишневского."},
-    {"id": "pt_ermolyeva", "label": "Зинаида Ермольева", "kind": "person", "start": 1898, "end": 1974, "region": "СССР", "note": "Микробиология; советский пенициллин (крустозин), борьба с холерой."},
-    {"id": "pt_gamaleya", "label": "Николай Гамалея", "kind": "person", "start": 1859, "end": 1949, "region": "Россия / СССР", "note": "Микробиология и эпидемиология; бешенство, чума."},
-    {"id": "pt_zilber", "label": "Лев Зильбер", "kind": "person", "start": 1894, "end": 1966, "region": "СССР", "note": "Вирусология; вирусо-генетическая теория происхождения рака."},
-    {"id": "pt_chumakov", "label": "Михаил Чумаков", "kind": "person", "start": 1909, "end": 1993, "region": "СССР", "note": "Вирусология; живая полиовакцина, массовая иммунизация."},
-    {"id": "pt_smorodintsev", "label": "Анатолий Смородинцев", "kind": "person", "start": 1901, "end": 1986, "region": "СССР", "note": "Вирусология; гриппозная вакцина, клещевой энцефалит."},
-    {"id": "pt_semashko", "label": "Николай Семашко", "kind": "person", "start": 1874, "end": 1949, "region": "СССР", "note": "Организатор здравоохранения; система Семашко, первый нарком здравоохранения."},
-    {"id": "pt_demikhov", "label": "Владимир Демихов", "kind": "person", "start": 1916, "end": 1998, "region": "СССР", "note": "Трансплантология; пересадка сердца и лёгких в эксперименте."},
-    {"id": "pt_ilizarov", "label": "Гавриил Илизаров", "kind": "person", "start": 1921, "end": 1992, "region": "СССР", "note": "Ортопедия; аппарат Илизарова, дистракционный остеогенез."},
-    {"id": "pt_amosov", "label": "Николай Амосов", "kind": "person", "start": 1913, "end": 2002, "region": "СССР", "note": "Кардиохирургия; аппарат искусственного кровообращения."},
-    {"id": "pt_bakulev", "label": "Александр Бакулев", "kind": "person", "start": 1890, "end": 1967, "region": "СССР", "note": "Сердечно-сосудистая хирургия; врождённые пороки сердца."},
-    {"id": "pt_kashchenko", "label": "Пётр Кащенко", "kind": "person", "start": 1859, "end": 1920, "region": "Россия", "note": "Психиатрия; организация психиатрической помощи."},
-    {"id": "pt_samoylovich", "label": "Даниил Самойлович", "kind": "person", "start": 1744, "end": 1805, "region": "Россия", "note": "Эпидемиология чумы; идея контактного пути передачи."},
-    {"id": "pt_erisman", "label": "Фёдор Эрисман", "kind": "person", "start": 1842, "end": 1915, "region": "Россия", "note": "Гигиена; социальная гигиена и санитарные нормы."},
-
-    {"id": "pt_sechenov_reflexes", "label": "«Рефлексы головного мозга»", "kind": "text", "start": 1863, "end": 1863, "region": "Россия", "note": "Манифест физиологической психологии; торможение как основа психики."},
-    {"id": "pt_pavlov_digestion", "label": "«Лекции о работе главных пищеварительных желёз»", "kind": "text", "start": 1897, "end": 1897, "region": "Россия", "note": "Нобелевская работа по физиологии пищеварения."},
-    {"id": "pt_pirogov_topo", "label": "«Топографическая анатомия» (атлас распилов)", "kind": "text", "start": 1851, "end": 1859, "region": "Россия", "note": "Послойная анатомия замороженных распилов."},
-    {"id": "pt_pirogov_field", "label": "«Начала общей военно-полевой хирургии»", "kind": "text", "start": 1864, "end": 1864, "region": "Россия", "note": "Сортировка раненых, эвакуация, гипсовая повязка."},
-    {"id": "pt_metchnikoff_immunity", "label": "«Невосприимчивость в инфекционных болезнях»", "kind": "text", "start": 1901, "end": 1901, "region": "Россия / Франция", "note": "Фагоцитарная теория иммунитета."},
-    {"id": "pt_botkin_course", "label": "«Курс клиники внутренних болезней»", "kind": "text", "start": 1867, "end": 1888, "region": "Россия", "note": "Клинические лекции Боткина."},
-    {"id": "pt_gray_anatomy", "label": "«Анатомия Грея»", "kind": "text", "start": 1858, "end": 1858, "region": "Англия", "note": "Канонический учебник анатомии (Генри Грей)."},
-    {"id": "pt_osler_principles", "label": "«Принципы и практика медицины»", "kind": "text", "start": 1892, "end": 1892, "region": "Англия / США", "note": "Канонический учебник внутренней медицины (Ослер)."},
-    {"id": "pt_harrison_principles", "label": "«Принципы внутренней медицины» (Харрисон)", "kind": "text", "start": 1950, "end": 1950, "region": "США", "note": "Современный канонический учебник."},
-
-    {"id": "sub_conditional_reflex", "label": "Условный рефлекс", "kind": "concept", "start": 1903, "end": 2026, "region": "Россия / СССР", "note": "Павлов; обучение как формирование временных связей."},
-    {"id": "sub_field_surgery", "label": "Военно-полевая хирургия", "kind": "practice", "start": 1855, "end": 2026, "region": "Россия", "note": "Пирогов; сортировка, эвакуация, этапное лечение."},
-    {"id": "sub_blood_transfusion", "label": "Переливание крови", "kind": "practice", "start": 1901, "end": 2026, "region": "Глобально", "note": "Группы крови Ландштейнера; трупная кровь Юдина."},
-    {"id": "sub_semashko_system", "label": "Система Семашко", "kind": "context", "start": 1918, "end": 1991, "region": "СССР", "note": "Централизованное государственное здравоохранение."},
-    {"id": "sub_viral_oncogenesis", "label": "Вирусная теория рака", "kind": "concept", "start": 1945, "end": 2026, "region": "СССР", "note": "Зильбер; вирусы как фактор канцерогенеза."},
-    {"id": "sub_psychiatry", "label": "Психиатрия", "kind": "concept", "start": 1800, "end": 2026, "region": "Глобально", "note": "От изоляции к клинической и биологической психиатрии."},
-    {"id": "sub_antibiotics", "label": "Антибиотики", "kind": "concept", "start": 1928, "end": 2026, "region": "Глобально", "note": "Вещества микробного происхождения, подавляющие бактерии; от пенициллина к резистентности."},
-    {"id": "pt_waksman", "label": "Сельман Ваксман", "kind": "person", "start": 1888, "end": 1973, "region": "Российская империя / США", "note": "Термин «антибиотик»; стрептомицин из почвенных актиномицетов; Нобель 1952."},
-    {"id": "pt_dherelle", "label": "Феликс д'Эрелль", "kind": "person", "start": 1873, "end": 1949, "region": "Канада / Франция", "note": "Открыл бактериофаги; фаговая терапия."},
-    {"id": "pt_dubos", "label": "Рене Дюбо", "kind": "person", "start": 1901, "end": 1982, "region": "Франция / США", "note": "Грамицидин; антибиотики из почвенных бактерий."},
-    {"id": "pt_streptomycin", "label": "Стрептомицин", "kind": "discovery", "start": 1943, "end": 1943, "region": "США", "note": "Первый эффективный препарат против туберкулёза."},
-    {"id": "sub_bacteriophage", "label": "Бактериофаг", "kind": "concept", "start": 1915, "end": 2026, "region": "Глобально", "note": "Вирусы бактерий; фаговая терапия и модель для молекулярной биологии."},
-    {"id": "pt_delbruck", "label": "Макс Дельбрюк", "kind": "person", "start": 1906, "end": 1981, "region": "Германия / США", "note": "Фаговая группа; рождение молекулярной биологии."},
-    {"id": "pt_luria", "label": "Сальвадор Лурия", "kind": "person", "start": 1912, "end": 1991, "region": "Италия / США", "note": "Фаги; флуктуационный тест Лурии–Дельбрюка."},
-    {"id": "pt_hershey", "label": "Альфред Херши", "kind": "person", "start": 1908, "end": 1997, "region": "США", "note": "Эксперимент Херши–Чейз."},
-    {"id": "pt_stanley", "label": "Уэнделл Стэнли", "kind": "person", "start": 1904, "end": 1971, "region": "США", "note": "Кристаллизация вируса табачной мозаики (1935)."},
-    {"id": "pt_hershey_chase", "label": "Эксперимент Херши–Чейз", "kind": "discovery", "start": 1952, "end": 1952, "region": "США", "note": "Доказал, что ДНК — носитель наследственности."},
-    {"id": "pt_reverse_transcriptase", "label": "Обратная транскриптаза", "kind": "discovery", "start": 1970, "end": 1970, "region": "США", "note": "Фермент ретровирусов (Темин и Балтимор); РНК → ДНК."},
-    {"id": "sub_biostatistics", "label": "Биостатистика", "kind": "concept", "start": 1880, "end": 2026, "region": "Глобально", "note": "Статистические методы в биологии и медицине."},
-    {"id": "sub_epidemic_modeling", "label": "Эпидемиологическое моделирование", "kind": "concept", "start": 1927, "end": 2026, "region": "Глобально", "note": "Математические модели распространения болезней."},
-    {"id": "pt_galton", "label": "Фрэнсис Гальтон", "kind": "person", "start": 1822, "end": 1911, "region": "Англия", "note": "Биометрия; корреляция и регрессия; ввёл термин «евгеника»."},
-    {"id": "pt_pearson", "label": "Карл Пирсон", "kind": "person", "start": 1857, "end": 1936, "region": "Англия", "note": "Хи-квадрат, корреляция; школа биометрии."},
-    {"id": "pt_fisher", "label": "Рональд Фишер", "kind": "person", "start": 1890, "end": 1962, "region": "Англия", "note": "Популяционная генетика, дисперсионный анализ, рандомизация."},
-    {"id": "pt_wright", "label": "Сьюэлл Райт", "kind": "person", "start": 1889, "end": 1988, "region": "США", "note": "Популяционная генетика; коэффициент инбридинга."},
-    {"id": "pt_haldane", "label": "Дж. Б. С. Холдейн", "kind": "person", "start": 1892, "end": 1964, "region": "Англия / Индия", "note": "Популяционная генетика; «Причины эволюции»."},
-    {"id": "pt_ross", "label": "Рональд Росс", "kind": "person", "start": 1857, "end": 1932, "region": "Англия / Индия", "note": "Малярия; математическая модель передачи (Нобель 1902)."},
-    {"id": "pt_bradford_hill", "label": "Остин Брэдфорд Хилл", "kind": "person", "start": 1897, "end": 1991, "region": "Англия", "note": "Рандомизированные испытания; критерии причинности."},
-    {"id": "pt_hardy_weinberg", "label": "Закон Харди–Вайнберга", "kind": "concept", "start": 1908, "end": 1908, "region": "Англия / Германия", "note": "Равновесие частот аллелей в популяции."},
-    {"id": "pt_sir_model", "label": "SIR-модель (Кермак–МакКендрик)", "kind": "concept", "start": 1927, "end": 1927, "region": "Англия", "note": "Компартментальная модель: восприимчивые → инфицированные → выздоровевшие."},
-    {"id": "pt_lotka_volterra", "label": "Уравнения Лотки–Вольтерры", "kind": "concept", "start": 1925, "end": 1926, "region": "США / Италия", "note": "Модель динамики взаимодействующих популяций."},
-    {"id": "pt_thompson", "label": "Д'Арси Томпсон", "kind": "person", "start": 1860, "end": 1948, "region": "Шотландия", "note": "«О росте и форме» — математическая биология."}
+    {
+      "id": "pt_pirogov",
+      "label": "Николай Пирогов",
+      "kind": "person",
+      "start": 1810,
+      "end": 1881,
+      "region": "Россия",
+      "note": "Отец русской хирургии; эфирный наркоз в полевых условиях, топографическая анатомия, военно-полевая хирургия."
+    },
+    {
+      "id": "pt_botkin",
+      "label": "Сергей Боткин",
+      "kind": "person",
+      "start": 1832,
+      "end": 1889,
+      "region": "Россия",
+      "note": "Клиницист-терапевт; инфекционный гепатит (болезнь Боткина), клиническое преподавание."
+    },
+    {
+      "id": "pt_sechenov",
+      "label": "Иван Сеченов",
+      "kind": "person",
+      "start": 1829,
+      "end": 1905,
+      "region": "Россия",
+      "note": "Отец русской физиологии; центральное торможение нервной системы."
+    },
+    {
+      "id": "pt_pavlov",
+      "label": "Иван Павлов",
+      "kind": "person",
+      "start": 1849,
+      "end": 1936,
+      "region": "Россия / СССР",
+      "note": "Условные рефлексы, физиология пищеварения; Нобелевская премия (1904)."
+    },
+    {
+      "id": "pt_bekhterev",
+      "label": "Владимир Бехтерев",
+      "kind": "person",
+      "start": 1857,
+      "end": 1927,
+      "region": "Россия / СССР",
+      "note": "Неврология и психиатрия; анкилозирующий спондилит (болезнь Бехтерева)."
+    },
+    {
+      "id": "pt_korsakov",
+      "label": "Сергей Корсаков",
+      "kind": "person",
+      "start": 1854,
+      "end": 1900,
+      "region": "Россия",
+      "note": "Психиатрия; корсаковский (амнестический) синдром."
+    },
+    {
+      "id": "pt_sklifosovsky",
+      "label": "Николай Склифосовский",
+      "kind": "person",
+      "start": 1836,
+      "end": 1904,
+      "region": "Россия",
+      "note": "Хирургия; внедрение асептики и антисептики в России."
+    },
+    {
+      "id": "pt_filatov",
+      "label": "Владимир Филатов",
+      "kind": "person",
+      "start": 1875,
+      "end": 1956,
+      "region": "СССР",
+      "note": "Офтальмология; пересадка роговицы, тканевая терапия."
+    },
+    {
+      "id": "pt_yudin",
+      "label": "Сергей Юдин",
+      "kind": "person",
+      "start": 1891,
+      "end": 1954,
+      "region": "СССР",
+      "note": "Хирургия; переливание трупной крови, неотложная хирургия."
+    },
+    {
+      "id": "pt_burdenko",
+      "label": "Николай Бурденко",
+      "kind": "person",
+      "start": 1876,
+      "end": 1946,
+      "region": "СССР",
+      "note": "Нейрохирургия; военно-полевая хирургия."
+    },
+    {
+      "id": "pt_vishnevsky",
+      "label": "Александр Вишневский",
+      "kind": "person",
+      "start": 1874,
+      "end": 1948,
+      "region": "СССР",
+      "note": "Хирургия; местная анестезия (новокаиновая блокада), мазь Вишневского."
+    },
+    {
+      "id": "pt_ermolyeva",
+      "label": "Зинаида Ермольева",
+      "kind": "person",
+      "start": 1898,
+      "end": 1974,
+      "region": "СССР",
+      "note": "Микробиология; советский пенициллин (крустозин), борьба с холерой."
+    },
+    {
+      "id": "pt_gamaleya",
+      "label": "Николай Гамалея",
+      "kind": "person",
+      "start": 1859,
+      "end": 1949,
+      "region": "Россия / СССР",
+      "note": "Микробиология и эпидемиология; бешенство, чума."
+    },
+    {
+      "id": "pt_zilber",
+      "label": "Лев Зильбер",
+      "kind": "person",
+      "start": 1894,
+      "end": 1966,
+      "region": "СССР",
+      "note": "Вирусология; вирусо-генетическая теория происхождения рака."
+    },
+    {
+      "id": "pt_chumakov",
+      "label": "Михаил Чумаков",
+      "kind": "person",
+      "start": 1909,
+      "end": 1993,
+      "region": "СССР",
+      "note": "Вирусология; живая полиовакцина, массовая иммунизация."
+    },
+    {
+      "id": "pt_smorodintsev",
+      "label": "Анатолий Смородинцев",
+      "kind": "person",
+      "start": 1901,
+      "end": 1986,
+      "region": "СССР",
+      "note": "Вирусология; гриппозная вакцина, клещевой энцефалит."
+    },
+    {
+      "id": "pt_semashko",
+      "label": "Николай Семашко",
+      "kind": "person",
+      "start": 1874,
+      "end": 1949,
+      "region": "СССР",
+      "note": "Организатор здравоохранения; система Семашко, первый нарком здравоохранения."
+    },
+    {
+      "id": "pt_demikhov",
+      "label": "Владимир Демихов",
+      "kind": "person",
+      "start": 1916,
+      "end": 1998,
+      "region": "СССР",
+      "note": "Трансплантология; пересадка сердца и лёгких в эксперименте."
+    },
+    {
+      "id": "pt_ilizarov",
+      "label": "Гавриил Илизаров",
+      "kind": "person",
+      "start": 1921,
+      "end": 1992,
+      "region": "СССР",
+      "note": "Ортопедия; аппарат Илизарова, дистракционный остеогенез."
+    },
+    {
+      "id": "pt_amosov",
+      "label": "Николай Амосов",
+      "kind": "person",
+      "start": 1913,
+      "end": 2002,
+      "region": "СССР",
+      "note": "Кардиохирургия; аппарат искусственного кровообращения."
+    },
+    {
+      "id": "pt_bakulev",
+      "label": "Александр Бакулев",
+      "kind": "person",
+      "start": 1890,
+      "end": 1967,
+      "region": "СССР",
+      "note": "Сердечно-сосудистая хирургия; врождённые пороки сердца."
+    },
+    {
+      "id": "pt_kashchenko",
+      "label": "Пётр Кащенко",
+      "kind": "person",
+      "start": 1859,
+      "end": 1920,
+      "region": "Россия",
+      "note": "Психиатрия; организация психиатрической помощи."
+    },
+    {
+      "id": "pt_samoylovich",
+      "label": "Даниил Самойлович",
+      "kind": "person",
+      "start": 1744,
+      "end": 1805,
+      "region": "Россия",
+      "note": "Эпидемиология чумы; идея контактного пути передачи."
+    },
+    {
+      "id": "pt_erisman",
+      "label": "Фёдор Эрисман",
+      "kind": "person",
+      "start": 1842,
+      "end": 1915,
+      "region": "Россия",
+      "note": "Гигиена; социальная гигиена и санитарные нормы."
+    },
+    {
+      "id": "pt_sechenov_reflexes",
+      "label": "«Рефлексы головного мозга»",
+      "kind": "text",
+      "start": 1863,
+      "end": 1863,
+      "region": "Россия",
+      "note": "Манифест физиологической психологии; торможение как основа психики."
+    },
+    {
+      "id": "pt_pavlov_digestion",
+      "label": "«Лекции о работе главных пищеварительных желёз»",
+      "kind": "text",
+      "start": 1897,
+      "end": 1897,
+      "region": "Россия",
+      "note": "Нобелевская работа по физиологии пищеварения."
+    },
+    {
+      "id": "pt_pirogov_topo",
+      "label": "«Топографическая анатомия» (атлас распилов)",
+      "kind": "text",
+      "start": 1851,
+      "end": 1859,
+      "region": "Россия",
+      "note": "Послойная анатомия замороженных распилов."
+    },
+    {
+      "id": "pt_pirogov_field",
+      "label": "«Начала общей военно-полевой хирургии»",
+      "kind": "text",
+      "start": 1864,
+      "end": 1864,
+      "region": "Россия",
+      "note": "Сортировка раненых, эвакуация, гипсовая повязка."
+    },
+    {
+      "id": "pt_metchnikoff_immunity",
+      "label": "«Невосприимчивость в инфекционных болезнях»",
+      "kind": "text",
+      "start": 1901,
+      "end": 1901,
+      "region": "Россия / Франция",
+      "note": "Фагоцитарная теория иммунитета."
+    },
+    {
+      "id": "pt_botkin_course",
+      "label": "«Курс клиники внутренних болезней»",
+      "kind": "text",
+      "start": 1867,
+      "end": 1888,
+      "region": "Россия",
+      "note": "Клинические лекции Боткина."
+    },
+    {
+      "id": "pt_gray_anatomy",
+      "label": "«Анатомия Грея»",
+      "kind": "text",
+      "start": 1858,
+      "end": 1858,
+      "region": "Англия",
+      "note": "Канонический учебник анатомии (Генри Грей)."
+    },
+    {
+      "id": "pt_osler_principles",
+      "label": "«Принципы и практика медицины»",
+      "kind": "text",
+      "start": 1892,
+      "end": 1892,
+      "region": "Англия / США",
+      "note": "Канонический учебник внутренней медицины (Ослер)."
+    },
+    {
+      "id": "pt_harrison_principles",
+      "label": "«Принципы внутренней медицины» (Харрисон)",
+      "kind": "text",
+      "start": 1950,
+      "end": 1950,
+      "region": "США",
+      "note": "Современный канонический учебник."
+    },
+    {
+      "id": "sub_conditional_reflex",
+      "label": "Условный рефлекс",
+      "kind": "concept",
+      "start": 1903,
+      "end": 2026,
+      "region": "Россия / СССР",
+      "note": "Павлов; обучение как формирование временных связей."
+    },
+    {
+      "id": "sub_field_surgery",
+      "label": "Военно-полевая хирургия",
+      "kind": "practice",
+      "start": 1855,
+      "end": 2026,
+      "region": "Россия",
+      "note": "Пирогов; сортировка, эвакуация, этапное лечение."
+    },
+    {
+      "id": "sub_blood_transfusion",
+      "label": "Переливание крови",
+      "kind": "practice",
+      "start": 1901,
+      "end": 2026,
+      "region": "Глобально",
+      "note": "Группы крови Ландштейнера; трупная кровь Юдина."
+    },
+    {
+      "id": "sub_semashko_system",
+      "label": "Система Семашко",
+      "kind": "context",
+      "start": 1918,
+      "end": 1991,
+      "region": "СССР",
+      "note": "Централизованное государственное здравоохранение."
+    },
+    {
+      "id": "sub_viral_oncogenesis",
+      "label": "Вирусная теория рака",
+      "kind": "concept",
+      "start": 1945,
+      "end": 2026,
+      "region": "СССР",
+      "note": "Зильбер; вирусы как фактор канцерогенеза."
+    },
+    {
+      "id": "sub_psychiatry",
+      "label": "Психиатрия",
+      "kind": "concept",
+      "start": 1800,
+      "end": 2026,
+      "region": "Глобально",
+      "note": "От изоляции к клинической и биологической психиатрии."
+    },
+    {
+      "id": "sub_antibiotics",
+      "label": "Антибиотики",
+      "kind": "concept",
+      "start": 1928,
+      "end": 2026,
+      "region": "Глобально",
+      "note": "Вещества микробного происхождения, подавляющие бактерии; от пенициллина к резистентности."
+    },
+    {
+      "id": "pt_waksman",
+      "label": "Сельман Ваксман",
+      "kind": "person",
+      "start": 1888,
+      "end": 1973,
+      "region": "Российская империя / США",
+      "note": "Термин «антибиотик»; стрептомицин из почвенных актиномицетов; Нобель 1952."
+    },
+    {
+      "id": "pt_dherelle",
+      "label": "Феликс д'Эрелль",
+      "kind": "person",
+      "start": 1873,
+      "end": 1949,
+      "region": "Канада / Франция",
+      "note": "Открыл бактериофаги; фаговая терапия."
+    },
+    {
+      "id": "pt_dubos",
+      "label": "Рене Дюбо",
+      "kind": "person",
+      "start": 1901,
+      "end": 1982,
+      "region": "Франция / США",
+      "note": "Грамицидин; антибиотики из почвенных бактерий."
+    },
+    {
+      "id": "pt_streptomycin",
+      "label": "Стрептомицин",
+      "kind": "discovery",
+      "start": 1943,
+      "end": 1943,
+      "region": "США",
+      "note": "Первый эффективный препарат против туберкулёза."
+    },
+    {
+      "id": "sub_bacteriophage",
+      "label": "Бактериофаг",
+      "kind": "concept",
+      "start": 1915,
+      "end": 2026,
+      "region": "Глобально",
+      "note": "Вирусы бактерий; фаговая терапия и модель для молекулярной биологии."
+    },
+    {
+      "id": "pt_delbruck",
+      "label": "Макс Дельбрюк",
+      "kind": "person",
+      "start": 1906,
+      "end": 1981,
+      "region": "Германия / США",
+      "note": "Фаговая группа; рождение молекулярной биологии."
+    },
+    {
+      "id": "pt_luria",
+      "label": "Сальвадор Лурия",
+      "kind": "person",
+      "start": 1912,
+      "end": 1991,
+      "region": "Италия / США",
+      "note": "Фаги; флуктуационный тест Лурии–Дельбрюка."
+    },
+    {
+      "id": "pt_hershey",
+      "label": "Альфред Херши",
+      "kind": "person",
+      "start": 1908,
+      "end": 1997,
+      "region": "США",
+      "note": "Эксперимент Херши–Чейз."
+    },
+    {
+      "id": "pt_stanley",
+      "label": "Уэнделл Стэнли",
+      "kind": "person",
+      "start": 1904,
+      "end": 1971,
+      "region": "США",
+      "note": "Кристаллизация вируса табачной мозаики (1935)."
+    },
+    {
+      "id": "pt_hershey_chase",
+      "label": "Эксперимент Херши–Чейз",
+      "kind": "discovery",
+      "start": 1952,
+      "end": 1952,
+      "region": "США",
+      "note": "Доказал, что ДНК — носитель наследственности."
+    },
+    {
+      "id": "pt_reverse_transcriptase",
+      "label": "Обратная транскриптаза",
+      "kind": "discovery",
+      "start": 1970,
+      "end": 1970,
+      "region": "США",
+      "note": "Фермент ретровирусов (Темин и Балтимор); РНК → ДНК."
+    },
+    {
+      "id": "sub_biostatistics",
+      "label": "Биостатистика",
+      "kind": "concept",
+      "start": 1880,
+      "end": 2026,
+      "region": "Глобально",
+      "note": "Статистические методы в биологии и медицине."
+    },
+    {
+      "id": "sub_epidemic_modeling",
+      "label": "Эпидемиологическое моделирование",
+      "kind": "concept",
+      "start": 1927,
+      "end": 2026,
+      "region": "Глобально",
+      "note": "Математические модели распространения болезней."
+    },
+    {
+      "id": "pt_galton",
+      "label": "Фрэнсис Гальтон",
+      "kind": "person",
+      "start": 1822,
+      "end": 1911,
+      "region": "Англия",
+      "note": "Биометрия; корреляция и регрессия; ввёл термин «евгеника»."
+    },
+    {
+      "id": "pt_pearson",
+      "label": "Карл Пирсон",
+      "kind": "person",
+      "start": 1857,
+      "end": 1936,
+      "region": "Англия",
+      "note": "Хи-квадрат, корреляция; школа биометрии."
+    },
+    {
+      "id": "pt_fisher",
+      "label": "Рональд Фишер",
+      "kind": "person",
+      "start": 1890,
+      "end": 1962,
+      "region": "Англия",
+      "note": "Популяционная генетика, дисперсионный анализ, рандомизация."
+    },
+    {
+      "id": "pt_wright",
+      "label": "Сьюэлл Райт",
+      "kind": "person",
+      "start": 1889,
+      "end": 1988,
+      "region": "США",
+      "note": "Популяционная генетика; коэффициент инбридинга."
+    },
+    {
+      "id": "pt_haldane",
+      "label": "Дж. Б. С. Холдейн",
+      "kind": "person",
+      "start": 1892,
+      "end": 1964,
+      "region": "Англия / Индия",
+      "note": "Популяционная генетика; «Причины эволюции»."
+    },
+    {
+      "id": "pt_ross",
+      "label": "Рональд Росс",
+      "kind": "person",
+      "start": 1857,
+      "end": 1932,
+      "region": "Англия / Индия",
+      "note": "Малярия; математическая модель передачи (Нобель 1902)."
+    },
+    {
+      "id": "pt_bradford_hill",
+      "label": "Остин Брэдфорд Хилл",
+      "kind": "person",
+      "start": 1897,
+      "end": 1991,
+      "region": "Англия",
+      "note": "Рандомизированные испытания; критерии причинности."
+    },
+    {
+      "id": "pt_hardy_weinberg",
+      "label": "Закон Харди–Вайнберга",
+      "kind": "concept",
+      "start": 1908,
+      "end": 1908,
+      "region": "Англия / Германия",
+      "note": "Равновесие частот аллелей в популяции."
+    },
+    {
+      "id": "pt_sir_model",
+      "label": "SIR-модель (Кермак–МакКендрик)",
+      "kind": "concept",
+      "start": 1927,
+      "end": 1927,
+      "region": "Англия",
+      "note": "Компартментальная модель: восприимчивые → инфицированные → выздоровевшие."
+    },
+    {
+      "id": "pt_lotka_volterra",
+      "label": "Уравнения Лотки–Вольтерры",
+      "kind": "concept",
+      "start": 1925,
+      "end": 1926,
+      "region": "США / Италия",
+      "note": "Модель динамики взаимодействующих популяций."
+    },
+    {
+      "id": "pt_thompson",
+      "label": "Д'Арси Томпсон",
+      "kind": "person",
+      "start": 1860,
+      "end": 1948,
+      "region": "Шотландия",
+      "note": "«О росте и форме» — математическая биология."
+    }
   ],
   "edges": [
-    {"source": "pt_sechenov", "target": "pt_sechenov_reflexes", "relation": "AUTHORED", "label": "Манифест физиологической психологии."},
-    {"source": "pt_pavlov", "target": "pt_pavlov_digestion", "relation": "AUTHORED", "label": "Лекции о пищеварении."},
-    {"source": "pt_pirogov", "target": "pt_pirogov_topo", "relation": "AUTHORED", "label": "Атлас топографической анатомии."},
-    {"source": "pt_pirogov", "target": "pt_pirogov_field", "relation": "AUTHORED", "label": "Военно-полевая хирургия."},
-    {"source": "pt_metchnikoff", "target": "pt_metchnikoff_immunity", "relation": "AUTHORED", "label": "Фагоцитарная теория иммунитета."},
-    {"source": "pt_botkin", "target": "pt_botkin_course", "relation": "AUTHORED", "label": "Клинические лекции."},
-    {"source": "pt_osler", "target": "pt_osler_principles", "relation": "AUTHORED", "label": "Учебник внутренней медицины."},
-
-    {"source": "sub_physiology", "target": "pt_sechenov", "relation": "DEVELOPED_BY", "label": "Физиология нервной системы."},
-    {"source": "sub_physiology", "target": "pt_pavlov", "relation": "DEVELOPED_BY", "label": "Физиология пищеварения и ВНД."},
-    {"source": "sub_neuro", "target": "pt_bekhterev", "relation": "DEVELOPED_BY", "label": "Неврология и психиатрия."},
-    {"source": "sub_neuro", "target": "pt_pavlov", "relation": "DEVELOPED_BY", "label": "Высшая нервная деятельность."},
-    {"source": "sub_surgery", "target": "pt_pirogov", "relation": "DEVELOPED_BY", "label": "Военно-полевая и топографическая хирургия."},
-    {"source": "sub_surgery", "target": "pt_sklifosovsky", "relation": "DEVELOPED_BY", "label": "Асептика и антисептика."},
-    {"source": "sub_surgery", "target": "pt_ilizarov", "relation": "DEVELOPED_BY", "label": "Ортопедия."},
-    {"source": "sub_surgery", "target": "pt_vishnevsky", "relation": "DEVELOPED_BY", "label": "Местная анестезия."},
-    {"source": "sub_microbio", "target": "pt_ermolyeva", "relation": "DEVELOPED_BY", "label": "Советский пенициллин."},
-    {"source": "sub_microbio", "target": "pt_gamaleya", "relation": "DEVELOPED_BY", "label": "Микробиология и эпидемиология."},
-    {"source": "sub_virology", "target": "pt_zilber", "relation": "DEVELOPED_BY", "label": "Вирусология."},
-    {"source": "sub_virology", "target": "pt_chumakov", "relation": "DEVELOPED_BY", "label": "Полиовакцина."},
-    {"source": "sub_virology", "target": "pt_smorodintsev", "relation": "DEVELOPED_BY", "label": "Гриппозная вакцина."},
-    {"source": "sub_transplant", "target": "pt_demikhov", "relation": "DEVELOPED_BY", "label": "Экспериментальная трансплантация."},
-    {"source": "sub_cardio", "target": "pt_amosov", "relation": "DEVELOPED_BY", "label": "Кардиохирургия."},
-    {"source": "sub_cardio", "target": "pt_bakulev", "relation": "DEVELOPED_BY", "label": "Сердечно-сосудистая хирургия."},
-    {"source": "sub_psychiatry", "target": "pt_bekhterev", "relation": "DEVELOPED_BY", "label": "Неврология и психиатрия."},
-    {"source": "sub_psychiatry", "target": "pt_korsakov", "relation": "DEVELOPED_BY", "label": "Амнестический синдром."},
-    {"source": "sub_psychiatry", "target": "pt_kashchenko", "relation": "DEVELOPED_BY", "label": "Организация помощи."},
-    {"source": "sub_epidemiology", "target": "pt_samoylovich", "relation": "DEVELOPED_BY", "label": "Эпидемиология чумы."},
-    {"source": "sub_socialmedicine", "target": "pt_erisman", "relation": "DEVELOPED_BY", "label": "Социальная гигиена."},
-    {"source": "sub_socialmedicine", "target": "pt_semashko", "relation": "DEVELOPED_BY", "label": "Государственное здравоохранение."},
-    {"source": "sub_conditional_reflex", "target": "pt_pavlov", "relation": "DEVELOPED_BY", "label": "Условные рефлексы."},
-    {"source": "sub_field_surgery", "target": "pt_pirogov", "relation": "DEVELOPED_BY", "label": "Сортировка и эвакуация."},
-    {"source": "sub_field_surgery", "target": "pt_burdenko", "relation": "DEVELOPED_BY", "label": "Военно-полевая нейрохирургия."},
-    {"source": "sub_blood_transfusion", "target": "pt_landsteiner", "relation": "DEVELOPED_BY", "label": "Группы крови."},
-    {"source": "sub_blood_transfusion", "target": "pt_yudin", "relation": "DEVELOPED_BY", "label": "Трупная кровь."},
-    {"source": "sub_semashko_system", "target": "pt_semashko", "relation": "DEVELOPED_BY", "label": "Централизованное здравоохранение."},
-    {"source": "sub_viral_oncogenesis", "target": "pt_zilber", "relation": "DEVELOPED_BY", "label": "Вирусо-генетическая теория рака."},
-
-    {"source": "pt_pavlov", "target": "sub_conditional_reflex", "relation": "DISCOVERED", "label": "Условный рефлекс (1903)."},
-
-    {"source": "pt_chumakov", "target": "dis_polio", "relation": "VACCINE_FOR", "label": "Живая полиовакцина."},
-    {"source": "pt_smorodintsev", "target": "dis_influenza", "relation": "VACCINE_FOR", "label": "Гриппозная вакцина."},
-    {"source": "pt_ermolyeva", "target": "dis_cholera", "relation": "TREATS", "label": "Бактериофаг против холеры."},
-    {"source": "pt_ermolyeva", "target": "pt_penicillin", "relation": "DEVELOPED_BY", "label": "Независимое получение пенициллина (крустозин)."},
-
-    {"source": "pt_sechenov", "target": "pt_pavlov", "relation": "INFLUENCED", "label": "Сеченов повлиял на Павлова."},
-    {"source": "pt_botkin", "target": "pt_pavlov", "relation": "MENTORED", "label": "Павлов работал в лаборатории Боткина."},
-    {"source": "pt_pasteur", "target": "pt_gamaleya", "relation": "MENTORED", "label": "Гамалея учился у Пастера."},
-    {"source": "pt_pirogov", "target": "pt_burdenko", "relation": "INFLUENCED", "label": "Пирогов — образец для военных хирургов."},
-    {"source": "pt_metchnikoff", "target": "pt_zilber", "relation": "INFLUENCED", "label": "Зильбер — продолжатель школы Мечникова."},
-
-    {"source": "sub_psychiatry", "target": "pt_antipsych", "relation": "USES", "label": "Психиатрия использует антипсихотики."},
-
-    {"source": "era_coldwar", "target": "pt_ermolyeva", "relation": "CONTEXT_FOR", "label": "Советская микробиология."},
-    {"source": "era_coldwar", "target": "pt_chumakov", "relation": "CONTEXT_FOR", "label": "Советская вирусология."},
-    {"source": "era_coldwar", "target": "pt_smorodintsev", "relation": "CONTEXT_FOR", "label": "Советская вирусология."},
-    {"source": "era_coldwar", "target": "pt_demikhov", "relation": "CONTEXT_FOR", "label": "Советская трансплантология."},
-    {"source": "era_coldwar", "target": "pt_amosov", "relation": "CONTEXT_FOR", "label": "Советская кардиохирургия."},
-    {"source": "era_coldwar", "target": "pt_semashko", "relation": "CONTEXT_FOR", "label": "Советское здравоохранение."},
-    {"source": "era_coldwar", "target": "pt_zilber", "relation": "CONTEXT_FOR", "label": "Советская вирусология."},
-    {"source": "era_victorian", "target": "pt_botkin", "relation": "CONTEXT_FOR", "label": "Российская клиническая школа."},
-    {"source": "era_victorian", "target": "pt_sechenov", "relation": "CONTEXT_FOR", "label": "Российская физиология."},
-    {"source": "era_interwar", "target": "pt_pavlov", "relation": "CONTEXT_FOR", "label": "Советская физиология."},
-    {"source": "era_interwar", "target": "pt_burdenko", "relation": "CONTEXT_FOR", "label": "Советская нейрохирургия."},
-    {"source": "sub_antibiotics", "target": "pt_fleming", "relation": "DEVELOPED_BY", "label": "Пенициллин."},
-    {"source": "sub_antibiotics", "target": "pt_waksman", "relation": "DEVELOPED_BY", "label": "Стрептомицин."},
-    {"source": "sub_antibiotics", "target": "pt_dubos", "relation": "DEVELOPED_BY", "label": "Грамицидин."},
-    {"source": "sub_antibiotics", "target": "pt_domagk", "relation": "DEVELOPED_BY", "label": "Сульфаниламиды."},
-    {"source": "sub_antibiotics", "target": "pt_ermolyeva", "relation": "DEVELOPED_BY", "label": "Советский пенициллин."},
-    {"source": "pt_waksman", "target": "pt_streptomycin", "relation": "DISCOVERED", "label": "Стрептомицин (1943)."},
-    {"source": "pt_streptomycin", "target": "dis_tb", "relation": "TREATS", "label": "Первый препарат против туберкулёза."},
-    {"source": "pt_amr", "target": "sub_antibiotics", "relation": "DERIVED_FROM", "label": "Резистентность — следствие антибиотиков."},
-    {"source": "sub_antibiotics", "target": "sub_microbio", "relation": "DERIVED_FROM", "label": "Антибиотики — продукты микробов."},
-    {"source": "pt_waksman", "target": "pt_koch", "relation": "INFLUENCED", "label": "Почвенная микробиология — продолжение Коха."},
-    {"source": "pt_dherelle", "target": "sub_bacteriophage", "relation": "DISCOVERED", "label": "Бактериофаг (1917)."},
-    {"source": "sub_bacteriophage", "target": "pt_ermolyeva", "relation": "APPLIED_BY", "label": "Фаготерапия в СССР."},
-    {"source": "sub_bacteriophage", "target": "pt_crispr", "relation": "SOURCE_FOR", "label": "Защита бактерий от фагов → CRISPR."},
-    {"source": "sub_bacteriophage", "target": "sub_virology", "relation": "UNDERPINS", "label": "Фаги — модель вирусологии."},
-    {"source": "sub_bacteriophage", "target": "sub_genetics", "relation": "UNDERPINS", "label": "Фаги — модель генетики."},
-    {"source": "sub_virology", "target": "pt_delbruck", "relation": "DEVELOPED_BY", "label": "Фаги как модель вирусов."},
-    {"source": "sub_virology", "target": "pt_luria", "relation": "DEVELOPED_BY", "label": "Флуктуационный тест."},
-    {"source": "sub_virology", "target": "pt_stanley", "relation": "DEVELOPED_BY", "label": "Кристаллизация вируса."},
-    {"source": "sub_genetics", "target": "pt_delbruck", "relation": "DEVELOPED_BY", "label": "Фаговая генетика."},
-    {"source": "pt_hershey", "target": "pt_hershey_chase", "relation": "DISCOVERED", "label": "Эксперимент Херши–Чейз (1952)."},
-    {"source": "pt_hershey_chase", "target": "pt_dna_helix", "relation": "CONTRIBUTED_TO", "label": "ДНК — носитель наследственности."},
-    {"source": "pt_hershey_chase", "target": "sub_genetics", "relation": "UNDERPINS", "label": "Молекулярная генетика."},
-    {"source": "pt_stanley", "target": "pt_ivanovsky", "relation": "INFLUENCED", "label": "Продолжил изучение вируса табачной мозаики."},
-    {"source": "pt_reverse_transcriptase", "target": "sub_viral_oncogenesis", "relation": "UNDERPINS", "label": "Ретровирусы и рак."},
-    {"source": "sub_biostatistics", "target": "pt_galton", "relation": "DEVELOPED_BY", "label": "Корреляция и регрессия."},
-    {"source": "sub_biostatistics", "target": "pt_pearson", "relation": "DEVELOPED_BY", "label": "Хи-квадрат."},
-    {"source": "sub_biostatistics", "target": "pt_fisher", "relation": "DEVELOPED_BY", "label": "Дисперсионный анализ."},
-    {"source": "pt_galton", "target": "pt_pearson", "relation": "MENTORED", "label": "Пирсон — ученик Гальтона."},
-    {"source": "pt_eugenics", "target": "pt_galton", "relation": "ESTABLISHED_BY", "label": "Гальтон ввёл термин «евгеника»."},
-    {"source": "sub_rct", "target": "pt_fisher", "relation": "DEVELOPED_BY", "label": "Рандомизация и планирование."},
-    {"source": "sub_rct", "target": "pt_bradford_hill", "relation": "DEVELOPED_BY", "label": "РКИ стрептомицина (1948)."},
-    {"source": "sub_ebm", "target": "pt_fisher", "relation": "DEVELOPED_BY", "label": "Статистическая основа EBM."},
-    {"source": "sub_ebm", "target": "pt_bradford_hill", "relation": "DEVELOPED_BY", "label": "Критерии причинности."},
-    {"source": "inst_mrc", "target": "pt_bradford_hill", "relation": "HOSTS", "label": "Брэдфорд Хилл работал в MRC."},
-    {"source": "sub_genetics", "target": "pt_wright", "relation": "DEVELOPED_BY", "label": "Популяционная генетика."},
-    {"source": "sub_genetics", "target": "pt_haldane", "relation": "DEVELOPED_BY", "label": "Популяционная генетика."},
-    {"source": "sub_genetics", "target": "pt_fisher", "relation": "DEVELOPED_BY", "label": "Популяционная генетика."},
-    {"source": "pt_hardy_weinberg", "target": "pt_mendel", "relation": "EXTENDED_TO", "label": "Законы Менделя на уровне популяции."},
-    {"source": "pt_fisher", "target": "pt_mendel", "relation": "INFLUENCED", "label": "Совместил менделизм с биометрией."},
-    {"source": "sub_epidemic_modeling", "target": "pt_ross", "relation": "DEVELOPED_BY", "label": "Первая математическая модель передачи."},
-    {"source": "pt_ross", "target": "dis_malaria", "relation": "TRACED", "label": "Передача малярии через комара."},
-    {"source": "sub_epidemic_modeling", "target": "sub_epidemiology", "relation": "UNDERPINS", "label": "Математическая основа эпидемиологии."},
-    {"source": "pt_sir_model", "target": "sub_epidemic_modeling", "relation": "FOUNDATION_OF", "label": "Компартментальные модели."},
-    {"source": "sub_epidemic_modeling", "target": "dis_influenza", "relation": "DESCRIBES", "label": "Модель пандемий гриппа."},
-    {"source": "pt_lotka_volterra", "target": "sub_systems_bio", "relation": "FOUNDATION_OF", "label": "Динамика популяций."},
-    {"source": "pt_thompson", "target": "sub_systems_bio", "relation": "INFLUENCED", "label": "Математическая морфология."},
-    {"source": "era_coldwar", "target": "pt_deinstitution", "relation": "CONTEXT_FOR", "label": "Деинституционализация психиатрии."},
-    {"source": "pt_antipsych", "target": "pt_deinstitution", "relation": "ENABLED", "label": "Антипсихотики позволили закрыть лечебницы."},
-    {"source": "dis_leprosy", "target": "era_mediev_eur", "relation": "EPIDEMIC_IN", "label": "Проказа в средневековой Европе."},
-    {"source": "dis_leprosy", "target": "sub_microbio", "relation": "SPECIFIED_BY", "label": "Возбудитель Mycobacterium leprae."},
-    {"source": "era_victorian", "target": "inst_bernard_lab", "relation": "CONTEXT_FOR", "label": "Экспериментальная физиология."},
-    {"source": "inst_bernard_lab", "target": "pt_bernard", "relation": "HOSTS", "label": "Лаборатория Клода Бернара."},
-    {"source": "era_greece_class", "target": "inst_cnidus", "relation": "CONTEXT_FOR", "label": "Классическая Греция."},
-    {"source": "inst_cnidus", "target": "pt_hippocrates", "relation": "TENSION_WITH", "label": "Соперница косской школы."},
-    {"source": "era_greece_arch", "target": "inst_crotona", "relation": "CONTEXT_FOR", "label": "Архаическая Греция."},
-    {"source": "inst_crotona", "target": "sub_humoral_balance", "relation": "FOUNDATION_OF", "label": "Здоровье как гармония противоположностей."},
-    {"source": "era_mediev_eur", "target": "inst_hosp_rome", "relation": "CONTEXT_FOR", "label": "Средневековый госпиталь."},
-    {"source": "inst_hosp_rome", "target": "sub_socialmedicine", "relation": "FOUNDATION_OF", "label": "Госпиталь как институт социальной медицины."},
-    {"source": "era_mediev_eur", "target": "inst_montpellier", "relation": "CONTEXT_FOR", "label": "Средневековая Европа."},
-    {"source": "inst_montpellier", "target": "sub_anatomoclin", "relation": "FOUNDATION_OF", "label": "Клиническая традиция Монпелье."},
-    {"source": "era_islam_gold", "target": "pt_al_majusi", "relation": "CONTEXT_FOR", "label": "Исламский Золотой век."},
-    {"source": "sub_pharmacology", "target": "pt_al_majusi", "relation": "DEVELOPED_BY", "label": "«Камиль ас-сынаа»."},
-    {"source": "era_coldwar", "target": "pt_beadle", "relation": "CONTEXT_FOR", "label": "Биохимическая генетика."},
-    {"source": "sub_genetics", "target": "pt_beadle", "relation": "DEVELOPED_BY", "label": "Один ген — один фермент."},
-    {"source": "era_industrial", "target": "pt_billroth", "relation": "CONTEXT_FOR", "label": "Хирургия XIX века."},
-    {"source": "sub_surgery", "target": "pt_billroth", "relation": "DEVELOPED_BY", "label": "Абдоминальная хирургия."},
-    {"source": "era_info", "target": "pt_chen", "relation": "CONTEXT_FOR", "label": "Молекулярная физиология."},
-    {"source": "sub_neuro", "target": "pt_chen", "relation": "DEVELOPED_BY", "label": "Ионные каналы."},
-    {"source": "era_interwar", "target": "pt_cushing", "relation": "CONTEXT_FOR", "label": "Нейрохирургия."},
-    {"source": "sub_neuro", "target": "pt_cushing", "relation": "DEVELOPED_BY", "label": "Нейрохирургия."},
-    {"source": "era_interwar", "target": "pt_dale", "relation": "CONTEXT_FOR", "label": "Нейрохимия."},
-    {"source": "sub_neuro", "target": "pt_dale", "relation": "DEVELOPED_BY", "label": "Нейромедиаторы."},
-    {"source": "era_coldwar", "target": "pt_eccles", "relation": "CONTEXT_FOR", "label": "Нейрофизиология."},
-    {"source": "sub_neuro", "target": "pt_eccles", "relation": "DEVELOPED_BY", "label": "Синаптическая передача."},
-    {"source": "era_interwar", "target": "pt_filatov", "relation": "CONTEXT_FOR", "label": "Советская офтальмология."},
-    {"source": "sub_transplant", "target": "pt_filatov", "relation": "DEVELOPED_BY", "label": "Пересадка роговицы."},
-    {"source": "era_coldwar", "target": "pt_gross", "relation": "CONTEXT_FOR", "label": "Детская кардиохирургия."},
-    {"source": "sub_cardio", "target": "pt_gross", "relation": "DEVELOPED_BY", "label": "Детская кардиохирургия."},
-    {"source": "era_mediev_eur", "target": "pt_guy_de_chauliac", "relation": "CONTEXT_FOR", "label": "Средневековая хирургия."},
-    {"source": "sub_surgery", "target": "pt_guy_de_chauliac", "relation": "DEVELOPED_BY", "label": "«Великая хирургия»."},
-    {"source": "era_info", "target": "pt_hille", "relation": "CONTEXT_FOR", "label": "Молекулярная нейрофизиология."},
-    {"source": "sub_neuro", "target": "pt_hille", "relation": "DEVELOPED_BY", "label": "Ионные каналы."},
-    {"source": "era_coldwar", "target": "pt_hubel", "relation": "CONTEXT_FOR", "label": "Нейрофизиология зрения."},
-    {"source": "sub_neuro", "target": "pt_hubel", "relation": "DEVELOPED_BY", "label": "Зрительная кора."},
-    {"source": "era_islam_gold", "target": "pt_ibn_zuhr", "relation": "CONTEXT_FOR", "label": "Исламский Золотой век."},
-    {"source": "sub_anatomy", "target": "pt_ibn_zuhr", "relation": "DEVELOPED_BY", "label": "Экспериментальная паразитология."},
-    {"source": "era_egypt", "target": "pt_imeshotep", "relation": "CONTEXT_FOR", "label": "Древний Египет."},
-    {"source": "sub_surgery", "target": "pt_imeshotep", "relation": "DEVELOPED_BY", "label": "Ранняя египетская медицина."},
-    {"source": "era_victorian", "target": "pt_kitasato", "relation": "CONTEXT_FOR", "label": "Бактериология."},
-    {"source": "sub_microbio", "target": "pt_kitasato", "relation": "DEVELOPED_BY", "label": "Чистая культура столбняка."},
-    {"source": "era_coldwar", "target": "pt_kolff", "relation": "CONTEXT_FOR", "label": "Искусственные органы."},
-    {"source": "sub_transplant", "target": "pt_kolff", "relation": "DEVELOPED_BY", "label": "Искусственные органы."},
-    {"source": "pt_kolff", "target": "pt_dialysis", "relation": "DISCOVERED", "label": "Искусственная почка."},
-    {"source": "era_coldwar", "target": "pt_kurland", "relation": "CONTEXT_FOR", "label": "Психофармакология."},
-    {"source": "sub_psychiatry", "target": "pt_kurland", "relation": "DEVELOPED_BY", "label": "Испытания хлорпромазина."},
-    {"source": "era_interwar", "target": "pt_loewi", "relation": "CONTEXT_FOR", "label": "Нейрохимия."},
-    {"source": "sub_neuro", "target": "pt_loewi", "relation": "DEVELOPED_BY", "label": "Химическая передача импульса."},
-    {"source": "era_info", "target": "pt_mackinnon", "relation": "CONTEXT_FOR", "label": "Структурная биология."},
-    {"source": "sub_neuro", "target": "pt_mackinnon", "relation": "DEVELOPED_BY", "label": "Структура ионного канала."},
-    {"source": "era_mediev_eur", "target": "pt_mondino", "relation": "CONTEXT_FOR", "label": "Средневековая анатомия."},
-    {"source": "sub_anatomy", "target": "pt_mondino", "relation": "DEVELOPED_BY", "label": "Публичное вскрытие."},
-    {"source": "era_interwar", "target": "pt_moniz", "relation": "CONTEXT_FOR", "label": "Психохирургия."},
-    {"source": "sub_neuro", "target": "pt_moniz", "relation": "DEVELOPED_BY", "label": "Церебральная ангиография."},
-    {"source": "pt_moniz", "target": "pt_lobotomy", "relation": "DISCOVERED", "label": "Лоботомия."},
-    {"source": "era_enlight", "target": "pt_montagu", "relation": "CONTEXT_FOR", "label": "Вариоляция в Европе."},
-    {"source": "sub_variolation", "target": "pt_montagu", "relation": "DEVELOPED_BY", "label": "Вариоляция в Англии."},
-    {"source": "era_coldwar", "target": "pt_mountcastle", "relation": "CONTEXT_FOR", "label": "Нейрофизиология."},
-    {"source": "sub_neuro", "target": "pt_mountcastle", "relation": "DEVELOPED_BY", "label": "Колончатая организация коры."},
-    {"source": "era_info", "target": "pt_neher", "relation": "CONTEXT_FOR", "label": "Биофизика."},
-    {"source": "sub_neuro", "target": "pt_neher", "relation": "DEVELOPED_BY", "label": "Патч-клэмп."},
-    {"source": "era_interwar", "target": "pt_penfield", "relation": "CONTEXT_FOR", "label": "Нейрохирургия."},
-    {"source": "sub_neuro", "target": "pt_penfield", "relation": "DEVELOPED_BY", "label": "Карта функций коры."},
-    {"source": "era_industrial", "target": "pt_remark", "relation": "CONTEXT_FOR", "label": "Клеточная теория."},
-    {"source": "sub_cellpath", "target": "pt_remark", "relation": "DEVELOPED_BY", "label": "Деление клеток."},
-    {"source": "era_mediev_eur", "target": "pt_roger_bacon", "relation": "CONTEXT_FOR", "label": "Средневековая наука."},
-    {"source": "sub_expmed", "target": "pt_roger_bacon", "relation": "DEVELOPED_BY", "label": "Экспериментальный метод."},
-    {"source": "era_info", "target": "pt_sakmann", "relation": "CONTEXT_FOR", "label": "Биофизика."},
-    {"source": "sub_neuro", "target": "pt_sakmann", "relation": "DEVELOPED_BY", "label": "Патч-клэмп."},
-    {"source": "era_wwi", "target": "pt_sauerbruch", "relation": "CONTEXT_FOR", "label": "Торакальная хирургия."},
-    {"source": "sub_surgery", "target": "pt_sauerbruch", "relation": "DEVELOPED_BY", "label": "Торакальная хирургия."},
-    {"source": "era_victorian", "target": "pt_schleiden", "relation": "CONTEXT_FOR", "label": "Клеточная теория."},
-    {"source": "sub_cellpath", "target": "pt_schleiden", "relation": "DEVELOPED_BY", "label": "Клеточная теория, растения."},
-    {"source": "era_victorian", "target": "pt_schwann", "relation": "CONTEXT_FOR", "label": "Клеточная теория."},
-    {"source": "sub_cellpath", "target": "pt_schwann", "relation": "DEVELOPED_BY", "label": "Клеточная теория, животные."},
-    {"source": "era_coldwar", "target": "pt_skou", "relation": "CONTEXT_FOR", "label": "Мембранная физиология."},
-    {"source": "sub_physiology", "target": "pt_skou", "relation": "DEVELOPED_BY", "label": "Натрий-калиевая АТФаза."},
-    {"source": "era_coldwar", "target": "pt_spivak", "relation": "CONTEXT_FOR", "label": "Нейрофизиология боли."},
-    {"source": "sub_neuro", "target": "pt_spivak", "relation": "DEVELOPED_BY", "label": "Болевые пути."},
-    {"source": "era_coldwar", "target": "pt_tatum", "relation": "CONTEXT_FOR", "label": "Биохимическая генетика."},
-    {"source": "sub_genetics", "target": "pt_tatum", "relation": "DEVELOPED_BY", "label": "Один ген — один фермент."},
-    {"source": "era_coldwar", "target": "pt_wiesel", "relation": "CONTEXT_FOR", "label": "Нейрофизиология зрения."},
-    {"source": "sub_neuro", "target": "pt_wiesel", "relation": "DEVELOPED_BY", "label": "Зрительная кора."},
-    {"source": "era_info", "target": "pt_yellen", "relation": "CONTEXT_FOR", "label": "Биофизика."},
-    {"source": "sub_neuro", "target": "pt_yellen", "relation": "DEVELOPED_BY", "label": "Ионные каналы."},
-    {"source": "era_info", "target": "pt_zhang", "relation": "CONTEXT_FOR", "label": "Структурная биология."},
-    {"source": "sub_neuro", "target": "pt_zhang", "relation": "DEVELOPED_BY", "label": "Криоэлектронная микроскопия."},
-    {"source": "era_coldwar", "target": "pt_wiesel_hubel", "relation": "CONTEXT_FOR", "label": "Нейрофизиология зрения."},
-    {"source": "sub_neuro", "target": "pt_wiesel_hubel", "relation": "DEVELOPED_BY", "label": "Функциональная архитектура зрительной коры."},
-    {"source": "era_vedic", "target": "pt_atharva", "relation": "CONTEXT_FOR", "label": "Ведийский период."},
-    {"source": "pt_atharva", "target": "sub_dosha_vata", "relation": "SOURCE_FOR", "label": "Предтеча аюрведы."},
-    {"source": "era_meso", "target": "pt_diagnostic", "relation": "CONTEXT_FOR", "label": "Древняя Месопотамия."},
-    {"source": "pt_diagnostic", "target": "sub_anatomoclin", "relation": "SOURCE_FOR", "label": "Симптоматическая классификация."},
-    {"source": "era_egypt", "target": "pt_ebers", "relation": "CONTEXT_FOR", "label": "Древний Египет."},
-    {"source": "pt_ebers", "target": "sub_pharmacology", "relation": "SOURCE_FOR", "label": "877 рецептов — фармакопея."},
-    {"source": "era_egypt", "target": "pt_edwin_smith", "relation": "CONTEXT_FOR", "label": "Древний Египет."},
-    {"source": "pt_edwin_smith", "target": "sub_surgery", "relation": "SOURCE_FOR", "label": "Хирургический трактат."},
-    {"source": "era_victorian", "target": "pt_gray_anatomy", "relation": "CONTEXT_FOR", "label": "Викторианская эпоха."},
-    {"source": "sub_anatomy", "target": "pt_gray_anatomy", "relation": "DEFINES", "label": "Канонический учебник анатомии."},
-    {"source": "era_coldwar", "target": "pt_harrison_principles", "relation": "CONTEXT_FOR", "label": "Современная внутренняя медицина."},
-    {"source": "pt_harrison_principles", "target": "sub_ebm", "relation": "SOURCE_FOR", "label": "Эталон клинического знания."},
-    {"source": "era_egypt", "target": "pt_kahun", "relation": "CONTEXT_FOR", "label": "Древний Египет."},
-    {"source": "pt_kahun", "target": "sub_obstetrics", "relation": "SOURCE_FOR", "label": "Старейший гинекологический текст."},
-    {"source": "sub_dosha_vata", "target": "pt_madhava", "relation": "DEFINES", "label": "Аюрведическая патология."},
-    {"source": "sub_dosha_pitta", "target": "pt_madhava", "relation": "DEFINES", "label": "Аюрведическая семиотика."},
-    {"source": "era_coldwar", "target": "pt_dialysis", "relation": "CONTEXT_FOR", "label": "Хронический диализ."},
-    {"source": "sub_transplant", "target": "pt_dialysis", "relation": "DEVELOPED_BY", "label": "Искусственная почка."},
-    {"source": "era_interwar", "target": "pt_eeg", "relation": "CONTEXT_FOR", "label": "Электрическая активность мозга."},
-    {"source": "sub_neuro", "target": "pt_eeg", "relation": "DEVELOPED_BY", "label": "Электроэнцефалография."},
-    {"source": "era_coldwar", "target": "pt_organ_trans", "relation": "CONTEXT_FOR", "label": "Клиническая трансплантация."},
-    {"source": "sub_transplant", "target": "pt_organ_trans", "relation": "DEVELOPED_BY", "label": "Пересадка органов."},
-    {"source": "era_coldwar", "target": "pt_sabin_vaccine", "relation": "CONTEXT_FOR", "label": "Массовая иммунизация."},
-    {"source": "sub_vaccine", "target": "pt_sabin_vaccine", "relation": "DEVELOPED_BY", "label": "Живая оральная вакцина."},
-    {"source": "pt_sabin", "target": "pt_sabin_vaccine", "relation": "DISCOVERED", "label": "Живая полиовакцина."},
-    {"source": "era_coldwar", "target": "pt_salk_vaccine", "relation": "CONTEXT_FOR", "label": "Массовая иммунизация."},
-    {"source": "sub_vaccine", "target": "pt_salk_vaccine", "relation": "DEVELOPED_BY", "label": "Инактивированная вакцина."},
-    {"source": "pt_salk", "target": "pt_salk_vaccine", "relation": "DISCOVERED", "label": "Инактивированная полиовакцина."},
-    {"source": "sub_anesthes", "target": "sub_surgery", "relation": "ENABLED", "label": "Анестезия открыла полостную хирургию."},
-    {"source": "sub_homeostasis", "target": "sub_physiology", "relation": "UNDERPINS", "label": "Гомеостаз — центральное понятие физиологии."},
-    {"source": "sub_systems_bio", "target": "sub_genetics", "relation": "EXTENDED_TO", "label": "От геномики к системной биологии."},
-    {"source": "sub_acupuncture", "target": "sub_neuro", "relation": "STRUCTURAL_ANALOGUE", "label": "Иглоукалывание как невральная модуляция боли."},
-    {"source": "sub_reproductive", "target": "sub_endocrin", "relation": "EXTENDED_TO", "label": "Гормональная регуляция репродукции."},
-    {"source": "sub_reproductive", "target": "sub_genetics", "relation": "EXTENDED_TO", "label": "Генетический скрининг эмбрионов."},
-    {"source": "sub_reproductive", "target": "sub_consent", "relation": "ETHICAL_CONSTRAINT_ON", "label": "Этические рамки ЭКО."},
-    {"source": "era_info", "target": "sub_reproductive", "relation": "CONTEXT_FOR", "label": "Эпоха репродуктивных технологий."},
-    {"source": "sub_palliative", "target": "sub_oncology", "relation": "EXTENDED_TO", "label": "Паллиативная помощь в онкологии."},
-    {"source": "sub_palliative", "target": "sub_socialmedicine", "relation": "EXTENDED_TO", "label": "Хосписное движение и социальная медицина."},
-    {"source": "era_info", "target": "sub_palliative", "relation": "CONTEXT_FOR", "label": "Современное хосписное движение."},
-    {"source": "sub_palliative", "target": "sub_consent", "relation": "EXTENDED_TO", "label": "Уважение воли пациента в конце жизни."},
-    {"source": "sub_immunology", "target": "pt_landsteiner", "relation": "DEVELOPED_BY", "label": "Группы крови."},
-    {"source": "sub_blood_transfusion", "target": "sub_surgery", "relation": "ENABLED", "label": "Гемотрансфузия сделала хирургию безопаснее."},
-    {"source": "era_wwi", "target": "sub_blood_transfusion", "relation": "CONTEXT_FOR", "label": "Переливание крови в Первую мировую войну."},
-    {"source": "sub_blood_transfusion", "target": "sub_transplant", "relation": "EXTENDED_TO", "label": "От переливания к трансплантации."}
+    {
+      "source": "pt_sechenov",
+      "target": "pt_sechenov_reflexes",
+      "relation": "AUTHORED",
+      "label": "Манифест физиологической психологии."
+    },
+    {
+      "source": "pt_pavlov",
+      "target": "pt_pavlov_digestion",
+      "relation": "AUTHORED",
+      "label": "Лекции о пищеварении."
+    },
+    {
+      "source": "pt_pirogov",
+      "target": "pt_pirogov_topo",
+      "relation": "AUTHORED",
+      "label": "Атлас топографической анатомии."
+    },
+    {
+      "source": "pt_pirogov",
+      "target": "pt_pirogov_field",
+      "relation": "AUTHORED",
+      "label": "Военно-полевая хирургия."
+    },
+    {
+      "source": "pt_metchnikoff",
+      "target": "pt_metchnikoff_immunity",
+      "relation": "AUTHORED",
+      "label": "Фагоцитарная теория иммунитета."
+    },
+    {
+      "source": "pt_botkin",
+      "target": "pt_botkin_course",
+      "relation": "AUTHORED",
+      "label": "Клинические лекции."
+    },
+    {
+      "source": "pt_osler",
+      "target": "pt_osler_principles",
+      "relation": "AUTHORED",
+      "label": "Учебник внутренней медицины."
+    },
+    {
+      "source": "sub_physiology",
+      "target": "pt_sechenov",
+      "relation": "DEVELOPED_BY",
+      "label": "Физиология нервной системы."
+    },
+    {
+      "source": "sub_physiology",
+      "target": "pt_pavlov",
+      "relation": "DEVELOPED_BY",
+      "label": "Физиология пищеварения и ВНД."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_bekhterev",
+      "relation": "DEVELOPED_BY",
+      "label": "Неврология и психиатрия."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_pavlov",
+      "relation": "DEVELOPED_BY",
+      "label": "Высшая нервная деятельность."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_pirogov",
+      "relation": "DEVELOPED_BY",
+      "label": "Военно-полевая и топографическая хирургия."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_sklifosovsky",
+      "relation": "DEVELOPED_BY",
+      "label": "Асептика и антисептика."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_ilizarov",
+      "relation": "DEVELOPED_BY",
+      "label": "Ортопедия."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_vishnevsky",
+      "relation": "DEVELOPED_BY",
+      "label": "Местная анестезия."
+    },
+    {
+      "source": "sub_microbio",
+      "target": "pt_ermolyeva",
+      "relation": "DEVELOPED_BY",
+      "label": "Советский пенициллин."
+    },
+    {
+      "source": "sub_microbio",
+      "target": "pt_gamaleya",
+      "relation": "DEVELOPED_BY",
+      "label": "Микробиология и эпидемиология."
+    },
+    {
+      "source": "sub_virology",
+      "target": "pt_zilber",
+      "relation": "DEVELOPED_BY",
+      "label": "Вирусология."
+    },
+    {
+      "source": "sub_virology",
+      "target": "pt_chumakov",
+      "relation": "DEVELOPED_BY",
+      "label": "Полиовакцина."
+    },
+    {
+      "source": "sub_virology",
+      "target": "pt_smorodintsev",
+      "relation": "DEVELOPED_BY",
+      "label": "Гриппозная вакцина."
+    },
+    {
+      "source": "sub_transplant",
+      "target": "pt_demikhov",
+      "relation": "DEVELOPED_BY",
+      "label": "Экспериментальная трансплантация."
+    },
+    {
+      "source": "sub_cardio",
+      "target": "pt_amosov",
+      "relation": "DEVELOPED_BY",
+      "label": "Кардиохирургия."
+    },
+    {
+      "source": "sub_cardio",
+      "target": "pt_bakulev",
+      "relation": "DEVELOPED_BY",
+      "label": "Сердечно-сосудистая хирургия."
+    },
+    {
+      "source": "sub_psychiatry",
+      "target": "pt_bekhterev",
+      "relation": "DEVELOPED_BY",
+      "label": "Неврология и психиатрия."
+    },
+    {
+      "source": "sub_psychiatry",
+      "target": "pt_korsakov",
+      "relation": "DEVELOPED_BY",
+      "label": "Амнестический синдром."
+    },
+    {
+      "source": "sub_psychiatry",
+      "target": "pt_kashchenko",
+      "relation": "DEVELOPED_BY",
+      "label": "Организация помощи."
+    },
+    {
+      "source": "sub_epidemiology",
+      "target": "pt_samoylovich",
+      "relation": "DEVELOPED_BY",
+      "label": "Эпидемиология чумы."
+    },
+    {
+      "source": "sub_socialmedicine",
+      "target": "pt_erisman",
+      "relation": "DEVELOPED_BY",
+      "label": "Социальная гигиена."
+    },
+    {
+      "source": "sub_socialmedicine",
+      "target": "pt_semashko",
+      "relation": "DEVELOPED_BY",
+      "label": "Государственное здравоохранение."
+    },
+    {
+      "source": "sub_conditional_reflex",
+      "target": "pt_pavlov",
+      "relation": "DEVELOPED_BY",
+      "label": "Условные рефлексы."
+    },
+    {
+      "source": "sub_field_surgery",
+      "target": "pt_pirogov",
+      "relation": "DEVELOPED_BY",
+      "label": "Сортировка и эвакуация."
+    },
+    {
+      "source": "sub_field_surgery",
+      "target": "pt_burdenko",
+      "relation": "DEVELOPED_BY",
+      "label": "Военно-полевая нейрохирургия."
+    },
+    {
+      "source": "sub_blood_transfusion",
+      "target": "pt_landsteiner",
+      "relation": "DEVELOPED_BY",
+      "label": "Группы крови."
+    },
+    {
+      "source": "sub_blood_transfusion",
+      "target": "pt_yudin",
+      "relation": "DEVELOPED_BY",
+      "label": "Трупная кровь."
+    },
+    {
+      "source": "sub_semashko_system",
+      "target": "pt_semashko",
+      "relation": "DEVELOPED_BY",
+      "label": "Централизованное здравоохранение."
+    },
+    {
+      "source": "sub_viral_oncogenesis",
+      "target": "pt_zilber",
+      "relation": "DEVELOPED_BY",
+      "label": "Вирусо-генетическая теория рака."
+    },
+    {
+      "source": "pt_pavlov",
+      "target": "sub_conditional_reflex",
+      "relation": "DISCOVERED",
+      "label": "Условный рефлекс (1903)."
+    },
+    {
+      "source": "pt_chumakov",
+      "target": "dis_polio",
+      "relation": "VACCINE_FOR",
+      "label": "Живая полиовакцина."
+    },
+    {
+      "source": "pt_smorodintsev",
+      "target": "dis_influenza",
+      "relation": "VACCINE_FOR",
+      "label": "Гриппозная вакцина."
+    },
+    {
+      "source": "pt_ermolyeva",
+      "target": "dis_cholera",
+      "relation": "TREATS",
+      "label": "Бактериофаг против холеры."
+    },
+    {
+      "source": "pt_ermolyeva",
+      "target": "pt_penicillin",
+      "relation": "DEVELOPED_BY",
+      "label": "Независимое получение пенициллина (крустозин)."
+    },
+    {
+      "source": "pt_sechenov",
+      "target": "pt_pavlov",
+      "relation": "INFLUENCED",
+      "label": "Сеченов повлиял на Павлова."
+    },
+    {
+      "source": "pt_botkin",
+      "target": "pt_pavlov",
+      "relation": "MENTORED",
+      "label": "Павлов работал в лаборатории Боткина."
+    },
+    {
+      "source": "pt_pasteur",
+      "target": "pt_gamaleya",
+      "relation": "MENTORED",
+      "label": "Гамалея учился у Пастера."
+    },
+    {
+      "source": "pt_pirogov",
+      "target": "pt_burdenko",
+      "relation": "INFLUENCED",
+      "label": "Пирогов — образец для военных хирургов."
+    },
+    {
+      "source": "pt_metchnikoff",
+      "target": "pt_zilber",
+      "relation": "INFLUENCED",
+      "label": "Зильбер — продолжатель школы Мечникова."
+    },
+    {
+      "source": "sub_psychiatry",
+      "target": "pt_antipsych",
+      "relation": "USES",
+      "label": "Психиатрия использует антипсихотики."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_ermolyeva",
+      "relation": "CONTEXT_FOR",
+      "label": "Советская микробиология."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_chumakov",
+      "relation": "CONTEXT_FOR",
+      "label": "Советская вирусология."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_smorodintsev",
+      "relation": "CONTEXT_FOR",
+      "label": "Советская вирусология."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_demikhov",
+      "relation": "CONTEXT_FOR",
+      "label": "Советская трансплантология."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_amosov",
+      "relation": "CONTEXT_FOR",
+      "label": "Советская кардиохирургия."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_semashko",
+      "relation": "CONTEXT_FOR",
+      "label": "Советское здравоохранение."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_zilber",
+      "relation": "CONTEXT_FOR",
+      "label": "Советская вирусология."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_botkin",
+      "relation": "CONTEXT_FOR",
+      "label": "Российская клиническая школа."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_sechenov",
+      "relation": "CONTEXT_FOR",
+      "label": "Российская физиология."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_pavlov",
+      "relation": "CONTEXT_FOR",
+      "label": "Советская физиология."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_burdenko",
+      "relation": "CONTEXT_FOR",
+      "label": "Советская нейрохирургия."
+    },
+    {
+      "source": "sub_antibiotics",
+      "target": "pt_fleming",
+      "relation": "DEVELOPED_BY",
+      "label": "Пенициллин."
+    },
+    {
+      "source": "sub_antibiotics",
+      "target": "pt_waksman",
+      "relation": "DEVELOPED_BY",
+      "label": "Стрептомицин."
+    },
+    {
+      "source": "sub_antibiotics",
+      "target": "pt_dubos",
+      "relation": "DEVELOPED_BY",
+      "label": "Грамицидин."
+    },
+    {
+      "source": "sub_antibiotics",
+      "target": "pt_domagk",
+      "relation": "DEVELOPED_BY",
+      "label": "Сульфаниламиды."
+    },
+    {
+      "source": "sub_antibiotics",
+      "target": "pt_ermolyeva",
+      "relation": "DEVELOPED_BY",
+      "label": "Советский пенициллин."
+    },
+    {
+      "source": "pt_waksman",
+      "target": "pt_streptomycin",
+      "relation": "DISCOVERED",
+      "label": "Стрептомицин (1943)."
+    },
+    {
+      "source": "pt_streptomycin",
+      "target": "dis_tb",
+      "relation": "TREATS",
+      "label": "Первый препарат против туберкулёза."
+    },
+    {
+      "source": "pt_amr",
+      "target": "sub_antibiotics",
+      "relation": "DERIVED_FROM",
+      "label": "Резистентность — следствие антибиотиков."
+    },
+    {
+      "source": "sub_antibiotics",
+      "target": "sub_microbio",
+      "relation": "DERIVED_FROM",
+      "label": "Антибиотики — продукты микробов."
+    },
+    {
+      "source": "pt_waksman",
+      "target": "pt_koch",
+      "relation": "INFLUENCED",
+      "label": "Почвенная микробиология — продолжение Коха."
+    },
+    {
+      "source": "pt_dherelle",
+      "target": "sub_bacteriophage",
+      "relation": "DISCOVERED",
+      "label": "Бактериофаг (1917)."
+    },
+    {
+      "source": "sub_bacteriophage",
+      "target": "pt_ermolyeva",
+      "relation": "APPLIED_BY",
+      "label": "Фаготерапия в СССР."
+    },
+    {
+      "source": "sub_bacteriophage",
+      "target": "pt_crispr",
+      "relation": "SOURCE_FOR",
+      "label": "Защита бактерий от фагов → CRISPR."
+    },
+    {
+      "source": "sub_bacteriophage",
+      "target": "sub_virology",
+      "relation": "UNDERPINS",
+      "label": "Фаги — модель вирусологии."
+    },
+    {
+      "source": "sub_bacteriophage",
+      "target": "sub_genetics",
+      "relation": "UNDERPINS",
+      "label": "Фаги — модель генетики."
+    },
+    {
+      "source": "sub_virology",
+      "target": "pt_delbruck",
+      "relation": "DEVELOPED_BY",
+      "label": "Фаги как модель вирусов."
+    },
+    {
+      "source": "sub_virology",
+      "target": "pt_luria",
+      "relation": "DEVELOPED_BY",
+      "label": "Флуктуационный тест."
+    },
+    {
+      "source": "sub_virology",
+      "target": "pt_stanley",
+      "relation": "DEVELOPED_BY",
+      "label": "Кристаллизация вируса."
+    },
+    {
+      "source": "sub_genetics",
+      "target": "pt_delbruck",
+      "relation": "DEVELOPED_BY",
+      "label": "Фаговая генетика."
+    },
+    {
+      "source": "pt_hershey",
+      "target": "pt_hershey_chase",
+      "relation": "DISCOVERED",
+      "label": "Эксперимент Херши–Чейз (1952)."
+    },
+    {
+      "source": "pt_hershey_chase",
+      "target": "pt_dna_helix",
+      "relation": "CONTRIBUTED_TO",
+      "label": "ДНК — носитель наследственности."
+    },
+    {
+      "source": "pt_hershey_chase",
+      "target": "sub_genetics",
+      "relation": "UNDERPINS",
+      "label": "Молекулярная генетика."
+    },
+    {
+      "source": "pt_stanley",
+      "target": "pt_ivanovsky",
+      "relation": "INFLUENCED",
+      "label": "Продолжил изучение вируса табачной мозаики."
+    },
+    {
+      "source": "pt_reverse_transcriptase",
+      "target": "sub_viral_oncogenesis",
+      "relation": "UNDERPINS",
+      "label": "Ретровирусы и рак."
+    },
+    {
+      "source": "sub_biostatistics",
+      "target": "pt_galton",
+      "relation": "DEVELOPED_BY",
+      "label": "Корреляция и регрессия."
+    },
+    {
+      "source": "sub_biostatistics",
+      "target": "pt_pearson",
+      "relation": "DEVELOPED_BY",
+      "label": "Хи-квадрат."
+    },
+    {
+      "source": "sub_biostatistics",
+      "target": "pt_fisher",
+      "relation": "DEVELOPED_BY",
+      "label": "Дисперсионный анализ."
+    },
+    {
+      "source": "pt_galton",
+      "target": "pt_pearson",
+      "relation": "MENTORED",
+      "label": "Пирсон — ученик Гальтона."
+    },
+    {
+      "source": "pt_eugenics",
+      "target": "pt_galton",
+      "relation": "ESTABLISHED_BY",
+      "label": "Гальтон ввёл термин «евгеника»."
+    },
+    {
+      "source": "sub_rct",
+      "target": "pt_fisher",
+      "relation": "DEVELOPED_BY",
+      "label": "Рандомизация и планирование."
+    },
+    {
+      "source": "sub_rct",
+      "target": "pt_bradford_hill",
+      "relation": "DEVELOPED_BY",
+      "label": "РКИ стрептомицина (1948)."
+    },
+    {
+      "source": "sub_ebm",
+      "target": "pt_fisher",
+      "relation": "DEVELOPED_BY",
+      "label": "Статистическая основа EBM."
+    },
+    {
+      "source": "sub_ebm",
+      "target": "pt_bradford_hill",
+      "relation": "DEVELOPED_BY",
+      "label": "Критерии причинности."
+    },
+    {
+      "source": "inst_mrc",
+      "target": "pt_bradford_hill",
+      "relation": "HOSTS",
+      "label": "Брэдфорд Хилл работал в MRC."
+    },
+    {
+      "source": "sub_genetics",
+      "target": "pt_wright",
+      "relation": "DEVELOPED_BY",
+      "label": "Популяционная генетика."
+    },
+    {
+      "source": "sub_genetics",
+      "target": "pt_haldane",
+      "relation": "DEVELOPED_BY",
+      "label": "Популяционная генетика."
+    },
+    {
+      "source": "sub_genetics",
+      "target": "pt_fisher",
+      "relation": "DEVELOPED_BY",
+      "label": "Популяционная генетика."
+    },
+    {
+      "source": "pt_hardy_weinberg",
+      "target": "pt_mendel",
+      "relation": "EXTENDED_TO",
+      "label": "Законы Менделя на уровне популяции."
+    },
+    {
+      "source": "pt_fisher",
+      "target": "pt_mendel",
+      "relation": "INFLUENCED",
+      "label": "Совместил менделизм с биометрией."
+    },
+    {
+      "source": "sub_epidemic_modeling",
+      "target": "pt_ross",
+      "relation": "DEVELOPED_BY",
+      "label": "Первая математическая модель передачи."
+    },
+    {
+      "source": "pt_ross",
+      "target": "dis_malaria",
+      "relation": "TRACED",
+      "label": "Передача малярии через комара."
+    },
+    {
+      "source": "sub_epidemic_modeling",
+      "target": "sub_epidemiology",
+      "relation": "UNDERPINS",
+      "label": "Математическая основа эпидемиологии."
+    },
+    {
+      "source": "pt_sir_model",
+      "target": "sub_epidemic_modeling",
+      "relation": "FOUNDATION_OF",
+      "label": "Компартментальные модели."
+    },
+    {
+      "source": "sub_epidemic_modeling",
+      "target": "dis_influenza",
+      "relation": "DESCRIBES",
+      "label": "Модель пандемий гриппа."
+    },
+    {
+      "source": "pt_lotka_volterra",
+      "target": "sub_systems_bio",
+      "relation": "FOUNDATION_OF",
+      "label": "Динамика популяций."
+    },
+    {
+      "source": "pt_thompson",
+      "target": "sub_systems_bio",
+      "relation": "INFLUENCED",
+      "label": "Математическая морфология."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_deinstitution",
+      "relation": "CONTEXT_FOR",
+      "label": "Деинституционализация психиатрии."
+    },
+    {
+      "source": "pt_antipsych",
+      "target": "pt_deinstitution",
+      "relation": "ENABLED",
+      "label": "Антипсихотики позволили закрыть лечебницы."
+    },
+    {
+      "source": "dis_leprosy",
+      "target": "era_mediev_eur",
+      "relation": "EPIDEMIC_IN",
+      "label": "Проказа в средневековой Европе."
+    },
+    {
+      "source": "dis_leprosy",
+      "target": "sub_microbio",
+      "relation": "SPECIFIED_BY",
+      "label": "Возбудитель Mycobacterium leprae."
+    },
+    {
+      "source": "era_victorian",
+      "target": "inst_bernard_lab",
+      "relation": "CONTEXT_FOR",
+      "label": "Экспериментальная физиология."
+    },
+    {
+      "source": "inst_bernard_lab",
+      "target": "pt_bernard",
+      "relation": "HOSTS",
+      "label": "Лаборатория Клода Бернара."
+    },
+    {
+      "source": "era_greece_class",
+      "target": "inst_cnidus",
+      "relation": "CONTEXT_FOR",
+      "label": "Классическая Греция."
+    },
+    {
+      "source": "inst_cnidus",
+      "target": "pt_hippocrates",
+      "relation": "TENSION_WITH",
+      "label": "Соперница косской школы."
+    },
+    {
+      "source": "era_greece_arch",
+      "target": "inst_crotona",
+      "relation": "CONTEXT_FOR",
+      "label": "Архаическая Греция."
+    },
+    {
+      "source": "inst_crotona",
+      "target": "sub_humoral_balance",
+      "relation": "FOUNDATION_OF",
+      "label": "Здоровье как гармония противоположностей."
+    },
+    {
+      "source": "era_mediev_eur",
+      "target": "inst_hosp_rome",
+      "relation": "CONTEXT_FOR",
+      "label": "Средневековый госпиталь."
+    },
+    {
+      "source": "inst_hosp_rome",
+      "target": "sub_socialmedicine",
+      "relation": "FOUNDATION_OF",
+      "label": "Госпиталь как институт социальной медицины."
+    },
+    {
+      "source": "era_mediev_eur",
+      "target": "inst_montpellier",
+      "relation": "CONTEXT_FOR",
+      "label": "Средневековая Европа."
+    },
+    {
+      "source": "inst_montpellier",
+      "target": "sub_anatomoclin",
+      "relation": "FOUNDATION_OF",
+      "label": "Клиническая традиция Монпелье."
+    },
+    {
+      "source": "era_islam_gold",
+      "target": "pt_al_majusi",
+      "relation": "CONTEXT_FOR",
+      "label": "Исламский Золотой век."
+    },
+    {
+      "source": "sub_pharmacology",
+      "target": "pt_al_majusi",
+      "relation": "DEVELOPED_BY",
+      "label": "«Камиль ас-сынаа»."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_beadle",
+      "relation": "CONTEXT_FOR",
+      "label": "Биохимическая генетика."
+    },
+    {
+      "source": "sub_genetics",
+      "target": "pt_beadle",
+      "relation": "DEVELOPED_BY",
+      "label": "Один ген — один фермент."
+    },
+    {
+      "source": "era_industrial",
+      "target": "pt_billroth",
+      "relation": "CONTEXT_FOR",
+      "label": "Хирургия XIX века."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_billroth",
+      "relation": "DEVELOPED_BY",
+      "label": "Абдоминальная хирургия."
+    },
+    {
+      "source": "era_info",
+      "target": "pt_chen",
+      "relation": "CONTEXT_FOR",
+      "label": "Молекулярная физиология."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_chen",
+      "relation": "DEVELOPED_BY",
+      "label": "Ионные каналы."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_cushing",
+      "relation": "CONTEXT_FOR",
+      "label": "Нейрохирургия."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_cushing",
+      "relation": "DEVELOPED_BY",
+      "label": "Нейрохирургия."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_dale",
+      "relation": "CONTEXT_FOR",
+      "label": "Нейрохимия."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_dale",
+      "relation": "DEVELOPED_BY",
+      "label": "Нейромедиаторы."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_eccles",
+      "relation": "CONTEXT_FOR",
+      "label": "Нейрофизиология."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_eccles",
+      "relation": "DEVELOPED_BY",
+      "label": "Синаптическая передача."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_filatov",
+      "relation": "CONTEXT_FOR",
+      "label": "Советская офтальмология."
+    },
+    {
+      "source": "sub_transplant",
+      "target": "pt_filatov",
+      "relation": "DEVELOPED_BY",
+      "label": "Пересадка роговицы."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_gross",
+      "relation": "CONTEXT_FOR",
+      "label": "Детская кардиохирургия."
+    },
+    {
+      "source": "sub_cardio",
+      "target": "pt_gross",
+      "relation": "DEVELOPED_BY",
+      "label": "Детская кардиохирургия."
+    },
+    {
+      "source": "era_mediev_eur",
+      "target": "pt_guy_de_chauliac",
+      "relation": "CONTEXT_FOR",
+      "label": "Средневековая хирургия."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_guy_de_chauliac",
+      "relation": "DEVELOPED_BY",
+      "label": "«Великая хирургия»."
+    },
+    {
+      "source": "era_info",
+      "target": "pt_hille",
+      "relation": "CONTEXT_FOR",
+      "label": "Молекулярная нейрофизиология."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_hille",
+      "relation": "DEVELOPED_BY",
+      "label": "Ионные каналы."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_hubel",
+      "relation": "CONTEXT_FOR",
+      "label": "Нейрофизиология зрения."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_hubel",
+      "relation": "DEVELOPED_BY",
+      "label": "Зрительная кора."
+    },
+    {
+      "source": "era_islam_gold",
+      "target": "pt_ibn_zuhr",
+      "relation": "CONTEXT_FOR",
+      "label": "Исламский Золотой век."
+    },
+    {
+      "source": "sub_anatomy",
+      "target": "pt_ibn_zuhr",
+      "relation": "DEVELOPED_BY",
+      "label": "Экспериментальная паразитология."
+    },
+    {
+      "source": "era_egypt",
+      "target": "pt_imeshotep",
+      "relation": "CONTEXT_FOR",
+      "label": "Древний Египет."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_imeshotep",
+      "relation": "DEVELOPED_BY",
+      "label": "Ранняя египетская медицина."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_kitasato",
+      "relation": "CONTEXT_FOR",
+      "label": "Бактериология."
+    },
+    {
+      "source": "sub_microbio",
+      "target": "pt_kitasato",
+      "relation": "DEVELOPED_BY",
+      "label": "Чистая культура столбняка."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_kolff",
+      "relation": "CONTEXT_FOR",
+      "label": "Искусственные органы."
+    },
+    {
+      "source": "sub_transplant",
+      "target": "pt_kolff",
+      "relation": "DEVELOPED_BY",
+      "label": "Искусственные органы."
+    },
+    {
+      "source": "pt_kolff",
+      "target": "pt_dialysis",
+      "relation": "DISCOVERED",
+      "label": "Искусственная почка."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_kurland",
+      "relation": "CONTEXT_FOR",
+      "label": "Психофармакология."
+    },
+    {
+      "source": "sub_psychiatry",
+      "target": "pt_kurland",
+      "relation": "DEVELOPED_BY",
+      "label": "Испытания хлорпромазина."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_loewi",
+      "relation": "CONTEXT_FOR",
+      "label": "Нейрохимия."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_loewi",
+      "relation": "DEVELOPED_BY",
+      "label": "Химическая передача импульса."
+    },
+    {
+      "source": "era_info",
+      "target": "pt_mackinnon",
+      "relation": "CONTEXT_FOR",
+      "label": "Структурная биология."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_mackinnon",
+      "relation": "DEVELOPED_BY",
+      "label": "Структура ионного канала."
+    },
+    {
+      "source": "era_mediev_eur",
+      "target": "pt_mondino",
+      "relation": "CONTEXT_FOR",
+      "label": "Средневековая анатомия."
+    },
+    {
+      "source": "sub_anatomy",
+      "target": "pt_mondino",
+      "relation": "DEVELOPED_BY",
+      "label": "Публичное вскрытие."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_moniz",
+      "relation": "CONTEXT_FOR",
+      "label": "Психохирургия."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_moniz",
+      "relation": "DEVELOPED_BY",
+      "label": "Церебральная ангиография."
+    },
+    {
+      "source": "pt_moniz",
+      "target": "pt_lobotomy",
+      "relation": "DISCOVERED",
+      "label": "Лоботомия."
+    },
+    {
+      "source": "era_enlight",
+      "target": "pt_montagu",
+      "relation": "CONTEXT_FOR",
+      "label": "Вариоляция в Европе."
+    },
+    {
+      "source": "sub_variolation",
+      "target": "pt_montagu",
+      "relation": "DEVELOPED_BY",
+      "label": "Вариоляция в Англии."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_mountcastle",
+      "relation": "CONTEXT_FOR",
+      "label": "Нейрофизиология."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_mountcastle",
+      "relation": "DEVELOPED_BY",
+      "label": "Колончатая организация коры."
+    },
+    {
+      "source": "era_info",
+      "target": "pt_neher",
+      "relation": "CONTEXT_FOR",
+      "label": "Биофизика."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_neher",
+      "relation": "DEVELOPED_BY",
+      "label": "Патч-клэмп."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_penfield",
+      "relation": "CONTEXT_FOR",
+      "label": "Нейрохирургия."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_penfield",
+      "relation": "DEVELOPED_BY",
+      "label": "Карта функций коры."
+    },
+    {
+      "source": "era_industrial",
+      "target": "pt_remark",
+      "relation": "CONTEXT_FOR",
+      "label": "Клеточная теория."
+    },
+    {
+      "source": "sub_cellpath",
+      "target": "pt_remark",
+      "relation": "DEVELOPED_BY",
+      "label": "Деление клеток."
+    },
+    {
+      "source": "era_mediev_eur",
+      "target": "pt_roger_bacon",
+      "relation": "CONTEXT_FOR",
+      "label": "Средневековая наука."
+    },
+    {
+      "source": "sub_expmed",
+      "target": "pt_roger_bacon",
+      "relation": "DEVELOPED_BY",
+      "label": "Экспериментальный метод."
+    },
+    {
+      "source": "era_info",
+      "target": "pt_sakmann",
+      "relation": "CONTEXT_FOR",
+      "label": "Биофизика."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_sakmann",
+      "relation": "DEVELOPED_BY",
+      "label": "Патч-клэмп."
+    },
+    {
+      "source": "era_wwi",
+      "target": "pt_sauerbruch",
+      "relation": "CONTEXT_FOR",
+      "label": "Торакальная хирургия."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_sauerbruch",
+      "relation": "DEVELOPED_BY",
+      "label": "Торакальная хирургия."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_schleiden",
+      "relation": "CONTEXT_FOR",
+      "label": "Клеточная теория."
+    },
+    {
+      "source": "sub_cellpath",
+      "target": "pt_schleiden",
+      "relation": "DEVELOPED_BY",
+      "label": "Клеточная теория, растения."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_schwann",
+      "relation": "CONTEXT_FOR",
+      "label": "Клеточная теория."
+    },
+    {
+      "source": "sub_cellpath",
+      "target": "pt_schwann",
+      "relation": "DEVELOPED_BY",
+      "label": "Клеточная теория, животные."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_skou",
+      "relation": "CONTEXT_FOR",
+      "label": "Мембранная физиология."
+    },
+    {
+      "source": "sub_physiology",
+      "target": "pt_skou",
+      "relation": "DEVELOPED_BY",
+      "label": "Натрий-калиевая АТФаза."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_spivak",
+      "relation": "CONTEXT_FOR",
+      "label": "Нейрофизиология боли."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_spivak",
+      "relation": "DEVELOPED_BY",
+      "label": "Болевые пути."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_tatum",
+      "relation": "CONTEXT_FOR",
+      "label": "Биохимическая генетика."
+    },
+    {
+      "source": "sub_genetics",
+      "target": "pt_tatum",
+      "relation": "DEVELOPED_BY",
+      "label": "Один ген — один фермент."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_wiesel",
+      "relation": "CONTEXT_FOR",
+      "label": "Нейрофизиология зрения."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_wiesel",
+      "relation": "DEVELOPED_BY",
+      "label": "Зрительная кора."
+    },
+    {
+      "source": "era_info",
+      "target": "pt_yellen",
+      "relation": "CONTEXT_FOR",
+      "label": "Биофизика."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_yellen",
+      "relation": "DEVELOPED_BY",
+      "label": "Ионные каналы."
+    },
+    {
+      "source": "era_info",
+      "target": "pt_zhang",
+      "relation": "CONTEXT_FOR",
+      "label": "Структурная биология."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_zhang",
+      "relation": "DEVELOPED_BY",
+      "label": "Криоэлектронная микроскопия."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_wiesel_hubel",
+      "relation": "CONTEXT_FOR",
+      "label": "Нейрофизиология зрения."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_wiesel_hubel",
+      "relation": "DEVELOPED_BY",
+      "label": "Функциональная архитектура зрительной коры."
+    },
+    {
+      "source": "era_vedic",
+      "target": "pt_atharva",
+      "relation": "CONTEXT_FOR",
+      "label": "Ведийский период."
+    },
+    {
+      "source": "pt_atharva",
+      "target": "sub_dosha_vata",
+      "relation": "SOURCE_FOR",
+      "label": "Предтеча аюрведы."
+    },
+    {
+      "source": "era_meso",
+      "target": "pt_diagnostic",
+      "relation": "CONTEXT_FOR",
+      "label": "Древняя Месопотамия."
+    },
+    {
+      "source": "pt_diagnostic",
+      "target": "sub_anatomoclin",
+      "relation": "SOURCE_FOR",
+      "label": "Симптоматическая классификация."
+    },
+    {
+      "source": "era_egypt",
+      "target": "pt_ebers",
+      "relation": "CONTEXT_FOR",
+      "label": "Древний Египет."
+    },
+    {
+      "source": "pt_ebers",
+      "target": "sub_pharmacology",
+      "relation": "SOURCE_FOR",
+      "label": "877 рецептов — фармакопея."
+    },
+    {
+      "source": "era_egypt",
+      "target": "pt_edwin_smith",
+      "relation": "CONTEXT_FOR",
+      "label": "Древний Египет."
+    },
+    {
+      "source": "pt_edwin_smith",
+      "target": "sub_surgery",
+      "relation": "SOURCE_FOR",
+      "label": "Хирургический трактат."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_gray_anatomy",
+      "relation": "CONTEXT_FOR",
+      "label": "Викторианская эпоха."
+    },
+    {
+      "source": "sub_anatomy",
+      "target": "pt_gray_anatomy",
+      "relation": "DEFINES",
+      "label": "Канонический учебник анатомии."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_harrison_principles",
+      "relation": "CONTEXT_FOR",
+      "label": "Современная внутренняя медицина."
+    },
+    {
+      "source": "pt_harrison_principles",
+      "target": "sub_ebm",
+      "relation": "SOURCE_FOR",
+      "label": "Эталон клинического знания."
+    },
+    {
+      "source": "era_egypt",
+      "target": "pt_kahun",
+      "relation": "CONTEXT_FOR",
+      "label": "Древний Египет."
+    },
+    {
+      "source": "pt_kahun",
+      "target": "sub_obstetrics",
+      "relation": "SOURCE_FOR",
+      "label": "Старейший гинекологический текст."
+    },
+    {
+      "source": "sub_dosha_vata",
+      "target": "pt_madhava",
+      "relation": "DEFINES",
+      "label": "Аюрведическая патология."
+    },
+    {
+      "source": "sub_dosha_pitta",
+      "target": "pt_madhava",
+      "relation": "DEFINES",
+      "label": "Аюрведическая семиотика."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_dialysis",
+      "relation": "CONTEXT_FOR",
+      "label": "Хронический диализ."
+    },
+    {
+      "source": "sub_transplant",
+      "target": "pt_dialysis",
+      "relation": "DEVELOPED_BY",
+      "label": "Искусственная почка."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_eeg",
+      "relation": "CONTEXT_FOR",
+      "label": "Электрическая активность мозга."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_eeg",
+      "relation": "DEVELOPED_BY",
+      "label": "Электроэнцефалография."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_organ_trans",
+      "relation": "CONTEXT_FOR",
+      "label": "Клиническая трансплантация."
+    },
+    {
+      "source": "sub_transplant",
+      "target": "pt_organ_trans",
+      "relation": "DEVELOPED_BY",
+      "label": "Пересадка органов."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_sabin_vaccine",
+      "relation": "CONTEXT_FOR",
+      "label": "Массовая иммунизация."
+    },
+    {
+      "source": "sub_vaccine",
+      "target": "pt_sabin_vaccine",
+      "relation": "DEVELOPED_BY",
+      "label": "Живая оральная вакцина."
+    },
+    {
+      "source": "pt_sabin",
+      "target": "pt_sabin_vaccine",
+      "relation": "DISCOVERED",
+      "label": "Живая полиовакцина."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_salk_vaccine",
+      "relation": "CONTEXT_FOR",
+      "label": "Массовая иммунизация."
+    },
+    {
+      "source": "sub_vaccine",
+      "target": "pt_salk_vaccine",
+      "relation": "DEVELOPED_BY",
+      "label": "Инактивированная вакцина."
+    },
+    {
+      "source": "pt_salk",
+      "target": "pt_salk_vaccine",
+      "relation": "DISCOVERED",
+      "label": "Инактивированная полиовакцина."
+    },
+    {
+      "source": "sub_anesthes",
+      "target": "sub_surgery",
+      "relation": "ENABLED",
+      "label": "Анестезия открыла полостную хирургию."
+    },
+    {
+      "source": "sub_homeostasis",
+      "target": "sub_physiology",
+      "relation": "UNDERPINS",
+      "label": "Гомеостаз — центральное понятие физиологии."
+    },
+    {
+      "source": "sub_systems_bio",
+      "target": "sub_genetics",
+      "relation": "EXTENDED_TO",
+      "label": "От геномики к системной биологии."
+    },
+    {
+      "source": "sub_acupuncture",
+      "target": "sub_neuro",
+      "relation": "STRUCTURAL_ANALOGUE",
+      "label": "Иглоукалывание как невральная модуляция боли."
+    },
+    {
+      "source": "sub_reproductive",
+      "target": "sub_endocrin",
+      "relation": "EXTENDED_TO",
+      "label": "Гормональная регуляция репродукции."
+    },
+    {
+      "source": "sub_reproductive",
+      "target": "sub_genetics",
+      "relation": "EXTENDED_TO",
+      "label": "Генетический скрининг эмбрионов."
+    },
+    {
+      "source": "sub_reproductive",
+      "target": "sub_consent",
+      "relation": "ETHICAL_CONSTRAINT_ON",
+      "label": "Этические рамки ЭКО."
+    },
+    {
+      "source": "era_info",
+      "target": "sub_reproductive",
+      "relation": "CONTEXT_FOR",
+      "label": "Эпоха репродуктивных технологий."
+    },
+    {
+      "source": "sub_palliative",
+      "target": "sub_oncology",
+      "relation": "EXTENDED_TO",
+      "label": "Паллиативная помощь в онкологии."
+    },
+    {
+      "source": "sub_palliative",
+      "target": "sub_socialmedicine",
+      "relation": "EXTENDED_TO",
+      "label": "Хосписное движение и социальная медицина."
+    },
+    {
+      "source": "era_info",
+      "target": "sub_palliative",
+      "relation": "CONTEXT_FOR",
+      "label": "Современное хосписное движение."
+    },
+    {
+      "source": "sub_palliative",
+      "target": "sub_consent",
+      "relation": "EXTENDED_TO",
+      "label": "Уважение воли пациента в конце жизни."
+    },
+    {
+      "source": "sub_immunology",
+      "target": "pt_landsteiner",
+      "relation": "DEVELOPED_BY",
+      "label": "Группы крови."
+    },
+    {
+      "source": "sub_blood_transfusion",
+      "target": "sub_surgery",
+      "relation": "ENABLED",
+      "label": "Гемотрансфузия сделала хирургию безопаснее."
+    },
+    {
+      "source": "era_wwi",
+      "target": "sub_blood_transfusion",
+      "relation": "CONTEXT_FOR",
+      "label": "Переливание крови в Первую мировую войну."
+    },
+    {
+      "source": "sub_blood_transfusion",
+      "target": "sub_transplant",
+      "relation": "EXTENDED_TO",
+      "label": "От переливания к трансплантации."
+    },
+    {
+      "source": "era_info",
+      "target": "pt_amr",
+      "relation": "CONTEXT_FOR",
+      "label": "Антибиотикорезистентность как глобальная угроза."
+    },
+    {
+      "source": "pt_amr",
+      "target": "sub_epidemiology",
+      "relation": "EXTENDED_TO",
+      "label": "Резистентность — эпидемиологическая проблема."
+    },
+    {
+      "source": "era_info",
+      "target": "pt_decolonial",
+      "relation": "CONTEXT_FOR",
+      "label": "Критика иерархий знания."
+    },
+    {
+      "source": "pt_decolonial",
+      "target": "sub_socialmedicine",
+      "relation": "EXTENDED_TO",
+      "label": "Глобальное здоровье и социальная медицина."
+    },
+    {
+      "source": "era_imperial",
+      "target": "pt_hardy_weinberg",
+      "relation": "CONTEXT_FOR",
+      "label": "Генетика начала XX века."
+    },
+    {
+      "source": "pt_hardy_weinberg",
+      "target": "sub_genetics",
+      "relation": "UNDERPINS",
+      "label": "Основа популяционной генетики."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_lotka_volterra",
+      "relation": "CONTEXT_FOR",
+      "label": "Математическая биология."
+    },
+    {
+      "source": "pt_lotka_volterra",
+      "target": "sub_epidemiology",
+      "relation": "EXTENDED_TO",
+      "label": "Динамика популяций — модель эпидемий."
+    },
+    {
+      "source": "era_info",
+      "target": "pt_one_health",
+      "relation": "CONTEXT_FOR",
+      "label": "Интегративный взгляд на здоровье."
+    },
+    {
+      "source": "pt_one_health",
+      "target": "sub_epidemiology",
+      "relation": "EXTENDED_TO",
+      "label": "Здоровье людей, животных и экосистем."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_psychoanalysis",
+      "relation": "CONTEXT_FOR",
+      "label": "Зарождение психоанализа."
+    },
+    {
+      "source": "pt_psychoanalysis",
+      "target": "sub_psychiatry",
+      "relation": "EXTENDED_TO",
+      "label": "Психоанализ — часть психиатрии."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_sir_model",
+      "relation": "CONTEXT_FOR",
+      "label": "Математическая эпидемиология."
+    },
+    {
+      "source": "pt_sir_model",
+      "target": "sub_epidemiology",
+      "relation": "UNDERPINS",
+      "label": "Компартментальная модель эпидемий."
+    },
+    {
+      "source": "era_scientific",
+      "target": "sub_contagion",
+      "relation": "CONTEXT_FOR",
+      "label": "Учение о контагии Фракасторо."
+    },
+    {
+      "source": "sub_contagion",
+      "target": "sub_germtheory",
+      "relation": "SOURCE_FOR",
+      "label": "Контагий — предтеча микробной теории."
+    },
+    {
+      "source": "era_victorian",
+      "target": "sub_magicbullet",
+      "relation": "CONTEXT_FOR",
+      "label": "Идея таргетной терапии Эрлиха."
+    },
+    {
+      "source": "sub_magicbullet",
+      "target": "sub_pharmacology",
+      "relation": "EXTENDED_TO",
+      "label": "От специфичности к рецепторной модели."
+    },
+    {
+      "source": "era_industrial",
+      "target": "sub_miasma",
+      "relation": "CONTEXT_FOR",
+      "label": "Миазматическая теория."
+    },
+    {
+      "source": "sub_miasma",
+      "target": "sub_socialmedicine",
+      "relation": "EXTENDED_TO",
+      "label": "Санитарные реформы из миазматической теории."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_alma_ata",
+      "relation": "CONTEXT_FOR",
+      "label": "Декларация первичной помощи (1978)."
+    },
+    {
+      "source": "pt_alma_ata",
+      "target": "sub_socialmedicine",
+      "relation": "EXTENDED_TO",
+      "label": "Первичная помощь как право."
+    },
+    {
+      "source": "era_interwar",
+      "target": "sub_semashko_system",
+      "relation": "CONTEXT_FOR",
+      "label": "Советское здравоохранение."
+    },
+    {
+      "source": "sub_semashko_system",
+      "target": "sub_socialmedicine",
+      "relation": "EXTENDED_TO",
+      "label": "Государственная модель здравоохранения."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_ct",
+      "relation": "CONTEXT_FOR",
+      "label": "Компьютерная томография (1971)."
+    },
+    {
+      "source": "pt_ct",
+      "target": "sub_anatomy",
+      "relation": "ENABLED",
+      "label": "Послойная визуализация анатомии."
+    },
+    {
+      "source": "era_info",
+      "target": "pt_mri",
+      "relation": "CONTEXT_FOR",
+      "label": "Магнитно-резонансная томография."
+    },
+    {
+      "source": "pt_mri",
+      "target": "sub_neuro",
+      "relation": "ENABLED",
+      "label": "Визуализация мозга."
+    },
+    {
+      "source": "sub_genetics",
+      "target": "pt_pcr",
+      "relation": "DEVELOPED_BY",
+      "label": "Амплификация ДНК."
+    },
+    {
+      "source": "sub_microbio",
+      "target": "pt_pcr",
+      "relation": "DEVELOPED_BY",
+      "label": "Молекулярная диагностика."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_pet",
+      "relation": "CONTEXT_FOR",
+      "label": "Метаболическая визуализация."
+    },
+    {
+      "source": "pt_pet",
+      "target": "sub_oncology",
+      "relation": "ENABLED",
+      "label": "Визуализация опухолей."
+    },
+    {
+      "source": "sub_virology",
+      "target": "pt_reverse_transcriptase",
+      "relation": "DEVELOPED_BY",
+      "label": "Фермент ретровирусов."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_reverse_transcriptase",
+      "relation": "CONTEXT_FOR",
+      "label": "Молекулярная вирусология (1970)."
+    },
+    {
+      "source": "sub_pharmacology",
+      "target": "pt_sulfa",
+      "relation": "DEVELOPED_BY",
+      "label": "Системная химиотерапия."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_sulfa",
+      "relation": "CONTEXT_FOR",
+      "label": "Антибактериальная химиотерапия."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_ultrasound",
+      "relation": "CONTEXT_FOR",
+      "label": "Ультразвуковая диагностика."
+    },
+    {
+      "source": "pt_ultrasound",
+      "target": "sub_obstetrics",
+      "relation": "ENABLED",
+      "label": "УЗИ в акушерстве."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_xray",
+      "relation": "CONTEXT_FOR",
+      "label": "Открытие рентгеновских лучей (1895)."
+    },
+    {
+      "source": "pt_xray",
+      "target": "sub_anatomy",
+      "relation": "ENABLED",
+      "label": "Визуализация без вскрытия."
+    },
+    {
+      "source": "dis_cancer",
+      "target": "sub_oncology",
+      "relation": "EXTENDED_TO",
+      "label": "Рак — предмет онкологии."
+    },
+    {
+      "source": "dis_cancer",
+      "target": "sub_cellpath",
+      "relation": "SPECIFIED_BY",
+      "label": "Злокачественная клеточная патология."
+    },
+    {
+      "source": "dis_diabetes",
+      "target": "sub_endocrin",
+      "relation": "SPECIFIED_BY",
+      "label": "Эндокринное заболевание."
+    },
+    {
+      "source": "dis_diabetes",
+      "target": "sub_epidemiology",
+      "relation": "EXTENDED_TO",
+      "label": "Рост заболеваемости диабетом."
+    },
+    {
+      "source": "dis_diphtheria",
+      "target": "sub_microbio",
+      "relation": "SPECIFIED_BY",
+      "label": "Токсин коринебактерии."
+    },
+    {
+      "source": "dis_diphtheria",
+      "target": "era_victorian",
+      "relation": "EPIDEMIC_IN",
+      "label": "Дифтерия в XIX веке."
+    },
+    {
+      "source": "dis_rabies",
+      "target": "sub_virology",
+      "relation": "SPECIFIED_BY",
+      "label": "Вирус бешенства."
+    },
+    {
+      "source": "dis_rabies",
+      "target": "sub_immunology",
+      "relation": "EXTENDED_TO",
+      "label": "Вакцинация против бешенства."
+    },
+    {
+      "source": "era_greece_class",
+      "target": "inst_cos",
+      "relation": "CONTEXT_FOR",
+      "label": "Классическая Греция."
+    },
+    {
+      "source": "inst_cos",
+      "target": "sub_humoral_balance",
+      "relation": "FOUNDATION_OF",
+      "label": "Гуморальная теория косской школы."
+    },
+    {
+      "source": "era_info",
+      "target": "inst_helios",
+      "relation": "CONTEXT_FOR",
+      "label": "Современный хоспис."
+    },
+    {
+      "source": "inst_helios",
+      "target": "sub_palliative",
+      "relation": "INSTITUTIONALIZES",
+      "label": "Хоспис — институт паллиативной помощи."
+    },
+    {
+      "source": "era_enlight",
+      "target": "inst_hotel_dieu",
+      "relation": "CONTEXT_FOR",
+      "label": "Парижский госпиталь."
+    },
+    {
+      "source": "inst_hotel_dieu",
+      "target": "sub_anatomoclin",
+      "relation": "FOUNDATION_OF",
+      "label": "Клиническая медицина у постели больного."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "inst_nih",
+      "relation": "CONTEXT_FOR",
+      "label": "Большие биомедицинские проекты."
+    },
+    {
+      "source": "inst_nih",
+      "target": "sub_genetics",
+      "relation": "FUNDS",
+      "label": "Финансирование геномики."
+    },
+    {
+      "source": "era_interwar",
+      "target": "inst_roberts",
+      "relation": "CONTEXT_FOR",
+      "label": "Биомедицинские исследования."
+    },
+    {
+      "source": "inst_roberts",
+      "target": "sub_virology",
+      "relation": "FUNDS",
+      "label": "Поддержка вирусологии."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "inst_who",
+      "relation": "CONTEXT_FOR",
+      "label": "Международное здравоохранение."
+    },
+    {
+      "source": "inst_who",
+      "target": "sub_vaccine",
+      "relation": "ORGANIZES",
+      "label": "Вакцинные кампании."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_asylum",
+      "relation": "CONTEXT_FOR",
+      "label": "Институционализация психиатрии."
+    },
+    {
+      "source": "pt_asylum",
+      "target": "sub_psychiatry",
+      "relation": "INSTITUTIONALIZES",
+      "label": "Лечебница как институт психиатрии."
+    },
+    {
+      "source": "era_greece_class",
+      "target": "sub_pulse_diag",
+      "relation": "CONTEXT_FOR",
+      "label": "Античная диагностика."
+    },
+    {
+      "source": "sub_pulse_diag",
+      "target": "sub_anatomoclin",
+      "relation": "SOURCE_FOR",
+      "label": "Клиническое наблюдение."
+    },
+    {
+      "source": "era_vedic",
+      "target": "sub_rhinoplasty",
+      "relation": "CONTEXT_FOR",
+      "label": "Индийская хирургия."
+    },
+    {
+      "source": "sub_rhinoplasty",
+      "target": "sub_surgery",
+      "relation": "EXTENDED_TO",
+      "label": "Пластическая хирургия."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_botkin_course",
+      "relation": "CONTEXT_FOR",
+      "label": "Российская клиническая школа."
+    },
+    {
+      "source": "sub_anatomoclin",
+      "target": "pt_botkin_course",
+      "relation": "DEFINES",
+      "label": "Клиническое преподавание."
+    },
+    {
+      "source": "era_islam_gold",
+      "target": "pt_canon",
+      "relation": "CONTEXT_FOR",
+      "label": "Медицинский канон."
+    },
+    {
+      "source": "sub_pharmacology",
+      "target": "pt_canon",
+      "relation": "DEFINES",
+      "label": "Фармакопея и систематизация."
+    },
+    {
+      "source": "era_renaiss",
+      "target": "pt_fabrica",
+      "relation": "CONTEXT_FOR",
+      "label": "Рождение современной анатомии."
+    },
+    {
+      "source": "sub_anatomy",
+      "target": "pt_fabrica",
+      "relation": "DEFINES",
+      "label": "Анатомический атлас."
+    },
+    {
+      "source": "era_rome",
+      "target": "pt_galen_use",
+      "relation": "CONTEXT_FOR",
+      "label": "Римская медицина."
+    },
+    {
+      "source": "sub_anatomy",
+      "target": "pt_galen_use",
+      "relation": "DEFINES",
+      "label": "Телеологическая анатомия."
+    },
+    {
+      "source": "era_islam_gold",
+      "target": "pt_hawi",
+      "relation": "CONTEXT_FOR",
+      "label": "Клиническая энциклопедия."
+    },
+    {
+      "source": "sub_anatomoclin",
+      "target": "pt_hawi",
+      "relation": "DEFINES",
+      "label": "Клинические случаи."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_metchnikoff_immunity",
+      "relation": "CONTEXT_FOR",
+      "label": "Клеточный иммунитет."
+    },
+    {
+      "source": "sub_immunology",
+      "target": "pt_metchnikoff_immunity",
+      "relation": "DEFINES",
+      "label": "Фагоцитарная теория."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_osler_principles",
+      "relation": "CONTEXT_FOR",
+      "label": "Клиническая медицина."
+    },
+    {
+      "source": "sub_anatomoclin",
+      "target": "pt_osler_principles",
+      "relation": "DEFINES",
+      "label": "Учебник внутренней медицины."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_pavlov_digestion",
+      "relation": "CONTEXT_FOR",
+      "label": "Физиология пищеварения."
+    },
+    {
+      "source": "sub_physiology",
+      "target": "pt_pavlov_digestion",
+      "relation": "DEFINES",
+      "label": "Учение о пищеварении."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_pirogov_field",
+      "relation": "CONTEXT_FOR",
+      "label": "Военная медицина."
+    },
+    {
+      "source": "sub_field_surgery",
+      "target": "pt_pirogov_field",
+      "relation": "DEFINES",
+      "label": "Военно-полевая хирургия."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_pirogov_topo",
+      "relation": "CONTEXT_FOR",
+      "label": "Анатомия XIX века."
+    },
+    {
+      "source": "sub_anatomy",
+      "target": "pt_pirogov_topo",
+      "relation": "DEFINES",
+      "label": "Топографическая анатомия."
+    },
+    {
+      "source": "era_greece_class",
+      "target": "pt_sacred_disease",
+      "relation": "CONTEXT_FOR",
+      "label": "Гиппократов корпус."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_sacred_disease",
+      "relation": "DEFINES",
+      "label": "Эпилепсия как болезнь мозга."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_sechenov_reflexes",
+      "relation": "CONTEXT_FOR",
+      "label": "Российская физиология."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_sechenov_reflexes",
+      "relation": "DEFINES",
+      "label": "Физиология мозга."
+    },
+    {
+      "source": "era_islam_gold",
+      "target": "pt_smallpox_book",
+      "relation": "CONTEXT_FOR",
+      "label": "Клиническая медицина."
+    },
+    {
+      "source": "sub_epidemiology",
+      "target": "pt_smallpox_book",
+      "relation": "DEFINES",
+      "label": "Различение инфекций."
+    },
+    {
+      "source": "era_islam_gold",
+      "target": "pt_tasrif",
+      "relation": "CONTEXT_FOR",
+      "label": "Хирургия Золотого века."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_tasrif",
+      "relation": "DEFINES",
+      "label": "Хирургическая энциклопедия."
+    },
+    {
+      "source": "sub_humoral_balance",
+      "target": "pt_aetius",
+      "relation": "DEVELOPED_BY",
+      "label": "Компиляция античной медицины."
+    },
+    {
+      "source": "pt_aetius",
+      "target": "pt_galen",
+      "relation": "INFLUENCED",
+      "label": "Компилятор Галена."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_bakulev",
+      "relation": "CONTEXT_FOR",
+      "label": "Советская кардиохирургия."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_bakulev",
+      "relation": "DEVELOPED_BY",
+      "label": "Сердечная хирургия."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_barnard",
+      "relation": "CONTEXT_FOR",
+      "label": "Трансплантация сердца."
+    },
+    {
+      "source": "pt_barnard",
+      "target": "pt_organ_trans",
+      "relation": "DISCOVERED",
+      "label": "Пересадка сердца."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_beijerinck",
+      "relation": "CONTEXT_FOR",
+      "label": "Ранняя вирусология."
+    },
+    {
+      "source": "pt_beijerinck",
+      "target": "pt_ivanovsky",
+      "relation": "INFLUENCED",
+      "label": "Продолжил изучение вируса табачной мозаики."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_blalock",
+      "relation": "CONTEXT_FOR",
+      "label": "Детская кардиохирургия."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_blalock",
+      "relation": "DEVELOPED_BY",
+      "label": "Операция при тетраде Фалло."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_brown_sequard",
+      "relation": "CONTEXT_FOR",
+      "label": "Эндокринная физиология."
+    },
+    {
+      "source": "sub_physiology",
+      "target": "pt_brown_sequard",
+      "relation": "DEVELOPED_BY",
+      "label": "Экспериментальная эндокринология."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_burnet",
+      "relation": "CONTEXT_FOR",
+      "label": "Иммунология XX века."
+    },
+    {
+      "source": "sub_microbio",
+      "target": "pt_burnet",
+      "relation": "DEVELOPED_BY",
+      "label": "Клональная селекция."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_carrel",
+      "relation": "CONTEXT_FOR",
+      "label": "Сосудистая хирургия."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_carrel",
+      "relation": "DEVELOPED_BY",
+      "label": "Сосудистый шов."
+    },
+    {
+      "source": "era_scientific",
+      "target": "pt_cesalpino",
+      "relation": "CONTEXT_FOR",
+      "label": "Ранняя теория кровообращения."
+    },
+    {
+      "source": "sub_physiology",
+      "target": "pt_cesalpino",
+      "relation": "DEVELOPED_BY",
+      "label": "Физиология кровообращения."
+    },
+    {
+      "source": "sub_socialmedicine",
+      "target": "pt_chadwick",
+      "relation": "DEVELOPED_BY",
+      "label": "Санитарные реформы."
+    },
+    {
+      "source": "sub_epidemiology",
+      "target": "pt_chadwick",
+      "relation": "DEVELOPED_BY",
+      "label": "Связь бедности и болезни."
+    },
+    {
+      "source": "era_enlight",
+      "target": "pt_corvisart",
+      "relation": "CONTEXT_FOR",
+      "label": "Клиническая кардиология."
+    },
+    {
+      "source": "sub_cardio",
+      "target": "pt_corvisart",
+      "relation": "DEVELOPED_BY",
+      "label": "Перкуссия и пальпация."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_curie",
+      "relation": "CONTEXT_FOR",
+      "label": "Радиоактивность."
+    },
+    {
+      "source": "sub_radiology",
+      "target": "pt_curie",
+      "relation": "DEVELOPED_BY",
+      "label": "Радий и радиология."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_dausset",
+      "relation": "CONTEXT_FOR",
+      "label": "Иммуногенетика."
+    },
+    {
+      "source": "sub_immunology",
+      "target": "pt_dausset",
+      "relation": "DEVELOPED_BY",
+      "label": "Система HLA."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_dherelle",
+      "relation": "CONTEXT_FOR",
+      "label": "Бактериофаги."
+    },
+    {
+      "source": "sub_microbio",
+      "target": "pt_dherelle",
+      "relation": "DEVELOPED_BY",
+      "label": "Фаговая терапия."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_dubos",
+      "relation": "CONTEXT_FOR",
+      "label": "Почвенная микробиология."
+    },
+    {
+      "source": "sub_microbio",
+      "target": "pt_dubos",
+      "relation": "DEVELOPED_BY",
+      "label": "Антибиотики из почвенных бактерий."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_erisman",
+      "relation": "CONTEXT_FOR",
+      "label": "Гигиена."
+    },
+    {
+      "source": "sub_epidemiology",
+      "target": "pt_erisman",
+      "relation": "DEVELOPED_BY",
+      "label": "Санитарная гигиена."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_haldane",
+      "relation": "CONTEXT_FOR",
+      "label": "Популяционная генетика."
+    },
+    {
+      "source": "pt_haldane",
+      "target": "pt_fisher",
+      "relation": "INFLUENCED",
+      "label": "Эволюционная генетика."
+    },
+    {
+      "source": "era_enlight",
+      "target": "pt_hanaoka",
+      "relation": "CONTEXT_FOR",
+      "label": "Японская хирургия."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_hanaoka",
+      "relation": "DEVELOPED_BY",
+      "label": "Общая анестезия в хирургии."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_hershey",
+      "relation": "CONTEXT_FOR",
+      "label": "Молекулярная биология."
+    },
+    {
+      "source": "sub_genetics",
+      "target": "pt_hershey",
+      "relation": "DEVELOPED_BY",
+      "label": "Фаговая генетика."
+    },
+    {
+      "source": "sub_pharmacology",
+      "target": "pt_hildegard",
+      "relation": "DEVELOPED_BY",
+      "label": "Траволечение."
+    },
+    {
+      "source": "sub_socialmedicine",
+      "target": "pt_hildegard",
+      "relation": "DEVELOPED_BY",
+      "label": "Монастырская медицина."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_hodgkin",
+      "relation": "CONTEXT_FOR",
+      "label": "Нейрофизиология."
+    },
+    {
+      "source": "sub_physiology",
+      "target": "pt_hodgkin",
+      "relation": "DEVELOPED_BY",
+      "label": "Потенциал действия."
+    },
+    {
+      "source": "sub_cellpath",
+      "target": "pt_hooke",
+      "relation": "DEVELOPED_BY",
+      "label": "Термин «клетка»."
+    },
+    {
+      "source": "sub_microbio",
+      "target": "pt_hooke",
+      "relation": "DEVELOPED_BY",
+      "label": "Микрография."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_huxley",
+      "relation": "CONTEXT_FOR",
+      "label": "Нейрофизиология."
+    },
+    {
+      "source": "sub_physiology",
+      "target": "pt_huxley",
+      "relation": "DEVELOPED_BY",
+      "label": "Мышечное сокращение."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_ilizarov",
+      "relation": "CONTEXT_FOR",
+      "label": "Советская ортопедия."
+    },
+    {
+      "source": "sub_anatomy",
+      "target": "pt_ilizarov",
+      "relation": "DEVELOPED_BY",
+      "label": "Регенерация костной ткани."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_kashchenko",
+      "relation": "CONTEXT_FOR",
+      "label": "Российская психиатрия."
+    },
+    {
+      "source": "sub_socialmedicine",
+      "target": "pt_kashchenko",
+      "relation": "DEVELOPED_BY",
+      "label": "Организация психиатрической помощи."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_katz",
+      "relation": "CONTEXT_FOR",
+      "label": "Нейрофизиология."
+    },
+    {
+      "source": "sub_physiology",
+      "target": "pt_katz",
+      "relation": "DEVELOPED_BY",
+      "label": "Синаптическая передача."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_korsakov",
+      "relation": "CONTEXT_FOR",
+      "label": "Российская психиатрия."
+    },
+    {
+      "source": "sub_neuro",
+      "target": "pt_korsakov",
+      "relation": "DEVELOPED_BY",
+      "label": "Амнестический синдром."
+    },
+    {
+      "source": "sub_anatomoclin",
+      "target": "pt_linnaeus",
+      "relation": "DEVELOPED_BY",
+      "label": "Классификация болезней."
+    },
+    {
+      "source": "sub_pharmacology",
+      "target": "pt_linnaeus",
+      "relation": "DEVELOPED_BY",
+      "label": "Систематизация."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_luria",
+      "relation": "CONTEXT_FOR",
+      "label": "Молекулярная биология."
+    },
+    {
+      "source": "sub_genetics",
+      "target": "pt_luria",
+      "relation": "DEVELOPED_BY",
+      "label": "Флуктуационный тест."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_morton",
+      "relation": "CONTEXT_FOR",
+      "label": "Эфирная анестезия."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_morton",
+      "relation": "DEVELOPED_BY",
+      "label": "Наркоз в хирургии."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_murray",
+      "relation": "CONTEXT_FOR",
+      "label": "Трансплантация."
+    },
+    {
+      "source": "pt_murray",
+      "target": "pt_organ_trans",
+      "relation": "DISCOVERED",
+      "label": "Пересадка почки."
+    },
+    {
+      "source": "sub_humoral_balance",
+      "target": "pt_oreibasius",
+      "relation": "DEVELOPED_BY",
+      "label": "Компиляция Галена."
+    },
+    {
+      "source": "pt_oreibasius",
+      "target": "pt_galen",
+      "relation": "INFLUENCED",
+      "label": "Хранитель традиции Галена."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_paul_aegina",
+      "relation": "DEVELOPED_BY",
+      "label": "Хирургия."
+    },
+    {
+      "source": "sub_obstetrics",
+      "target": "pt_paul_aegina",
+      "relation": "DEVELOPED_BY",
+      "label": "Акушерство."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_pett",
+      "relation": "CONTEXT_FOR",
+      "label": "Санитарная химия."
+    },
+    {
+      "source": "sub_socialmedicine",
+      "target": "pt_pett",
+      "relation": "DEVELOPED_BY",
+      "label": "Гигиена и санитария."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_roux",
+      "relation": "CONTEXT_FOR",
+      "label": "Бактериология."
+    },
+    {
+      "source": "pt_roux",
+      "target": "dis_diphtheria",
+      "relation": "TREATS",
+      "label": "Антитоксин дифтерии."
+    },
+    {
+      "source": "era_enlight",
+      "target": "pt_samoylovich",
+      "relation": "CONTEXT_FOR",
+      "label": "Эпидемиология чумы."
+    },
+    {
+      "source": "pt_samoylovich",
+      "target": "dis_plague",
+      "relation": "TRACED",
+      "label": "Контактный путь чумы."
+    },
+    {
+      "source": "sub_physiology",
+      "target": "pt_santorrio",
+      "relation": "DEVELOPED_BY",
+      "label": "Измерение метаболизма."
+    },
+    {
+      "source": "sub_expmed",
+      "target": "pt_santorrio",
+      "relation": "DEVELOPED_BY",
+      "label": "Количественный эксперимент."
+    },
+    {
+      "source": "era_info",
+      "target": "pt_saunders",
+      "relation": "CONTEXT_FOR",
+      "label": "Хосписное движение."
+    },
+    {
+      "source": "sub_socialmedicine",
+      "target": "pt_saunders",
+      "relation": "DEVELOPED_BY",
+      "label": "Паллиативная помощь."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_simpson",
+      "relation": "CONTEXT_FOR",
+      "label": "Анестезия в акушерстве."
+    },
+    {
+      "source": "sub_obstetrics",
+      "target": "pt_simpson",
+      "relation": "DEVELOPED_BY",
+      "label": "Хлороформ в родах."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_sklifosovsky",
+      "relation": "CONTEXT_FOR",
+      "label": "Российская хирургия."
+    },
+    {
+      "source": "sub_antisepsis",
+      "target": "pt_sklifosovsky",
+      "relation": "DEVELOPED_BY",
+      "label": "Асептика в России."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_tausig",
+      "relation": "CONTEXT_FOR",
+      "label": "Детская кардиология."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_tausig",
+      "relation": "DEVELOPED_BY",
+      "label": "Детская кардиохирургия."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_thompson",
+      "relation": "CONTEXT_FOR",
+      "label": "Математическая биология."
+    },
+    {
+      "source": "sub_anatomy",
+      "target": "pt_thompson",
+      "relation": "DEVELOPED_BY",
+      "label": "Математическая морфология."
+    },
+    {
+      "source": "era_victorian",
+      "target": "pt_virchow",
+      "relation": "CONTEXT_FOR",
+      "label": "Клеточная патология."
+    },
+    {
+      "source": "sub_cellpath",
+      "target": "pt_virchow",
+      "relation": "DEVELOPED_BY",
+      "label": "Клеточная теория патологии."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_vishnevsky",
+      "relation": "CONTEXT_FOR",
+      "label": "Советская хирургия."
+    },
+    {
+      "source": "sub_anesthes",
+      "target": "pt_vishnevsky",
+      "relation": "DEVELOPED_BY",
+      "label": "Местная анестезия."
+    },
+    {
+      "source": "sub_microbio",
+      "target": "pt_welch",
+      "relation": "DEVELOPED_BY",
+      "label": "Патология и бактериология."
+    },
+    {
+      "source": "sub_anatomoclin",
+      "target": "pt_welch",
+      "relation": "DEVELOPED_BY",
+      "label": "Клиническая патология."
+    },
+    {
+      "source": "era_coldwar",
+      "target": "pt_wilkins",
+      "relation": "CONTEXT_FOR",
+      "label": "Молекулярная биология."
+    },
+    {
+      "source": "sub_genetics",
+      "target": "pt_wilkins",
+      "relation": "DEVELOPED_BY",
+      "label": "Рентгеновская дифракция ДНК."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_wright",
+      "relation": "CONTEXT_FOR",
+      "label": "Популяционная генетика."
+    },
+    {
+      "source": "sub_biostatistics",
+      "target": "pt_wright",
+      "relation": "DEVELOPED_BY",
+      "label": "Коэффициент инбридинга."
+    },
+    {
+      "source": "era_interwar",
+      "target": "pt_yudin",
+      "relation": "CONTEXT_FOR",
+      "label": "Советская хирургия."
+    },
+    {
+      "source": "sub_surgery",
+      "target": "pt_yudin",
+      "relation": "DEVELOPED_BY",
+      "label": "Неотложная хирургия."
+    }
   ]
 }

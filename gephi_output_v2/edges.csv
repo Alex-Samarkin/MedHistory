@@ -568,3 +568,193 @@ sub_immunology,pt_landsteiner,DEVELOPED_BY,Группы крови.,directed
 sub_blood_transfusion,sub_surgery,ENABLED,Гемотрансфузия сделала хирургию безопаснее.,directed
 era_wwi,sub_blood_transfusion,CONTEXT_FOR,Переливание крови в Первую мировую войну.,directed
 sub_blood_transfusion,sub_transplant,EXTENDED_TO,От переливания к трансплантации.,directed
+era_info,pt_amr,CONTEXT_FOR,Антибиотикорезистентность как глобальная угроза.,directed
+pt_amr,sub_epidemiology,EXTENDED_TO,Резистентность — эпидемиологическая проблема.,directed
+era_info,pt_decolonial,CONTEXT_FOR,Критика иерархий знания.,directed
+pt_decolonial,sub_socialmedicine,EXTENDED_TO,Глобальное здоровье и социальная медицина.,directed
+era_imperial,pt_hardy_weinberg,CONTEXT_FOR,Генетика начала XX века.,directed
+pt_hardy_weinberg,sub_genetics,UNDERPINS,Основа популяционной генетики.,directed
+era_interwar,pt_lotka_volterra,CONTEXT_FOR,Математическая биология.,directed
+pt_lotka_volterra,sub_epidemiology,EXTENDED_TO,Динамика популяций — модель эпидемий.,directed
+era_info,pt_one_health,CONTEXT_FOR,Интегративный взгляд на здоровье.,directed
+pt_one_health,sub_epidemiology,EXTENDED_TO,"Здоровье людей, животных и экосистем.",directed
+era_victorian,pt_psychoanalysis,CONTEXT_FOR,Зарождение психоанализа.,directed
+pt_psychoanalysis,sub_psychiatry,EXTENDED_TO,Психоанализ — часть психиатрии.,directed
+era_interwar,pt_sir_model,CONTEXT_FOR,Математическая эпидемиология.,directed
+pt_sir_model,sub_epidemiology,UNDERPINS,Компартментальная модель эпидемий.,directed
+era_scientific,sub_contagion,CONTEXT_FOR,Учение о контагии Фракасторо.,directed
+sub_contagion,sub_germtheory,SOURCE_FOR,Контагий — предтеча микробной теории.,directed
+era_victorian,sub_magicbullet,CONTEXT_FOR,Идея таргетной терапии Эрлиха.,directed
+sub_magicbullet,sub_pharmacology,EXTENDED_TO,От специфичности к рецепторной модели.,directed
+era_industrial,sub_miasma,CONTEXT_FOR,Миазматическая теория.,directed
+sub_miasma,sub_socialmedicine,EXTENDED_TO,Санитарные реформы из миазматической теории.,directed
+era_coldwar,pt_alma_ata,CONTEXT_FOR,Декларация первичной помощи (1978).,directed
+pt_alma_ata,sub_socialmedicine,EXTENDED_TO,Первичная помощь как право.,directed
+era_interwar,sub_semashko_system,CONTEXT_FOR,Советское здравоохранение.,directed
+sub_semashko_system,sub_socialmedicine,EXTENDED_TO,Государственная модель здравоохранения.,directed
+era_coldwar,pt_ct,CONTEXT_FOR,Компьютерная томография (1971).,directed
+pt_ct,sub_anatomy,ENABLED,Послойная визуализация анатомии.,directed
+era_info,pt_mri,CONTEXT_FOR,Магнитно-резонансная томография.,directed
+pt_mri,sub_neuro,ENABLED,Визуализация мозга.,directed
+sub_genetics,pt_pcr,DEVELOPED_BY,Амплификация ДНК.,directed
+sub_microbio,pt_pcr,DEVELOPED_BY,Молекулярная диагностика.,directed
+era_coldwar,pt_pet,CONTEXT_FOR,Метаболическая визуализация.,directed
+pt_pet,sub_oncology,ENABLED,Визуализация опухолей.,directed
+sub_virology,pt_reverse_transcriptase,DEVELOPED_BY,Фермент ретровирусов.,directed
+era_coldwar,pt_reverse_transcriptase,CONTEXT_FOR,Молекулярная вирусология (1970).,directed
+sub_pharmacology,pt_sulfa,DEVELOPED_BY,Системная химиотерапия.,directed
+era_interwar,pt_sulfa,CONTEXT_FOR,Антибактериальная химиотерапия.,directed
+era_coldwar,pt_ultrasound,CONTEXT_FOR,Ультразвуковая диагностика.,directed
+pt_ultrasound,sub_obstetrics,ENABLED,УЗИ в акушерстве.,directed
+era_victorian,pt_xray,CONTEXT_FOR,Открытие рентгеновских лучей (1895).,directed
+pt_xray,sub_anatomy,ENABLED,Визуализация без вскрытия.,directed
+dis_cancer,sub_oncology,EXTENDED_TO,Рак — предмет онкологии.,directed
+dis_cancer,sub_cellpath,SPECIFIED_BY,Злокачественная клеточная патология.,directed
+dis_diabetes,sub_endocrin,SPECIFIED_BY,Эндокринное заболевание.,directed
+dis_diabetes,sub_epidemiology,EXTENDED_TO,Рост заболеваемости диабетом.,directed
+dis_diphtheria,sub_microbio,SPECIFIED_BY,Токсин коринебактерии.,directed
+dis_diphtheria,era_victorian,EPIDEMIC_IN,Дифтерия в XIX веке.,directed
+dis_rabies,sub_virology,SPECIFIED_BY,Вирус бешенства.,directed
+dis_rabies,sub_immunology,EXTENDED_TO,Вакцинация против бешенства.,directed
+era_greece_class,inst_cos,CONTEXT_FOR,Классическая Греция.,directed
+inst_cos,sub_humoral_balance,FOUNDATION_OF,Гуморальная теория косской школы.,directed
+era_info,inst_helios,CONTEXT_FOR,Современный хоспис.,directed
+inst_helios,sub_palliative,INSTITUTIONALIZES,Хоспис — институт паллиативной помощи.,directed
+era_enlight,inst_hotel_dieu,CONTEXT_FOR,Парижский госпиталь.,directed
+inst_hotel_dieu,sub_anatomoclin,FOUNDATION_OF,Клиническая медицина у постели больного.,directed
+era_coldwar,inst_nih,CONTEXT_FOR,Большие биомедицинские проекты.,directed
+inst_nih,sub_genetics,FUNDS,Финансирование геномики.,directed
+era_interwar,inst_roberts,CONTEXT_FOR,Биомедицинские исследования.,directed
+inst_roberts,sub_virology,FUNDS,Поддержка вирусологии.,directed
+era_coldwar,inst_who,CONTEXT_FOR,Международное здравоохранение.,directed
+inst_who,sub_vaccine,ORGANIZES,Вакцинные кампании.,directed
+era_victorian,pt_asylum,CONTEXT_FOR,Институционализация психиатрии.,directed
+pt_asylum,sub_psychiatry,INSTITUTIONALIZES,Лечебница как институт психиатрии.,directed
+era_greece_class,sub_pulse_diag,CONTEXT_FOR,Античная диагностика.,directed
+sub_pulse_diag,sub_anatomoclin,SOURCE_FOR,Клиническое наблюдение.,directed
+era_vedic,sub_rhinoplasty,CONTEXT_FOR,Индийская хирургия.,directed
+sub_rhinoplasty,sub_surgery,EXTENDED_TO,Пластическая хирургия.,directed
+era_victorian,pt_botkin_course,CONTEXT_FOR,Российская клиническая школа.,directed
+sub_anatomoclin,pt_botkin_course,DEFINES,Клиническое преподавание.,directed
+era_islam_gold,pt_canon,CONTEXT_FOR,Медицинский канон.,directed
+sub_pharmacology,pt_canon,DEFINES,Фармакопея и систематизация.,directed
+era_renaiss,pt_fabrica,CONTEXT_FOR,Рождение современной анатомии.,directed
+sub_anatomy,pt_fabrica,DEFINES,Анатомический атлас.,directed
+era_rome,pt_galen_use,CONTEXT_FOR,Римская медицина.,directed
+sub_anatomy,pt_galen_use,DEFINES,Телеологическая анатомия.,directed
+era_islam_gold,pt_hawi,CONTEXT_FOR,Клиническая энциклопедия.,directed
+sub_anatomoclin,pt_hawi,DEFINES,Клинические случаи.,directed
+era_victorian,pt_metchnikoff_immunity,CONTEXT_FOR,Клеточный иммунитет.,directed
+sub_immunology,pt_metchnikoff_immunity,DEFINES,Фагоцитарная теория.,directed
+era_victorian,pt_osler_principles,CONTEXT_FOR,Клиническая медицина.,directed
+sub_anatomoclin,pt_osler_principles,DEFINES,Учебник внутренней медицины.,directed
+era_victorian,pt_pavlov_digestion,CONTEXT_FOR,Физиология пищеварения.,directed
+sub_physiology,pt_pavlov_digestion,DEFINES,Учение о пищеварении.,directed
+era_victorian,pt_pirogov_field,CONTEXT_FOR,Военная медицина.,directed
+sub_field_surgery,pt_pirogov_field,DEFINES,Военно-полевая хирургия.,directed
+era_victorian,pt_pirogov_topo,CONTEXT_FOR,Анатомия XIX века.,directed
+sub_anatomy,pt_pirogov_topo,DEFINES,Топографическая анатомия.,directed
+era_greece_class,pt_sacred_disease,CONTEXT_FOR,Гиппократов корпус.,directed
+sub_neuro,pt_sacred_disease,DEFINES,Эпилепсия как болезнь мозга.,directed
+era_victorian,pt_sechenov_reflexes,CONTEXT_FOR,Российская физиология.,directed
+sub_neuro,pt_sechenov_reflexes,DEFINES,Физиология мозга.,directed
+era_islam_gold,pt_smallpox_book,CONTEXT_FOR,Клиническая медицина.,directed
+sub_epidemiology,pt_smallpox_book,DEFINES,Различение инфекций.,directed
+era_islam_gold,pt_tasrif,CONTEXT_FOR,Хирургия Золотого века.,directed
+sub_surgery,pt_tasrif,DEFINES,Хирургическая энциклопедия.,directed
+sub_humoral_balance,pt_aetius,DEVELOPED_BY,Компиляция античной медицины.,directed
+pt_aetius,pt_galen,INFLUENCED,Компилятор Галена.,directed
+era_coldwar,pt_bakulev,CONTEXT_FOR,Советская кардиохирургия.,directed
+sub_surgery,pt_bakulev,DEVELOPED_BY,Сердечная хирургия.,directed
+era_coldwar,pt_barnard,CONTEXT_FOR,Трансплантация сердца.,directed
+pt_barnard,pt_organ_trans,DISCOVERED,Пересадка сердца.,directed
+era_victorian,pt_beijerinck,CONTEXT_FOR,Ранняя вирусология.,directed
+pt_beijerinck,pt_ivanovsky,INFLUENCED,Продолжил изучение вируса табачной мозаики.,directed
+era_coldwar,pt_blalock,CONTEXT_FOR,Детская кардиохирургия.,directed
+sub_surgery,pt_blalock,DEVELOPED_BY,Операция при тетраде Фалло.,directed
+era_victorian,pt_brown_sequard,CONTEXT_FOR,Эндокринная физиология.,directed
+sub_physiology,pt_brown_sequard,DEVELOPED_BY,Экспериментальная эндокринология.,directed
+era_coldwar,pt_burnet,CONTEXT_FOR,Иммунология XX века.,directed
+sub_microbio,pt_burnet,DEVELOPED_BY,Клональная селекция.,directed
+era_interwar,pt_carrel,CONTEXT_FOR,Сосудистая хирургия.,directed
+sub_surgery,pt_carrel,DEVELOPED_BY,Сосудистый шов.,directed
+era_scientific,pt_cesalpino,CONTEXT_FOR,Ранняя теория кровообращения.,directed
+sub_physiology,pt_cesalpino,DEVELOPED_BY,Физиология кровообращения.,directed
+sub_socialmedicine,pt_chadwick,DEVELOPED_BY,Санитарные реформы.,directed
+sub_epidemiology,pt_chadwick,DEVELOPED_BY,Связь бедности и болезни.,directed
+era_enlight,pt_corvisart,CONTEXT_FOR,Клиническая кардиология.,directed
+sub_cardio,pt_corvisart,DEVELOPED_BY,Перкуссия и пальпация.,directed
+era_victorian,pt_curie,CONTEXT_FOR,Радиоактивность.,directed
+sub_radiology,pt_curie,DEVELOPED_BY,Радий и радиология.,directed
+era_coldwar,pt_dausset,CONTEXT_FOR,Иммуногенетика.,directed
+sub_immunology,pt_dausset,DEVELOPED_BY,Система HLA.,directed
+era_interwar,pt_dherelle,CONTEXT_FOR,Бактериофаги.,directed
+sub_microbio,pt_dherelle,DEVELOPED_BY,Фаговая терапия.,directed
+era_interwar,pt_dubos,CONTEXT_FOR,Почвенная микробиология.,directed
+sub_microbio,pt_dubos,DEVELOPED_BY,Антибиотики из почвенных бактерий.,directed
+era_victorian,pt_erisman,CONTEXT_FOR,Гигиена.,directed
+sub_epidemiology,pt_erisman,DEVELOPED_BY,Санитарная гигиена.,directed
+era_interwar,pt_haldane,CONTEXT_FOR,Популяционная генетика.,directed
+pt_haldane,pt_fisher,INFLUENCED,Эволюционная генетика.,directed
+era_enlight,pt_hanaoka,CONTEXT_FOR,Японская хирургия.,directed
+sub_surgery,pt_hanaoka,DEVELOPED_BY,Общая анестезия в хирургии.,directed
+era_coldwar,pt_hershey,CONTEXT_FOR,Молекулярная биология.,directed
+sub_genetics,pt_hershey,DEVELOPED_BY,Фаговая генетика.,directed
+sub_pharmacology,pt_hildegard,DEVELOPED_BY,Траволечение.,directed
+sub_socialmedicine,pt_hildegard,DEVELOPED_BY,Монастырская медицина.,directed
+era_coldwar,pt_hodgkin,CONTEXT_FOR,Нейрофизиология.,directed
+sub_physiology,pt_hodgkin,DEVELOPED_BY,Потенциал действия.,directed
+sub_cellpath,pt_hooke,DEVELOPED_BY,Термин «клетка».,directed
+sub_microbio,pt_hooke,DEVELOPED_BY,Микрография.,directed
+era_coldwar,pt_huxley,CONTEXT_FOR,Нейрофизиология.,directed
+sub_physiology,pt_huxley,DEVELOPED_BY,Мышечное сокращение.,directed
+era_coldwar,pt_ilizarov,CONTEXT_FOR,Советская ортопедия.,directed
+sub_anatomy,pt_ilizarov,DEVELOPED_BY,Регенерация костной ткани.,directed
+era_victorian,pt_kashchenko,CONTEXT_FOR,Российская психиатрия.,directed
+sub_socialmedicine,pt_kashchenko,DEVELOPED_BY,Организация психиатрической помощи.,directed
+era_coldwar,pt_katz,CONTEXT_FOR,Нейрофизиология.,directed
+sub_physiology,pt_katz,DEVELOPED_BY,Синаптическая передача.,directed
+era_victorian,pt_korsakov,CONTEXT_FOR,Российская психиатрия.,directed
+sub_neuro,pt_korsakov,DEVELOPED_BY,Амнестический синдром.,directed
+sub_anatomoclin,pt_linnaeus,DEVELOPED_BY,Классификация болезней.,directed
+sub_pharmacology,pt_linnaeus,DEVELOPED_BY,Систематизация.,directed
+era_coldwar,pt_luria,CONTEXT_FOR,Молекулярная биология.,directed
+sub_genetics,pt_luria,DEVELOPED_BY,Флуктуационный тест.,directed
+era_victorian,pt_morton,CONTEXT_FOR,Эфирная анестезия.,directed
+sub_surgery,pt_morton,DEVELOPED_BY,Наркоз в хирургии.,directed
+era_coldwar,pt_murray,CONTEXT_FOR,Трансплантация.,directed
+pt_murray,pt_organ_trans,DISCOVERED,Пересадка почки.,directed
+sub_humoral_balance,pt_oreibasius,DEVELOPED_BY,Компиляция Галена.,directed
+pt_oreibasius,pt_galen,INFLUENCED,Хранитель традиции Галена.,directed
+sub_surgery,pt_paul_aegina,DEVELOPED_BY,Хирургия.,directed
+sub_obstetrics,pt_paul_aegina,DEVELOPED_BY,Акушерство.,directed
+era_victorian,pt_pett,CONTEXT_FOR,Санитарная химия.,directed
+sub_socialmedicine,pt_pett,DEVELOPED_BY,Гигиена и санитария.,directed
+era_victorian,pt_roux,CONTEXT_FOR,Бактериология.,directed
+pt_roux,dis_diphtheria,TREATS,Антитоксин дифтерии.,directed
+era_enlight,pt_samoylovich,CONTEXT_FOR,Эпидемиология чумы.,directed
+pt_samoylovich,dis_plague,TRACED,Контактный путь чумы.,directed
+sub_physiology,pt_santorrio,DEVELOPED_BY,Измерение метаболизма.,directed
+sub_expmed,pt_santorrio,DEVELOPED_BY,Количественный эксперимент.,directed
+era_info,pt_saunders,CONTEXT_FOR,Хосписное движение.,directed
+sub_socialmedicine,pt_saunders,DEVELOPED_BY,Паллиативная помощь.,directed
+era_victorian,pt_simpson,CONTEXT_FOR,Анестезия в акушерстве.,directed
+sub_obstetrics,pt_simpson,DEVELOPED_BY,Хлороформ в родах.,directed
+era_victorian,pt_sklifosovsky,CONTEXT_FOR,Российская хирургия.,directed
+sub_antisepsis,pt_sklifosovsky,DEVELOPED_BY,Асептика в России.,directed
+era_coldwar,pt_tausig,CONTEXT_FOR,Детская кардиология.,directed
+sub_surgery,pt_tausig,DEVELOPED_BY,Детская кардиохирургия.,directed
+era_victorian,pt_thompson,CONTEXT_FOR,Математическая биология.,directed
+sub_anatomy,pt_thompson,DEVELOPED_BY,Математическая морфология.,directed
+era_victorian,pt_virchow,CONTEXT_FOR,Клеточная патология.,directed
+sub_cellpath,pt_virchow,DEVELOPED_BY,Клеточная теория патологии.,directed
+era_coldwar,pt_vishnevsky,CONTEXT_FOR,Советская хирургия.,directed
+sub_anesthes,pt_vishnevsky,DEVELOPED_BY,Местная анестезия.,directed
+sub_microbio,pt_welch,DEVELOPED_BY,Патология и бактериология.,directed
+sub_anatomoclin,pt_welch,DEVELOPED_BY,Клиническая патология.,directed
+era_coldwar,pt_wilkins,CONTEXT_FOR,Молекулярная биология.,directed
+sub_genetics,pt_wilkins,DEVELOPED_BY,Рентгеновская дифракция ДНК.,directed
+era_interwar,pt_wright,CONTEXT_FOR,Популяционная генетика.,directed
+sub_biostatistics,pt_wright,DEVELOPED_BY,Коэффициент инбридинга.,directed
+era_interwar,pt_yudin,CONTEXT_FOR,Советская хирургия.,directed
+sub_surgery,pt_yudin,DEVELOPED_BY,Неотложная хирургия.,directed
