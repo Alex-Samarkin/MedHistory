@@ -432,3 +432,123 @@ pt_sir_model,sub_epidemic_modeling,FOUNDATION_OF,Компартментальн�
 sub_epidemic_modeling,dis_influenza,DESCRIBES,Модель пандемий гриппа.,directed
 pt_lotka_volterra,sub_systems_bio,FOUNDATION_OF,Динамика популяций.,directed
 pt_thompson,sub_systems_bio,INFLUENCED,Математическая морфология.,directed
+era_coldwar,pt_deinstitution,CONTEXT_FOR,Деинституционализация психиатрии.,directed
+pt_antipsych,pt_deinstitution,ENABLED,Антипсихотики позволили закрыть лечебницы.,directed
+dis_leprosy,era_mediev_eur,EPIDEMIC_IN,Проказа в средневековой Европе.,directed
+dis_leprosy,sub_microbio,SPECIFIED_BY,Возбудитель Mycobacterium leprae.,directed
+era_victorian,inst_bernard_lab,CONTEXT_FOR,Экспериментальная физиология.,directed
+inst_bernard_lab,pt_bernard,HOSTS,Лаборатория Клода Бернара.,directed
+era_greece_class,inst_cnidus,CONTEXT_FOR,Классическая Греция.,directed
+inst_cnidus,pt_hippocrates,TENSION_WITH,Соперница косской школы.,directed
+era_greece_arch,inst_crotona,CONTEXT_FOR,Архаическая Греция.,directed
+inst_crotona,sub_humoral_balance,FOUNDATION_OF,Здоровье как гармония противоположностей.,directed
+era_mediev_eur,inst_hosp_rome,CONTEXT_FOR,Средневековый госпиталь.,directed
+inst_hosp_rome,sub_socialmedicine,FOUNDATION_OF,Госпиталь как институт социальной медицины.,directed
+era_mediev_eur,inst_montpellier,CONTEXT_FOR,Средневековая Европа.,directed
+inst_montpellier,sub_anatomoclin,FOUNDATION_OF,Клиническая традиция Монпелье.,directed
+era_islam_gold,pt_al_majusi,CONTEXT_FOR,Исламский Золотой век.,directed
+sub_pharmacology,pt_al_majusi,DEVELOPED_BY,«Камиль ас-сынаа».,directed
+era_coldwar,pt_beadle,CONTEXT_FOR,Биохимическая генетика.,directed
+sub_genetics,pt_beadle,DEVELOPED_BY,Один ген — один фермент.,directed
+era_industrial,pt_billroth,CONTEXT_FOR,Хирургия XIX века.,directed
+sub_surgery,pt_billroth,DEVELOPED_BY,Абдоминальная хирургия.,directed
+era_info,pt_chen,CONTEXT_FOR,Молекулярная физиология.,directed
+sub_neuro,pt_chen,DEVELOPED_BY,Ионные каналы.,directed
+era_interwar,pt_cushing,CONTEXT_FOR,Нейрохирургия.,directed
+sub_neuro,pt_cushing,DEVELOPED_BY,Нейрохирургия.,directed
+era_interwar,pt_dale,CONTEXT_FOR,Нейрохимия.,directed
+sub_neuro,pt_dale,DEVELOPED_BY,Нейромедиаторы.,directed
+era_coldwar,pt_eccles,CONTEXT_FOR,Нейрофизиология.,directed
+sub_neuro,pt_eccles,DEVELOPED_BY,Синаптическая передача.,directed
+era_interwar,pt_filatov,CONTEXT_FOR,Советская офтальмология.,directed
+sub_transplant,pt_filatov,DEVELOPED_BY,Пересадка роговицы.,directed
+era_coldwar,pt_gross,CONTEXT_FOR,Детская кардиохирургия.,directed
+sub_cardio,pt_gross,DEVELOPED_BY,Детская кардиохирургия.,directed
+era_mediev_eur,pt_guy_de_chauliac,CONTEXT_FOR,Средневековая хирургия.,directed
+sub_surgery,pt_guy_de_chauliac,DEVELOPED_BY,«Великая хирургия».,directed
+era_info,pt_hille,CONTEXT_FOR,Молекулярная нейрофизиология.,directed
+sub_neuro,pt_hille,DEVELOPED_BY,Ионные каналы.,directed
+era_coldwar,pt_hubel,CONTEXT_FOR,Нейрофизиология зрения.,directed
+sub_neuro,pt_hubel,DEVELOPED_BY,Зрительная кора.,directed
+era_islam_gold,pt_ibn_zuhr,CONTEXT_FOR,Исламский Золотой век.,directed
+sub_anatomy,pt_ibn_zuhr,DEVELOPED_BY,Экспериментальная паразитология.,directed
+era_egypt,pt_imeshotep,CONTEXT_FOR,Древний Египет.,directed
+sub_surgery,pt_imeshotep,DEVELOPED_BY,Ранняя египетская медицина.,directed
+era_victorian,pt_kitasato,CONTEXT_FOR,Бактериология.,directed
+sub_microbio,pt_kitasato,DEVELOPED_BY,Чистая культура столбняка.,directed
+era_coldwar,pt_kolff,CONTEXT_FOR,Искусственные органы.,directed
+sub_transplant,pt_kolff,DEVELOPED_BY,Искусственные органы.,directed
+pt_kolff,pt_dialysis,DISCOVERED,Искусственная почка.,directed
+era_coldwar,pt_kurland,CONTEXT_FOR,Психофармакология.,directed
+sub_psychiatry,pt_kurland,DEVELOPED_BY,Испытания хлорпромазина.,directed
+era_interwar,pt_loewi,CONTEXT_FOR,Нейрохимия.,directed
+sub_neuro,pt_loewi,DEVELOPED_BY,Химическая передача импульса.,directed
+era_info,pt_mackinnon,CONTEXT_FOR,Структурная биология.,directed
+sub_neuro,pt_mackinnon,DEVELOPED_BY,Структура ионного канала.,directed
+era_mediev_eur,pt_mondino,CONTEXT_FOR,Средневековая анатомия.,directed
+sub_anatomy,pt_mondino,DEVELOPED_BY,Публичное вскрытие.,directed
+era_interwar,pt_moniz,CONTEXT_FOR,Психохирургия.,directed
+sub_neuro,pt_moniz,DEVELOPED_BY,Церебральная ангиография.,directed
+pt_moniz,pt_lobotomy,DISCOVERED,Лоботомия.,directed
+era_enlight,pt_montagu,CONTEXT_FOR,Вариоляция в Европе.,directed
+sub_variolation,pt_montagu,DEVELOPED_BY,Вариоляция в Англии.,directed
+era_coldwar,pt_mountcastle,CONTEXT_FOR,Нейрофизиология.,directed
+sub_neuro,pt_mountcastle,DEVELOPED_BY,Колончатая организация коры.,directed
+era_info,pt_neher,CONTEXT_FOR,Биофизика.,directed
+sub_neuro,pt_neher,DEVELOPED_BY,Патч-клэмп.,directed
+era_interwar,pt_penfield,CONTEXT_FOR,Нейрохирургия.,directed
+sub_neuro,pt_penfield,DEVELOPED_BY,Карта функций коры.,directed
+era_industrial,pt_remark,CONTEXT_FOR,Клеточная теория.,directed
+sub_cellpath,pt_remark,DEVELOPED_BY,Деление клеток.,directed
+era_mediev_eur,pt_roger_bacon,CONTEXT_FOR,Средневековая наука.,directed
+sub_expmed,pt_roger_bacon,DEVELOPED_BY,Экспериментальный метод.,directed
+era_info,pt_sakmann,CONTEXT_FOR,Биофизика.,directed
+sub_neuro,pt_sakmann,DEVELOPED_BY,Патч-клэмп.,directed
+era_wwi,pt_sauerbruch,CONTEXT_FOR,Торакальная хирургия.,directed
+sub_surgery,pt_sauerbruch,DEVELOPED_BY,Торакальная хирургия.,directed
+era_victorian,pt_schleiden,CONTEXT_FOR,Клеточная теория.,directed
+sub_cellpath,pt_schleiden,DEVELOPED_BY,"Клеточная теория, растения.",directed
+era_victorian,pt_schwann,CONTEXT_FOR,Клеточная теория.,directed
+sub_cellpath,pt_schwann,DEVELOPED_BY,"Клеточная теория, животные.",directed
+era_coldwar,pt_skou,CONTEXT_FOR,Мембранная физиология.,directed
+sub_physiology,pt_skou,DEVELOPED_BY,Натрий-калиевая АТФаза.,directed
+era_coldwar,pt_spivak,CONTEXT_FOR,Нейрофизиология боли.,directed
+sub_neuro,pt_spivak,DEVELOPED_BY,Болевые пути.,directed
+era_coldwar,pt_tatum,CONTEXT_FOR,Биохимическая генетика.,directed
+sub_genetics,pt_tatum,DEVELOPED_BY,Один ген — один фермент.,directed
+era_coldwar,pt_wiesel,CONTEXT_FOR,Нейрофизиология зрения.,directed
+sub_neuro,pt_wiesel,DEVELOPED_BY,Зрительная кора.,directed
+era_info,pt_yellen,CONTEXT_FOR,Биофизика.,directed
+sub_neuro,pt_yellen,DEVELOPED_BY,Ионные каналы.,directed
+era_info,pt_zhang,CONTEXT_FOR,Структурная биология.,directed
+sub_neuro,pt_zhang,DEVELOPED_BY,Криоэлектронная микроскопия.,directed
+era_coldwar,pt_wiesel_hubel,CONTEXT_FOR,Нейрофизиология зрения.,directed
+sub_neuro,pt_wiesel_hubel,DEVELOPED_BY,Функциональная архитектура зрительной коры.,directed
+era_vedic,pt_atharva,CONTEXT_FOR,Ведийский период.,directed
+pt_atharva,sub_dosha_vata,SOURCE_FOR,Предтеча аюрведы.,directed
+era_meso,pt_diagnostic,CONTEXT_FOR,Древняя Месопотамия.,directed
+pt_diagnostic,sub_anatomoclin,SOURCE_FOR,Симптоматическая классификация.,directed
+era_egypt,pt_ebers,CONTEXT_FOR,Древний Египет.,directed
+pt_ebers,sub_pharmacology,SOURCE_FOR,877 рецептов — фармакопея.,directed
+era_egypt,pt_edwin_smith,CONTEXT_FOR,Древний Египет.,directed
+pt_edwin_smith,sub_surgery,SOURCE_FOR,Хирургический трактат.,directed
+era_victorian,pt_gray_anatomy,CONTEXT_FOR,Викторианская эпоха.,directed
+sub_anatomy,pt_gray_anatomy,DEFINES,Канонический учебник анатомии.,directed
+era_coldwar,pt_harrison_principles,CONTEXT_FOR,Современная внутренняя медицина.,directed
+pt_harrison_principles,sub_ebm,SOURCE_FOR,Эталон клинического знания.,directed
+era_egypt,pt_kahun,CONTEXT_FOR,Древний Египет.,directed
+pt_kahun,sub_obstetrics,SOURCE_FOR,Старейший гинекологический текст.,directed
+sub_dosha_vata,pt_madhava,DEFINES,Аюрведическая патология.,directed
+sub_dosha_pitta,pt_madhava,DEFINES,Аюрведическая семиотика.,directed
+era_coldwar,pt_dialysis,CONTEXT_FOR,Хронический диализ.,directed
+sub_transplant,pt_dialysis,DEVELOPED_BY,Искусственная почка.,directed
+era_interwar,pt_eeg,CONTEXT_FOR,Электрическая активность мозга.,directed
+sub_neuro,pt_eeg,DEVELOPED_BY,Электроэнцефалография.,directed
+era_coldwar,pt_organ_trans,CONTEXT_FOR,Клиническая трансплантация.,directed
+sub_transplant,pt_organ_trans,DEVELOPED_BY,Пересадка органов.,directed
+era_coldwar,pt_sabin_vaccine,CONTEXT_FOR,Массовая иммунизация.,directed
+sub_vaccine,pt_sabin_vaccine,DEVELOPED_BY,Живая оральная вакцина.,directed
+pt_sabin,pt_sabin_vaccine,DISCOVERED,Живая полиовакцина.,directed
+era_coldwar,pt_salk_vaccine,CONTEXT_FOR,Массовая иммунизация.,directed
+sub_vaccine,pt_salk_vaccine,DEVELOPED_BY,Инактивированная вакцина.,directed
+pt_salk,pt_salk_vaccine,DISCOVERED,Инактивированная полиовакцина.,directed
