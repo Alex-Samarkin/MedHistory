@@ -3,7 +3,7 @@
 
 Поверх pyvis-графа добавляется панель кнопок:
 - раскладка: Силовая (barnesHut), Расталкивание (repulsion), ForceAtlas2,
-  Дерево (hierarchical) и Круг (предвычисленная упаковка);
+  Дерево (hierarchical), Круг, Случайная и Радиальная (предвычисленные);
 - тема: Светлая / Тёмная (меняется фон, рёбра и цвет подписей);
 - поиск: умный поиск узлов по частичному вводу и с допуском опечаток
   (подстрока + расстояние Левенштейна); клик по результату фокусирует узел.
@@ -41,9 +41,44 @@ def circular_positions(G: nx.DiGraph) -> dict:
     return pos
 
 
-def build_controls(circular: dict, hubs: list) -> str:
+def random_positions(G: nx.DiGraph, seed: int = 7) -> dict:
+    """Случайная раскладка: узлы в случайных координатах, маркеры — в середине."""
+    import random as _rnd
+    r = _rnd.Random(seed)
+    pos = {nid: {"x": round(r.uniform(-500, 500), 2),
+                 "y": round(r.uniform(-500, 500), 2)} for nid in G.nodes()}
+    for i, (u, v) in enumerate(G.edges()):
+        mid = f"__edge_{i}"
+        pos[mid] = {"x": round((pos[u]["x"] + pos[v]["x"]) / 2, 2),
+                    "y": round((pos[u]["y"] + pos[v]["y"]) / 2, 2)}
+    return pos
+
+
+def radial_positions(G: nx.DiGraph) -> dict:
+    """Радиальная раскладка по степени: хабы ближе к центру, периферия дальше."""
+    deg = dict(G.degree())
+    real = sorted(G.nodes(), key=lambda n: -deg[n])
+    golden = math.pi * (3 - math.sqrt(5))  # золотой угол (~137.5°)
+    n = len(real)
+    pos = {}
+    for rank, nid in enumerate(real):
+        frac = rank / max(1, n - 1)
+        radius = 60 + frac * 480
+        ang = rank * golden
+        pos[nid] = {"x": round(radius * math.cos(ang), 2),
+                    "y": round(radius * math.sin(ang), 2)}
+    for i, (u, v) in enumerate(G.edges()):
+        mid = f"__edge_{i}"
+        pos[mid] = {"x": round((pos[u]["x"] + pos[v]["x"]) / 2, 2),
+                    "y": round((pos[u]["y"] + pos[v]["y"]) / 2, 2)}
+    return pos
+
+
+def build_controls(layouts: dict, hubs: list) -> str:
     """HTML-панель + JS для смены раскладки, темы и навигации к хабам."""
-    circular_js = json.dumps(circular, ensure_ascii=False)
+    circular_js = json.dumps(layouts["circular"], ensure_ascii=False)
+    random_js = json.dumps(layouts["random"], ensure_ascii=False)
+    radial_js = json.dumps(layouts["radial"], ensure_ascii=False)
     hub_options = "".join(
         f'<option value="{nid}">{label}</option>' for nid, label in hubs
     )
@@ -57,7 +92,9 @@ def build_controls(circular: dict, hubs: list) -> str:
         '<button onclick="applyLayout(\'repulsion\')">Расталкивание</button> '
         '<button onclick="applyLayout(\'forceatlas2\')">ForceAtlas2</button> '
         '<button onclick="applyLayout(\'tree\')">Дерево</button> '
-        '<button onclick="applyLayout(\'circular\')">Круг</button>'
+        '<button onclick="applyLayout(\'circular\')">Круг</button> '
+        '<button onclick="applyLayout(\'random\')">Случайная</button> '
+        '<button onclick="applyLayout(\'radial\')">Радиальная</button>'
         '&nbsp;&nbsp;<b>Тема:</b> '
         '<button onclick="setTheme(\'light\')">Светлая</button> '
         '<button onclick="setTheme(\'dark\')">Тёмная</button>'
@@ -79,15 +116,18 @@ def build_controls(circular: dict, hubs: list) -> str:
 
     js = """
 var LAYOUT_CIRCULAR = __CIRCULAR__;
+var LAYOUT_RANDOM = __RANDOM__;
+var LAYOUT_RADIAL = __RADIAL__;
 function _unfixAll(){
   if(window.nodes){ nodes.forEach(function(n){ nodes.update({id: n.id, fixed: false}); }); }
 }
 function applyLayout(name){
   if(!window.network) return;
-  if(name === "circular"){
+  if(name === "circular" || name === "random" || name === "radial"){
+    var lp = name === "circular" ? LAYOUT_CIRCULAR : (name === "random" ? LAYOUT_RANDOM : LAYOUT_RADIAL);
     network.setOptions({physics: false, layout: {hierarchical: {enabled: false}}});
     nodes.forEach(function(n){
-      var p = LAYOUT_CIRCULAR[n.id];
+      var p = lp[n.id];
       if(p){ nodes.update({id: n.id, x: p.x, y: p.y, fixed: true}); }
     });
     network.fit({animation: true});
@@ -204,7 +244,9 @@ function locateHub(id){
   }
 }
 """
-    js = js.replace("__CIRCULAR__", circular_js)
+    js = (js.replace("__CIRCULAR__", circular_js)
+            .replace("__RANDOM__", random_js)
+            .replace("__RADIAL__", radial_js))
     return panel + "<script>" + js + "</script>"
 
 
@@ -270,7 +312,12 @@ def main() -> None:
     deg = dict(G.degree())
     top = sorted(G.nodes(), key=lambda n: -deg[n])[:10]
     hubs = [(nid, G.nodes[nid]["Label"]) for nid in top]
-    controls = build_controls(circular_positions(G), hubs)
+    layouts = {
+        "circular": circular_positions(G),
+        "random": random_positions(G),
+        "radial": radial_positions(G),
+    }
+    controls = build_controls(layouts, hubs)
     html = html.replace("</body>", controls + "</body>")
     html = _inline_assets(html)
     OUT.write_text(html, encoding="utf-8")
