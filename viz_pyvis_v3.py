@@ -12,6 +12,7 @@
 """
 import json
 import math
+import re
 from pathlib import Path
 
 import networkx as nx
@@ -188,6 +189,30 @@ function doSearch(q){
     return panel + "<script>" + js + "</script>"
 
 
+def _inline_assets(html: str) -> str:
+    """Делает HTML самодостаточным: встраивает vis-network локально и
+    убирает внешние ссылки на bootstrap/CDN (нет зависимостей от сети)."""
+    import pyvis
+    lib = Path(pyvis.__file__).parent / "templates" / "lib" / "vis-9.1.2"
+    js = (lib / "vis-network.min.js").read_text(encoding="utf-8")
+    css = (lib / "vis-network.css").read_text(encoding="utf-8")
+    js = js.replace("</script>", "<\\/script>")
+
+    html = re.sub(
+        r'<script[^>]*src="[^"]*vis-network[^"]*\.js"[^>]*>\s*</script>',
+        lambda m: '<script type="text/javascript">\n' + js + '\n</script>',
+        html,
+    )
+    html = re.sub(
+        r'<link[^>]*href="[^"]*vis-network[^"]*\.css"[^>]*>',
+        lambda m: '<style>\n' + css + '\n</style>',
+        html,
+    )
+    html = re.sub(r'<script[^>]*src="[^"]*bootstrap[^"]*"[^>]*>\s*</script>', '', html)
+    html = re.sub(r'<link[^>]*href="[^"]*bootstrap[^"]*"[^>]*>', '', html)
+    return html
+
+
 def main() -> None:
     G = load_graph()
     net = Network(height="750px", width="100%", directed=True, bgcolor="#ffffff")
@@ -225,6 +250,7 @@ def main() -> None:
     html = OUT.read_text(encoding="utf-8")
     controls = build_controls(circular_positions(G))
     html = html.replace("</body>", controls + "</body>")
+    html = _inline_assets(html)
     OUT.write_text(html, encoding="utf-8")
 
     print(f"Сохранено: {OUT.resolve()} (раскладка и тема переключаются кнопками)")
