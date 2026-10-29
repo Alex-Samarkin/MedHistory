@@ -306,6 +306,64 @@ function locateHub(id){
     network.focus(id, {scale: 1.5, animation: {duration: 500, easingFunction: "easeInOutQuad"}});
   }
 }
+var _edgeBaseColor = "#999999";
+var _markerEndpoints = {};
+var _selectListenerAdded = false;
+function _buildMarkerMap(){
+  _markerEndpoints = {};
+  edges.forEach(function(e){
+    var f = String(e.from), t = String(e.to);
+    if(f.indexOf("__edge_") === 0){ (_markerEndpoints[f] = _markerEndpoints[f] || []).push(t); }
+    if(t.indexOf("__edge_") === 0){ (_markerEndpoints[t] = _markerEndpoints[t] || []).push(f); }
+  });
+}
+function _resetEdges(){
+  edges.forEach(function(e){
+    edges.update({id: e.id, color: {color: _edgeBaseColor, opacity: 1.0}, width: 1.2});
+  });
+}
+function _highlightEdges(S){
+  if(Object.keys(_markerEndpoints).length === 0){ _buildMarkerMap(); }
+  var firstMarkers = new Set();
+  var firstNeighbors = new Set();
+  Object.keys(_markerEndpoints).forEach(function(m){
+    var ends = _markerEndpoints[m];
+    if(ends.indexOf(S) !== -1){
+      firstMarkers.add(m);
+      ends.forEach(function(x){ if(x !== S){ firstNeighbors.add(x); } });
+    }
+  });
+  var secondMarkers = new Set();
+  Object.keys(_markerEndpoints).forEach(function(m){
+    if(firstMarkers.has(m)){ return; }
+    _markerEndpoints[m].forEach(function(x){
+      if(firstNeighbors.has(x)){ secondMarkers.add(m); }
+    });
+  });
+  edges.forEach(function(e){
+    var f = String(e.from), t = String(e.to);
+    var isFirst = (f === S || t === S) || firstMarkers.has(f) || firstMarkers.has(t);
+    var isSecond = !isFirst && (secondMarkers.has(f) || secondMarkers.has(t));
+    if(isFirst){
+      edges.update({id: e.id, color: {color: "#d43f2a", opacity: 1.0}, width: 3.0});
+    } else if(isSecond){
+      edges.update({id: e.id, color: {color: "#e8a838", opacity: 0.85}, width: 2.0});
+    } else {
+      edges.update({id: e.id, color: {color: _edgeBaseColor, opacity: 0.12}, width: 1.2});
+    }
+  });
+}
+function _onSelect(){
+  var sel = network.getSelectedNodes();
+  if(sel.length){ _highlightEdges(sel[0]); } else { _resetEdges(); }
+}
+window.addEventListener("load", function(){
+  if(window.network && !_selectListenerAdded){
+    _buildMarkerMap();
+    network.on("select", _onSelect);
+    _selectListenerAdded = true;
+  }
+});
 """
     js = (js.replace("__CIRCULAR__", circular_js)
             .replace("__RANDOM__", random_js)
@@ -348,7 +406,7 @@ def main() -> None:
             label=d["Label"],
             title=node_card(d),
             color=d["Color"],
-            size=8 + d["Degree"] * 0.6,
+            size=7 + d["Degree"] * 0.7,
             font={"color": "#222222", "face": "sans-serif"},
         )
 
