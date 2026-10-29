@@ -111,7 +111,7 @@ def build_controls(layouts: dict, hubs: list) -> str:
         'oninput="doSearch(this.value)">'
         '<div id="searchresults" style="max-height:170px;overflow:auto;margin-top:2px;"></div>'
         '</div>'
-        '<div id="statusmsg" style="display:none;margin-top:4px;font-style:italic;color:#666666;font-size:12px;"></div>'
+        '<div id="statusmsg" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(20,20,25,0.85);color:#ffffff;padding:14px 22px;border-radius:10px;font-size:16px;z-index:2000;pointer-events:none;box-shadow:0 4px 20px rgba(0,0,0,0.45);"></div>'
         '</div>'
     )
 
@@ -182,6 +182,9 @@ function _unfixAll(){
 function applyLayout(name){
   if(!window.network) return;
   _startLoading();
+  setTimeout(function(){ _doLayout(name); }, 50);
+}
+function _doLayout(name){
   if(name === "circular" || name === "random" || name === "radial"){
     var lp = name === "circular" ? LAYOUT_CIRCULAR : (name === "random" ? LAYOUT_RANDOM : LAYOUT_RADIAL);
     network.setOptions({physics: false, layout: {hierarchical: {enabled: false}}});
@@ -190,6 +193,7 @@ function applyLayout(name){
       if(p){ nodes.update({id: n.id, x: p.x, y: p.y, fixed: true}); }
     });
     network.fit({animation: true});
+    setTimeout(_stopLoading, 900);
   } else if(name === "tree"){
     _unfixAll();
     network.setOptions({
