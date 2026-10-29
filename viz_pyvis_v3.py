@@ -105,6 +105,7 @@ def build_controls(layouts: dict, hubs: list) -> str:
         '<option value="">— по умолчанию —</option>'
         + hub_options +
         '</select>'
+        '&nbsp;&nbsp;<button onclick="_resetHighlight()">Сброс</button>'
         '&nbsp;&nbsp;<b>Поиск:</b> '
         '<input id="searchbox" type="text" placeholder="буквы или с опечаткой…" '
         'style="width:170px;padding:2px 6px;border:1px solid #cccccc;border-radius:4px;" '
@@ -318,9 +319,15 @@ function _buildMarkerMap(){
   });
 }
 function _resetEdges(){
+  var upd = [];
   edges.forEach(function(e){
-    edges.update({id: e.id, color: {color: _edgeBaseColor, opacity: 1.0}, width: 1.2});
+    upd.push({id: e.id, color: {color: _edgeBaseColor, opacity: 1.0}, width: 1.2});
   });
+  edges.update(upd);
+}
+function _resetHighlight(){
+  _resetEdges();
+  if(window.network){ network.unselectAll(); }
 }
 function _highlightEdges(S){
   if(Object.keys(_markerEndpoints).length === 0){ _buildMarkerMap(); }
@@ -340,18 +347,20 @@ function _highlightEdges(S){
       if(firstNeighbors.has(x)){ secondMarkers.add(m); }
     });
   });
+  var upd = [];
   edges.forEach(function(e){
     var f = String(e.from), t = String(e.to);
     var isFirst = (f === S || t === S) || firstMarkers.has(f) || firstMarkers.has(t);
     var isSecond = !isFirst && (secondMarkers.has(f) || secondMarkers.has(t));
     if(isFirst){
-      edges.update({id: e.id, color: {color: "#d43f2a", opacity: 1.0}, width: 3.0});
+      upd.push({id: e.id, color: {color: "#d43f2a", opacity: 1.0}, width: 3.0});
     } else if(isSecond){
-      edges.update({id: e.id, color: {color: "#e8a838", opacity: 0.85}, width: 2.0});
+      upd.push({id: e.id, color: {color: "#e8a838", opacity: 0.85}, width: 2.0});
     } else {
-      edges.update({id: e.id, color: {color: _edgeBaseColor, opacity: 0.12}, width: 1.2});
+      upd.push({id: e.id, color: {color: _edgeBaseColor, opacity: 0.12}, width: 1.2});
     }
   });
+  edges.update(upd);
 }
 function _onSelect(){
   var sel = network.getSelectedNodes();
