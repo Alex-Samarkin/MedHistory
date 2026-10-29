@@ -68,9 +68,7 @@ def build_controls(circular: dict, hubs: list) -> str:
         '<option value="">— по умолчанию —</option>'
         + hub_options +
         '</select>'
-        '</div>'
-        '<div style="margin-top:6px;border-top:1px solid #eeeeee;padding-top:6px;">'
-        '<b>Поиск:</b> '
+        '&nbsp;&nbsp;<b>Поиск:</b> '
         '<input id="searchbox" type="text" placeholder="буквы или с опечаткой…" '
         'style="width:170px;padding:2px 6px;border:1px solid #cccccc;border-radius:4px;" '
         'oninput="doSearch(this.value)">'
