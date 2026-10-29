@@ -202,7 +202,7 @@
 <attvalue for="n4" value="Европа / Ближний Восток"/>
 <attvalue for="n5" value="Военная травма, переливание крови, противошоковая терапия."/>
 <attvalue for="n6" value="20"/>
-<attvalue for="n7" value="7"/>
+<attvalue for="n7" value="8"/>
 <attvalue for="n8" value="#9E9E9E"/>
 </attvalues><viz:color r="158" g="158" b="158"/></node>
 <node id="era_interwar" label="Межвоенный период" start="1918" end="1939"><attvalues>
@@ -242,7 +242,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Геномика, биомедицинская информатика, большие данные и телемедицина."/>
 <attvalue for="n6" value="20"/>
-<attvalue for="n7" value="12"/>
+<attvalue for="n7" value="14"/>
 <attvalue for="n8" value="#9E9E9E"/>
 </attvalues><viz:color r="158" g="158" b="158"/></node>
 <node id="era_precision" label="Эра прецизионной медицины" start="2010" end="2026"><attvalues>
@@ -342,7 +342,7 @@
 <attvalue for="n4" value="Китай"/>
 <attvalue for="n5" value="Стимуляция точек на меридианах; практика, опередившая механизмы объяснения."/>
 <attvalue for="n6" value="24"/>
-<attvalue for="n7" value="4"/>
+<attvalue for="n7" value="5"/>
 <attvalue for="n8" value="#00897B"/>
 </attvalues><viz:color r="0" g="137" b="123"/></node>
 <node id="sub_pulse_diag" label="Пульсовая диагностика" start="-300" end="2026"><attvalues>
@@ -382,7 +382,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От гуморальной регуляции к нейрогуморальной и молекулярной."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="7"/>
+<attvalue for="n7" value="8"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_pharmacology" label="Фармакология" start="-3000" end="2026"><attvalues>
@@ -402,7 +402,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От трепанации и раневой обработки до эндоскопии и робототехники."/>
 <attvalue for="n6" value="24"/>
-<attvalue for="n7" value="15"/>
+<attvalue for="n7" value="17"/>
 <attvalue for="n8" value="#00897B"/>
 </attvalues><viz:color r="0" g="137" b="123"/></node>
 <node id="sub_obstetrics" label="Акушерство" start="-3000" end="2026"><attvalues>
@@ -432,7 +432,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От вакцинации к клеточному и гуморальному иммунитету; от защиты к аутоиммунитету."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="7"/>
+<attvalue for="n7" value="8"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_neuro" label="Нейронауки" start="1800" end="2026"><attvalues>
@@ -442,7 +442,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От локализации функций к синаптической передаче и когнитивной нейронауке."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="28"/>
+<attvalue for="n7" value="29"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_oncology" label="Онкология" start="1800" end="2026"><attvalues>
@@ -452,7 +452,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От хирургии и лучевой терапии к таргетным и иммунным препаратам."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="4"/>
+<attvalue for="n7" value="5"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_cardio" label="Кардиология" start="1628" end="2026"><attvalues>
@@ -472,7 +472,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От концепта внутренней секреции к инсулину и гормональной терапии."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="6"/>
+<attvalue for="n7" value="7"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_genetics" label="Генетика" start="1866" end="2026"><attvalues>
@@ -482,7 +482,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От законов Менделя к секвенированию и редактированию генома."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="15"/>
+<attvalue for="n7" value="17"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_microbio" label="Микробиология" start="1674" end="2026"><attvalues>
@@ -522,7 +522,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От эфира и хлороформа к нейромышечной блокаде и мониторингу глубины наркоза."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="4"/>
+<attvalue for="n7" value="5"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_transplant" label="Трансплантология" start="1902" end="2026"><attvalues>
@@ -532,7 +532,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От экспериментов Карреля к клиническим пересадкам и иммуносупрессии."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="9"/>
+<attvalue for="n7" value="10"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_reproductive" label="Репродуктивная медицина" start="1978" end="2026"><attvalues>
@@ -542,7 +542,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От ЭКО к генетическому скринингу эмбрионов; этические рамки."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="3"/>
+<attvalue for="n7" value="7"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_palliative" label="Паллиативная помощь" start="1967" end="2026"><attvalues>
@@ -552,7 +552,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Хосписное движение Сисили Сондерс; боль как измеримый и управляемый симптом."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="3"/>
+<attvalue for="n7" value="7"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_homeostasis" label="Гомеостаз" start="1850" end="2026"><attvalues>
@@ -562,7 +562,7 @@
 <attvalue for="n4" value="Франция / США"/>
 <attvalue for="n5" value="Устойчивость внутренней среды; от milieu intérieur Бернара к термину Кэннона."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="1"/>
+<attvalue for="n7" value="2"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_systems_bio" label="Системная биология" start="2000" end="2026"><attvalues>
@@ -572,7 +572,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Сетевая интеграция молекулярных данных; омиксные технологии и моделирование."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="3"/>
+<attvalue for="n7" value="4"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_miasma" label="Миазмы" start="-400" end="1880"><attvalues>
@@ -672,7 +672,7 @@
 <attvalue for="n4" value="Германия / Европа"/>
 <attvalue for="n5" value="Здоровье как социальный вопрос; Вирхов, Чедвик и общественное здравоохранение."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="5"/>
+<attvalue for="n7" value="6"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_ebm" label="Доказательная медицина" start="1990" end="2026"><attvalues>
@@ -752,7 +752,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Добровольное согласие пациента и испытуемого; Нюрнберг, Хельсинки, Бельмонт."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="4"/>
+<attvalue for="n7" value="6"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="inst_crotona" label="Пифагорейская школа (Кротон)" start="-530" end="-450"><attvalues>
@@ -1772,7 +1772,7 @@
 <attvalue for="n4" value="Австрия / США"/>
 <attvalue for="n5" value="Группы крови; резус-фактор."/>
 <attvalue for="n6" value="22"/>
-<attvalue for="n7" value="1"/>
+<attvalue for="n7" value="2"/>
 <attvalue for="n8" value="#1E88E5"/>
 </attvalues><viz:color r="30" g="136" b="229"/></node>
 <node id="pt_ivanovsky" label="Дмитрий Ивановский" start="1864" end="1920"><attvalues>
@@ -3362,7 +3362,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Группы крови Ландштейнера; трупная кровь Юдина."/>
 <attvalue for="n6" value="24"/>
-<attvalue for="n7" value="2"/>
+<attvalue for="n7" value="5"/>
 <attvalue for="n8" value="#00897B"/>
 </attvalues><viz:color r="0" g="137" b="123"/></node>
 <node id="sub_semashko_system" label="Система Семашко" start="1918" end="1991"><attvalues>
@@ -5857,5 +5857,69 @@
 <edge id="552" source="pt_salk" target="pt_salk_vaccine" label="Инактивированная полиовакцина."><attvalues>
 <attvalue for="e1" value="DISCOVERED"/>
 <attvalue for="e2" value="Инактивированная полиовакцина."/>
+</attvalues></edge>
+<edge id="553" source="sub_anesthes" target="sub_surgery" label="Анестезия открыла полостную хирургию."><attvalues>
+<attvalue for="e1" value="ENABLED"/>
+<attvalue for="e2" value="Анестезия открыла полостную хирургию."/>
+</attvalues></edge>
+<edge id="554" source="sub_homeostasis" target="sub_physiology" label="Гомеостаз — центральное понятие физиологии."><attvalues>
+<attvalue for="e1" value="UNDERPINS"/>
+<attvalue for="e2" value="Гомеостаз — центральное понятие физиологии."/>
+</attvalues></edge>
+<edge id="555" source="sub_systems_bio" target="sub_genetics" label="От геномики к системной биологии."><attvalues>
+<attvalue for="e1" value="EXTENDED_TO"/>
+<attvalue for="e2" value="От геномики к системной биологии."/>
+</attvalues></edge>
+<edge id="556" source="sub_acupuncture" target="sub_neuro" label="Иглоукалывание как невральная модуляция боли."><attvalues>
+<attvalue for="e1" value="STRUCTURAL_ANALOGUE"/>
+<attvalue for="e2" value="Иглоукалывание как невральная модуляция боли."/>
+</attvalues></edge>
+<edge id="557" source="sub_reproductive" target="sub_endocrin" label="Гормональная регуляция репродукции."><attvalues>
+<attvalue for="e1" value="EXTENDED_TO"/>
+<attvalue for="e2" value="Гормональная регуляция репродукции."/>
+</attvalues></edge>
+<edge id="558" source="sub_reproductive" target="sub_genetics" label="Генетический скрининг эмбрионов."><attvalues>
+<attvalue for="e1" value="EXTENDED_TO"/>
+<attvalue for="e2" value="Генетический скрининг эмбрионов."/>
+</attvalues></edge>
+<edge id="559" source="sub_reproductive" target="sub_consent" label="Этические рамки ЭКО."><attvalues>
+<attvalue for="e1" value="ETHICAL_CONSTRAINT_ON"/>
+<attvalue for="e2" value="Этические рамки ЭКО."/>
+</attvalues></edge>
+<edge id="560" source="era_info" target="sub_reproductive" label="Эпоха репродуктивных технологий."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Эпоха репродуктивных технологий."/>
+</attvalues></edge>
+<edge id="561" source="sub_palliative" target="sub_oncology" label="Паллиативная помощь в онкологии."><attvalues>
+<attvalue for="e1" value="EXTENDED_TO"/>
+<attvalue for="e2" value="Паллиативная помощь в онкологии."/>
+</attvalues></edge>
+<edge id="562" source="sub_palliative" target="sub_socialmedicine" label="Хосписное движение и социальная медицина."><attvalues>
+<attvalue for="e1" value="EXTENDED_TO"/>
+<attvalue for="e2" value="Хосписное движение и социальная медицина."/>
+</attvalues></edge>
+<edge id="563" source="era_info" target="sub_palliative" label="Современное хосписное движение."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Современное хосписное движение."/>
+</attvalues></edge>
+<edge id="564" source="sub_palliative" target="sub_consent" label="Уважение воли пациента в конце жизни."><attvalues>
+<attvalue for="e1" value="EXTENDED_TO"/>
+<attvalue for="e2" value="Уважение воли пациента в конце жизни."/>
+</attvalues></edge>
+<edge id="565" source="sub_immunology" target="pt_landsteiner" label="Группы крови."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Группы крови."/>
+</attvalues></edge>
+<edge id="566" source="sub_blood_transfusion" target="sub_surgery" label="Гемотрансфузия сделала хирургию безопаснее."><attvalues>
+<attvalue for="e1" value="ENABLED"/>
+<attvalue for="e2" value="Гемотрансфузия сделала хирургию безопаснее."/>
+</attvalues></edge>
+<edge id="567" source="era_wwi" target="sub_blood_transfusion" label="Переливание крови в Первую мировую войну."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Переливание крови в Первую мировую войну."/>
+</attvalues></edge>
+<edge id="568" source="sub_blood_transfusion" target="sub_transplant" label="От переливания к трансплантации."><attvalues>
+<attvalue for="e1" value="EXTENDED_TO"/>
+<attvalue for="e2" value="От переливания к трансплантации."/>
 </attvalues></edge>
 </edges></graph></gexf>

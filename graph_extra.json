@@ -297,6 +297,22 @@
     {"source": "pt_sabin", "target": "pt_sabin_vaccine", "relation": "DISCOVERED", "label": "Живая полиовакцина."},
     {"source": "era_coldwar", "target": "pt_salk_vaccine", "relation": "CONTEXT_FOR", "label": "Массовая иммунизация."},
     {"source": "sub_vaccine", "target": "pt_salk_vaccine", "relation": "DEVELOPED_BY", "label": "Инактивированная вакцина."},
-    {"source": "pt_salk", "target": "pt_salk_vaccine", "relation": "DISCOVERED", "label": "Инактивированная полиовакцина."}
+    {"source": "pt_salk", "target": "pt_salk_vaccine", "relation": "DISCOVERED", "label": "Инактивированная полиовакцина."},
+    {"source": "sub_anesthes", "target": "sub_surgery", "relation": "ENABLED", "label": "Анестезия открыла полостную хирургию."},
+    {"source": "sub_homeostasis", "target": "sub_physiology", "relation": "UNDERPINS", "label": "Гомеостаз — центральное понятие физиологии."},
+    {"source": "sub_systems_bio", "target": "sub_genetics", "relation": "EXTENDED_TO", "label": "От геномики к системной биологии."},
+    {"source": "sub_acupuncture", "target": "sub_neuro", "relation": "STRUCTURAL_ANALOGUE", "label": "Иглоукалывание как невральная модуляция боли."},
+    {"source": "sub_reproductive", "target": "sub_endocrin", "relation": "EXTENDED_TO", "label": "Гормональная регуляция репродукции."},
+    {"source": "sub_reproductive", "target": "sub_genetics", "relation": "EXTENDED_TO", "label": "Генетический скрининг эмбрионов."},
+    {"source": "sub_reproductive", "target": "sub_consent", "relation": "ETHICAL_CONSTRAINT_ON", "label": "Этические рамки ЭКО."},
+    {"source": "era_info", "target": "sub_reproductive", "relation": "CONTEXT_FOR", "label": "Эпоха репродуктивных технологий."},
+    {"source": "sub_palliative", "target": "sub_oncology", "relation": "EXTENDED_TO", "label": "Паллиативная помощь в онкологии."},
+    {"source": "sub_palliative", "target": "sub_socialmedicine", "relation": "EXTENDED_TO", "label": "Хосписное движение и социальная медицина."},
+    {"source": "era_info", "target": "sub_palliative", "relation": "CONTEXT_FOR", "label": "Современное хосписное движение."},
+    {"source": "sub_palliative", "target": "sub_consent", "relation": "EXTENDED_TO", "label": "Уважение воли пациента в конце жизни."},
+    {"source": "sub_immunology", "target": "pt_landsteiner", "relation": "DEVELOPED_BY", "label": "Группы крови."},
+    {"source": "sub_blood_transfusion", "target": "sub_surgery", "relation": "ENABLED", "label": "Гемотрансфузия сделала хирургию безопаснее."},
+    {"source": "era_wwi", "target": "sub_blood_transfusion", "relation": "CONTEXT_FOR", "label": "Переливание крови в Первую мировую войну."},
+    {"source": "sub_blood_transfusion", "target": "sub_transplant", "relation": "EXTENDED_TO", "label": "От переливания к трансплантации."}
   ]
 }

@@ -552,3 +552,19 @@ pt_sabin,pt_sabin_vaccine,DISCOVERED,Живая полиовакцина.,direct
 era_coldwar,pt_salk_vaccine,CONTEXT_FOR,Массовая иммунизация.,directed
 sub_vaccine,pt_salk_vaccine,DEVELOPED_BY,Инактивированная вакцина.,directed
 pt_salk,pt_salk_vaccine,DISCOVERED,Инактивированная полиовакцина.,directed
+sub_anesthes,sub_surgery,ENABLED,Анестезия открыла полостную хирургию.,directed
+sub_homeostasis,sub_physiology,UNDERPINS,Гомеостаз — центральное понятие физиологии.,directed
+sub_systems_bio,sub_genetics,EXTENDED_TO,От геномики к системной биологии.,directed
+sub_acupuncture,sub_neuro,STRUCTURAL_ANALOGUE,Иглоукалывание как невральная модуляция боли.,directed
+sub_reproductive,sub_endocrin,EXTENDED_TO,Гормональная регуляция репродукции.,directed
+sub_reproductive,sub_genetics,EXTENDED_TO,Генетический скрининг эмбрионов.,directed
+sub_reproductive,sub_consent,ETHICAL_CONSTRAINT_ON,Этические рамки ЭКО.,directed
+era_info,sub_reproductive,CONTEXT_FOR,Эпоха репродуктивных технологий.,directed
+sub_palliative,sub_oncology,EXTENDED_TO,Паллиативная помощь в онкологии.,directed
+sub_palliative,sub_socialmedicine,EXTENDED_TO,Хосписное движение и социальная медицина.,directed
+era_info,sub_palliative,CONTEXT_FOR,Современное хосписное движение.,directed
+sub_palliative,sub_consent,EXTENDED_TO,Уважение воли пациента в конце жизни.,directed
+sub_immunology,pt_landsteiner,DEVELOPED_BY,Группы крови.,directed
+sub_blood_transfusion,sub_surgery,ENABLED,Гемотрансфузия сделала хирургию безопаснее.,directed
+era_wwi,sub_blood_transfusion,CONTEXT_FOR,Переливание крови в Первую мировую войну.,directed
+sub_blood_transfusion,sub_transplant,EXTENDED_TO,От переливания к трансплантации.,directed
