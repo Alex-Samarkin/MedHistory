@@ -8,6 +8,7 @@
 
 from pathlib import Path
 import csv
+import json
 from collections import Counter
 from xml.sax.saxutils import escape
 
@@ -868,6 +869,16 @@ E("pt_nuremberg", "sub_expmed", "CONSTRAINS", "Ограничение экспе
 E("pt_eugenics", "pt_nuremberg", "BACKGROUND_TO", "Расовая гигиена — предпосылка нацистских экспериментов.")
 E("pt_hela", "pt_belmont", "MOTIVATED", "Линия без согласия подтолкнула дебаты об информированном согласии.")
 E("pt_hela", "sub_consent", "MOTIVATED", "Случай Генриетты Лакс и требование согласия.")
+
+# Загрузка расширенной базы знаний из JSON (данные отдельно от кода)
+_EXTRA_JSON = Path("graph_extra.json")
+if _EXTRA_JSON.exists():
+    _extra = json.loads(_EXTRA_JSON.read_text(encoding="utf-8"))
+    for _n in _extra.get("nodes", []):
+        N(_n["id"], _n["label"], _n["kind"], int(_n["start"]), int(_n["end"]),
+          _n["region"], _n.get("note", ""))
+    for _e in _extra.get("edges", []):
+        E(_e["source"], _e["target"], _e["relation"], _e.get("label", ""))
 
 # ==========================================================================
 # ПРОВЕРКА И ЭКСПОРТ

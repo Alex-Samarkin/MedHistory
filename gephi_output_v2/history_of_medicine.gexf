@@ -182,7 +182,7 @@
 <attvalue for="n4" value="Британская империя"/>
 <attvalue for="n5" value="Становление лабораторной медицины и общественного здравоохранения."/>
 <attvalue for="n6" value="20"/>
-<attvalue for="n7" value="7"/>
+<attvalue for="n7" value="9"/>
 <attvalue for="n8" value="#9E9E9E"/>
 </attvalues><viz:color r="158" g="158" b="158"/></node>
 <node id="era_imperial" label="Имперская медицина" start="1850" end="1950"><attvalues>
@@ -212,7 +212,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Вакцинация, инсулин, сульфаниламиды, рост фармакологии."/>
 <attvalue for="n6" value="20"/>
-<attvalue for="n7" value="6"/>
+<attvalue for="n7" value="8"/>
 <attvalue for="n8" value="#9E9E9E"/>
 </attvalues><viz:color r="158" g="158" b="158"/></node>
 <node id="era_wwii" label="Вторая мировая война" start="1939" end="1945"><attvalues>
@@ -232,7 +232,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Гонка технологий, космическая медицина, эра антибиотиков и вакцинации."/>
 <attvalue for="n6" value="20"/>
-<attvalue for="n7" value="7"/>
+<attvalue for="n7" value="14"/>
 <attvalue for="n8" value="#9E9E9E"/>
 </attvalues><viz:color r="158" g="158" b="158"/></node>
 <node id="era_info" label="Информационная эпоха" start="1990" end="2026"><attvalues>
@@ -382,7 +382,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От гуморальной регуляции к нейрогуморальной и молекулярной."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="4"/>
+<attvalue for="n7" value="6"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_pharmacology" label="Фармакология" start="-3000" end="2026"><attvalues>
@@ -402,7 +402,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От трепанации и раневой обработки до эндоскопии и робототехники."/>
 <attvalue for="n6" value="24"/>
-<attvalue for="n7" value="6"/>
+<attvalue for="n7" value="10"/>
 <attvalue for="n8" value="#00897B"/>
 </attvalues><viz:color r="0" g="137" b="123"/></node>
 <node id="sub_obstetrics" label="Акушерство" start="-3000" end="2026"><attvalues>
@@ -422,7 +422,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От карт заболеваний к популяционной статистике и молекулярной эпидемиологии."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="4"/>
+<attvalue for="n7" value="6"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_immunology" label="Иммунология" start="1796" end="2026"><attvalues>
@@ -442,7 +442,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От локализации функций к синаптической передаче и когнитивной нейронауке."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="7"/>
+<attvalue for="n7" value="9"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_oncology" label="Онкология" start="1800" end="2026"><attvalues>
@@ -462,7 +462,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От кровообращения к ЭКГ, катетеризации и интервенционной кардиологии."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="6"/>
+<attvalue for="n7" value="8"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_endocrin" label="Эндокринология" start="1850" end="2026"><attvalues>
@@ -482,7 +482,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От законов Менделя к секвенированию и редактированию генома."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="7"/>
+<attvalue for="n7" value="13"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_microbio" label="Микробиология" start="1674" end="2026"><attvalues>
@@ -492,7 +492,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От анималькулей к микробиому и фаговой терапии."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="8"/>
+<attvalue for="n7" value="11"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_virology" label="Вирусология" start="1892" end="2026"><attvalues>
@@ -502,7 +502,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От фильтрующихся агентов к структуре вируса и вакцинам."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="4"/>
+<attvalue for="n7" value="11"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_radiology" label="Радиология" start="1895" end="2026"><attvalues>
@@ -532,7 +532,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="От экспериментов Карреля к клиническим пересадкам и иммуносупрессии."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="4"/>
+<attvalue for="n7" value="5"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_reproductive" label="Репродуктивная медицина" start="1978" end="2026"><attvalues>
@@ -572,7 +572,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Сетевая интеграция молекулярных данных; омиксные технологии и моделирование."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="1"/>
+<attvalue for="n7" value="3"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_miasma" label="Миазмы" start="-400" end="1880"><attvalues>
@@ -672,7 +672,7 @@
 <attvalue for="n4" value="Германия / Европа"/>
 <attvalue for="n5" value="Здоровье как социальный вопрос; Вирхов, Чедвик и общественное здравоохранение."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="2"/>
+<attvalue for="n7" value="4"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_ebm" label="Доказательная медицина" start="1990" end="2026"><attvalues>
@@ -682,7 +682,7 @@
 <attvalue for="n4" value="Великобритания / Канада"/>
 <attvalue for="n5" value="Клинические решения на основе наилучших доказательств; испытания и метаанализ."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="1"/>
+<attvalue for="n7" value="3"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_expmed" label="Экспериментальная медицина" start="1865" end="2026"><attvalues>
@@ -712,7 +712,7 @@
 <attvalue for="n4" value="Великобритания"/>
 <attvalue for="n5" value="Золотой стандарт клинического доказательства; испытание стрептомицина MRC (1948)."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="2"/>
+<attvalue for="n7" value="4"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="sub_germtheory" label="Микробная теория" start="1860" end="2026"><attvalues>
@@ -922,7 +922,7 @@
 <attvalue for="n4" value="Лондон"/>
 <attvalue for="n5" value="Стандартизация испытаний; рандомизированное исследование стрептомицина."/>
 <attvalue for="n6" value="26"/>
-<attvalue for="n7" value="1"/>
+<attvalue for="n7" value="2"/>
 <attvalue for="n8" value="#8E24AA"/>
 </attvalues><viz:color r="142" g="36" b="170"/></node>
 <node id="inst_nih" label="Национальные институты здоровья (США)" start="1887" end="2026"><attvalues>
@@ -1612,7 +1612,7 @@
 <attvalue for="n4" value="Франция"/>
 <attvalue for="n5" value="Микробная теория; вакцины против сибирской язвы и бешенства."/>
 <attvalue for="n6" value="22"/>
-<attvalue for="n7" value="7"/>
+<attvalue for="n7" value="8"/>
 <attvalue for="n8" value="#1E88E5"/>
 </attvalues><viz:color r="30" g="136" b="229"/></node>
 <node id="pt_koch" label="Роберт Кох" start="1843" end="1910"><attvalues>
@@ -1622,7 +1622,7 @@
 <attvalue for="n4" value="Германия"/>
 <attvalue for="n5" value="Постулаты Коха; туберкулёз, холера, сибирская язва."/>
 <attvalue for="n6" value="22"/>
-<attvalue for="n7" value="7"/>
+<attvalue for="n7" value="8"/>
 <attvalue for="n8" value="#1E88E5"/>
 </attvalues><viz:color r="30" g="136" b="229"/></node>
 <node id="pt_lister" label="Джозеф Листер" start="1827" end="1912"><attvalues>
@@ -1732,7 +1732,7 @@
 <attvalue for="n4" value="Россия / Франция"/>
 <attvalue for="n5" value="Фагоцитоз; клеточный иммунитет."/>
 <attvalue for="n6" value="22"/>
-<attvalue for="n7" value="2"/>
+<attvalue for="n7" value="4"/>
 <attvalue for="n8" value="#1E88E5"/>
 </attvalues><viz:color r="30" g="136" b="229"/></node>
 <node id="pt_behring" label="Эмиль фон Беринг" start="1854" end="1917"><attvalues>
@@ -1772,7 +1772,7 @@
 <attvalue for="n4" value="Австрия / США"/>
 <attvalue for="n5" value="Группы крови; резус-фактор."/>
 <attvalue for="n6" value="22"/>
-<attvalue for="n7" value="0"/>
+<attvalue for="n7" value="1"/>
 <attvalue for="n8" value="#1E88E5"/>
 </attvalues><viz:color r="30" g="136" b="229"/></node>
 <node id="pt_ivanovsky" label="Дмитрий Ивановский" start="1864" end="1920"><attvalues>
@@ -1782,7 +1782,7 @@
 <attvalue for="n4" value="Россия"/>
 <attvalue for="n5" value="Фильтрующийся вирус табачной мозаики."/>
 <attvalue for="n6" value="22"/>
-<attvalue for="n7" value="1"/>
+<attvalue for="n7" value="2"/>
 <attvalue for="n8" value="#1E88E5"/>
 </attvalues><viz:color r="30" g="136" b="229"/></node>
 <node id="pt_beijerinck" label="Маринус Бейеринк" start="1851" end="1931"><attvalues>
@@ -1862,7 +1862,7 @@
 <attvalue for="n4" value="Канада / Англия"/>
 <attvalue for="n5" value="Клиническое преподавание; «Принципы и практика медицины»."/>
 <attvalue for="n6" value="22"/>
-<attvalue for="n7" value="1"/>
+<attvalue for="n7" value="2"/>
 <attvalue for="n8" value="#1E88E5"/>
 </attvalues><viz:color r="30" g="136" b="229"/></node>
 <node id="pt_halsted" label="Уильям Холстед" start="1852" end="1922"><attvalues>
@@ -2082,7 +2082,7 @@
 <attvalue for="n4" value="Англия"/>
 <attvalue for="n5" value="Пенициллин; случайное наблюдение."/>
 <attvalue for="n6" value="22"/>
-<attvalue for="n7" value="2"/>
+<attvalue for="n7" value="3"/>
 <attvalue for="n8" value="#1E88E5"/>
 </attvalues><viz:color r="30" g="136" b="229"/></node>
 <node id="pt_florey" label="Говард Флори" start="1898" end="1968"><attvalues>
@@ -2112,7 +2112,7 @@
 <attvalue for="n4" value="Германия"/>
 <attvalue for="n5" value="Сульфаниламиды; пронтозил."/>
 <attvalue for="n6" value="22"/>
-<attvalue for="n7" value="3"/>
+<attvalue for="n7" value="4"/>
 <attvalue for="n8" value="#1E88E5"/>
 </attvalues><viz:color r="30" g="136" b="229"/></node>
 <node id="pt_moniz" label="Эгаш Мониш" start="1874" end="1955"><attvalues>
@@ -2422,7 +2422,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Первый антибиотик; массовое производство во время войны."/>
 <attvalue for="n6" value="28"/>
-<attvalue for="n7" value="4"/>
+<attvalue for="n7" value="5"/>
 <attvalue for="n8" value="#FB8C00"/>
 </attvalues><viz:color r="251" g="140" b="0"/></node>
 <node id="pt_sulfa" label="Сульфаниламиды" start="1935" end="1950"><attvalues>
@@ -2552,7 +2552,7 @@
 <attvalue for="n4" value="Беркли / Умео"/>
 <attvalue for="n5" value="Геномное редактирование; Шарпантье и Дудна."/>
 <attvalue for="n6" value="28"/>
-<attvalue for="n7" value="1"/>
+<attvalue for="n7" value="2"/>
 <attvalue for="n8" value="#FB8C00"/>
 </attvalues><viz:color r="251" g="140" b="0"/></node>
 <node id="pt_ivf" label="Экстракорпоральное оплодотворение" start="1978" end="1978"><attvalues>
@@ -2622,7 +2622,7 @@
 <attvalue for="n4" value="Франция"/>
 <attvalue for="n5" value="Хлорпромазин; деинституционализация психиатрии."/>
 <attvalue for="n6" value="28"/>
-<attvalue for="n7" value="3"/>
+<attvalue for="n7" value="4"/>
 <attvalue for="n8" value="#FB8C00"/>
 </attvalues><viz:color r="251" g="140" b="0"/></node>
 <node id="pt_deinstitution" label="Деинституционализация" start="1955" end="1980"><attvalues>
@@ -2642,7 +2642,7 @@
 <attvalue for="n4" value="Западные страны"/>
 <attvalue for="n5" value="Наследственность и социальная политика; этический провал."/>
 <attvalue for="n6" value="24"/>
-<attvalue for="n7" value="2"/>
+<attvalue for="n7" value="3"/>
 <attvalue for="n8" value="#D81B60"/>
 </attvalues><viz:color r="216" g="27" b="96"/></node>
 <node id="pt_nuremberg" label="Нюрнбергский кодекс" start="1947" end="1964"><attvalues>
@@ -2732,7 +2732,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Эволюция бактерий как следствие терапии."/>
 <attvalue for="n6" value="30"/>
-<attvalue for="n7" value="0"/>
+<attvalue for="n7" value="1"/>
 <attvalue for="n8" value="#43A047"/>
 </attvalues><viz:color r="67" g="160" b="71"/></node>
 <node id="pt_precision_med" label="Прецизионная медицина" start="2010" end="2026"><attvalues>
@@ -2782,7 +2782,7 @@
 <attvalue for="n4" value="Австрия"/>
 <attvalue for="n5" value="Законы наследственности; основа генетики."/>
 <attvalue for="n6" value="22"/>
-<attvalue for="n7" value="1"/>
+<attvalue for="n7" value="3"/>
 <attvalue for="n8" value="#1E88E5"/>
 </attvalues><viz:color r="30" g="136" b="229"/></node>
 <node id="pt_einthoven" label="Виллем Эйнтховен" start="1860" end="1927"><attvalues>
@@ -2872,7 +2872,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Возбудитель Vibrio cholerae; Джон Сноу и водный путь передачи."/>
 <attvalue for="n6" value="28"/>
-<attvalue for="n7" value="2"/>
+<attvalue for="n7" value="3"/>
 <attvalue for="n8" value="#B71C1C"/>
 </attvalues><viz:color r="183" g="28" b="28"/></node>
 <node id="dis_tb" label="Туберкулёз" start="-3000" end="2026"><attvalues>
@@ -2882,7 +2882,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Возбудитель Mycobacterium tuberculosis; постулаты Коха, БЦЖ, стрептомицин."/>
 <attvalue for="n6" value="28"/>
-<attvalue for="n7" value="3"/>
+<attvalue for="n7" value="4"/>
 <attvalue for="n8" value="#B71C1C"/>
 </attvalues><viz:color r="183" g="28" b="28"/></node>
 <node id="dis_syphilis" label="Сифилис" start="1495" end="2026"><attvalues>
@@ -2902,7 +2902,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Возбудитель Plasmodium; хинин и артемизинин."/>
 <attvalue for="n6" value="28"/>
-<attvalue for="n7" value="2"/>
+<attvalue for="n7" value="3"/>
 <attvalue for="n8" value="#B71C1C"/>
 </attvalues><viz:color r="183" g="28" b="28"/></node>
 <node id="dis_diphtheria" label="Дифтерия" start="1821" end="2026"><attvalues>
@@ -2932,7 +2932,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Вирусная инфекция; вакцины Солка и Сэйбина."/>
 <attvalue for="n6" value="28"/>
-<attvalue for="n7" value="2"/>
+<attvalue for="n7" value="3"/>
 <attvalue for="n8" value="#B71C1C"/>
 </attvalues><viz:color r="183" g="28" b="28"/></node>
 <node id="dis_anthrax" label="Сибирская язва" start="-700" end="2026"><attvalues>
@@ -2952,7 +2952,7 @@
 <attvalue for="n4" value="Глобально"/>
 <attvalue for="n5" value="Вирусная инфекция; пандемия «испанки» (1918)."/>
 <attvalue for="n6" value="28"/>
-<attvalue for="n7" value="1"/>
+<attvalue for="n7" value="3"/>
 <attvalue for="n8" value="#B71C1C"/>
 </attvalues><viz:color r="183" g="28" b="28"/></node>
 <node id="dis_cancer" label="Рак" start="-3000" end="2026"><attvalues>
@@ -2992,7 +2992,7 @@
 <attvalue for="n4" value="Кембридж"/>
 <attvalue for="n5" value="Структура ДНК Уотсона и Крика; рентгеновские данные Франклин и Уилкинса."/>
 <attvalue for="n6" value="28"/>
-<attvalue for="n7" value="4"/>
+<attvalue for="n7" value="5"/>
 <attvalue for="n8" value="#FB8C00"/>
 </attvalues><viz:color r="251" g="140" b="0"/></node>
 <node id="pt_steptoe" label="Патрик Степто" start="1913" end="1988"><attvalues>
@@ -3003,6 +3003,646 @@
 <attvalue for="n5" value="Лапароскопия и ЭКО; работа с Робертом Эдвардсом."/>
 <attvalue for="n6" value="22"/>
 <attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_pirogov" label="Николай Пирогов" start="1810" end="1881"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1810"/>
+<attvalue for="n3" value="1881"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Отец русской хирургии; эфирный наркоз в полевых условиях, топографическая анатомия, военно-полевая хирургия."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="5"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_botkin" label="Сергей Боткин" start="1832" end="1889"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1832"/>
+<attvalue for="n3" value="1889"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Клиницист-терапевт; инфекционный гепатит (болезнь Боткина), клиническое преподавание."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="3"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_sechenov" label="Иван Сеченов" start="1829" end="1905"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1829"/>
+<attvalue for="n3" value="1905"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Отец русской физиологии; центральное торможение нервной системы."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="4"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_pavlov" label="Иван Павлов" start="1849" end="1936"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1849"/>
+<attvalue for="n3" value="1936"/>
+<attvalue for="n4" value="Россия / СССР"/>
+<attvalue for="n5" value="Условные рефлексы, физиология пищеварения; Нобелевская премия (1904)."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="8"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_bekhterev" label="Владимир Бехтерев" start="1857" end="1927"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1857"/>
+<attvalue for="n3" value="1927"/>
+<attvalue for="n4" value="Россия / СССР"/>
+<attvalue for="n5" value="Неврология и психиатрия; анкилозирующий спондилит (болезнь Бехтерева)."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_korsakov" label="Сергей Корсаков" start="1854" end="1900"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1854"/>
+<attvalue for="n3" value="1900"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Психиатрия; корсаковский (амнестический) синдром."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_sklifosovsky" label="Николай Склифосовский" start="1836" end="1904"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1836"/>
+<attvalue for="n3" value="1904"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Хирургия; внедрение асептики и антисептики в России."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_filatov" label="Владимир Филатов" start="1875" end="1956"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1875"/>
+<attvalue for="n3" value="1956"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Офтальмология; пересадка роговицы, тканевая терапия."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="0"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_yudin" label="Сергей Юдин" start="1891" end="1954"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1891"/>
+<attvalue for="n3" value="1954"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Хирургия; переливание трупной крови, неотложная хирургия."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_burdenko" label="Николай Бурденко" start="1876" end="1946"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1876"/>
+<attvalue for="n3" value="1946"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Нейрохирургия; военно-полевая хирургия."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="3"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_vishnevsky" label="Александр Вишневский" start="1874" end="1948"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1874"/>
+<attvalue for="n3" value="1948"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Хирургия; местная анестезия (новокаиновая блокада), мазь Вишневского."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_ermolyeva" label="Зинаида Ермольева" start="1898" end="1974"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1898"/>
+<attvalue for="n3" value="1974"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Микробиология; советский пенициллин (крустозин), борьба с холерой."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="6"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_gamaleya" label="Николай Гамалея" start="1859" end="1949"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1859"/>
+<attvalue for="n3" value="1949"/>
+<attvalue for="n4" value="Россия / СССР"/>
+<attvalue for="n5" value="Микробиология и эпидемиология; бешенство, чума."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_zilber" label="Лев Зильбер" start="1894" end="1966"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1894"/>
+<attvalue for="n3" value="1966"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Вирусология; вирусо-генетическая теория происхождения рака."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="4"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_chumakov" label="Михаил Чумаков" start="1909" end="1993"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1909"/>
+<attvalue for="n3" value="1993"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Вирусология; живая полиовакцина, массовая иммунизация."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="3"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_smorodintsev" label="Анатолий Смородинцев" start="1901" end="1986"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1901"/>
+<attvalue for="n3" value="1986"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Вирусология; гриппозная вакцина, клещевой энцефалит."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="3"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_semashko" label="Николай Семашко" start="1874" end="1949"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1874"/>
+<attvalue for="n3" value="1949"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Организатор здравоохранения; система Семашко, первый нарком здравоохранения."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="3"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_demikhov" label="Владимир Демихов" start="1916" end="1998"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1916"/>
+<attvalue for="n3" value="1998"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Трансплантология; пересадка сердца и лёгких в эксперименте."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_ilizarov" label="Гавриил Илизаров" start="1921" end="1992"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1921"/>
+<attvalue for="n3" value="1992"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Ортопедия; аппарат Илизарова, дистракционный остеогенез."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_amosov" label="Николай Амосов" start="1913" end="2002"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1913"/>
+<attvalue for="n3" value="2002"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Кардиохирургия; аппарат искусственного кровообращения."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_bakulev" label="Александр Бакулев" start="1890" end="1967"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1890"/>
+<attvalue for="n3" value="1967"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Сердечно-сосудистая хирургия; врождённые пороки сердца."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_kashchenko" label="Пётр Кащенко" start="1859" end="1920"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1859"/>
+<attvalue for="n3" value="1920"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Психиатрия; организация психиатрической помощи."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_samoylovich" label="Даниил Самойлович" start="1744" end="1805"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1744"/>
+<attvalue for="n3" value="1805"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Эпидемиология чумы; идея контактного пути передачи."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_erisman" label="Фёдор Эрисман" start="1842" end="1915"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1842"/>
+<attvalue for="n3" value="1915"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Гигиена; социальная гигиена и санитарные нормы."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_sechenov_reflexes" label="«Рефлексы головного мозга»" start="1863" end="1863"><attvalues>
+<attvalue for="n1" value="text"/>
+<attvalue for="n2" value="1863"/>
+<attvalue for="n3" value="1863"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Манифест физиологической психологии; торможение как основа психики."/>
+<attvalue for="n6" value="20"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#6D4C41"/>
+</attvalues><viz:color r="109" g="76" b="65"/></node>
+<node id="pt_pavlov_digestion" label="«Лекции о работе главных пищеварительных желёз»" start="1897" end="1897"><attvalues>
+<attvalue for="n1" value="text"/>
+<attvalue for="n2" value="1897"/>
+<attvalue for="n3" value="1897"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Нобелевская работа по физиологии пищеварения."/>
+<attvalue for="n6" value="20"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#6D4C41"/>
+</attvalues><viz:color r="109" g="76" b="65"/></node>
+<node id="pt_pirogov_topo" label="«Топографическая анатомия» (атлас распилов)" start="1851" end="1859"><attvalues>
+<attvalue for="n1" value="text"/>
+<attvalue for="n2" value="1851"/>
+<attvalue for="n3" value="1859"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Послойная анатомия замороженных распилов."/>
+<attvalue for="n6" value="20"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#6D4C41"/>
+</attvalues><viz:color r="109" g="76" b="65"/></node>
+<node id="pt_pirogov_field" label="«Начала общей военно-полевой хирургии»" start="1864" end="1864"><attvalues>
+<attvalue for="n1" value="text"/>
+<attvalue for="n2" value="1864"/>
+<attvalue for="n3" value="1864"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Сортировка раненых, эвакуация, гипсовая повязка."/>
+<attvalue for="n6" value="20"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#6D4C41"/>
+</attvalues><viz:color r="109" g="76" b="65"/></node>
+<node id="pt_metchnikoff_immunity" label="«Невосприимчивость в инфекционных болезнях»" start="1901" end="1901"><attvalues>
+<attvalue for="n1" value="text"/>
+<attvalue for="n2" value="1901"/>
+<attvalue for="n3" value="1901"/>
+<attvalue for="n4" value="Россия / Франция"/>
+<attvalue for="n5" value="Фагоцитарная теория иммунитета."/>
+<attvalue for="n6" value="20"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#6D4C41"/>
+</attvalues><viz:color r="109" g="76" b="65"/></node>
+<node id="pt_botkin_course" label="«Курс клиники внутренних болезней»" start="1867" end="1888"><attvalues>
+<attvalue for="n1" value="text"/>
+<attvalue for="n2" value="1867"/>
+<attvalue for="n3" value="1888"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Клинические лекции Боткина."/>
+<attvalue for="n6" value="20"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#6D4C41"/>
+</attvalues><viz:color r="109" g="76" b="65"/></node>
+<node id="pt_gray_anatomy" label="«Анатомия Грея»" start="1858" end="1858"><attvalues>
+<attvalue for="n1" value="text"/>
+<attvalue for="n2" value="1858"/>
+<attvalue for="n3" value="1858"/>
+<attvalue for="n4" value="Англия"/>
+<attvalue for="n5" value="Канонический учебник анатомии (Генри Грей)."/>
+<attvalue for="n6" value="20"/>
+<attvalue for="n7" value="0"/>
+<attvalue for="n8" value="#6D4C41"/>
+</attvalues><viz:color r="109" g="76" b="65"/></node>
+<node id="pt_osler_principles" label="«Принципы и практика медицины»" start="1892" end="1892"><attvalues>
+<attvalue for="n1" value="text"/>
+<attvalue for="n2" value="1892"/>
+<attvalue for="n3" value="1892"/>
+<attvalue for="n4" value="Англия / США"/>
+<attvalue for="n5" value="Канонический учебник внутренней медицины (Ослер)."/>
+<attvalue for="n6" value="20"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#6D4C41"/>
+</attvalues><viz:color r="109" g="76" b="65"/></node>
+<node id="pt_harrison_principles" label="«Принципы внутренней медицины» (Харрисон)" start="1950" end="1950"><attvalues>
+<attvalue for="n1" value="text"/>
+<attvalue for="n2" value="1950"/>
+<attvalue for="n3" value="1950"/>
+<attvalue for="n4" value="США"/>
+<attvalue for="n5" value="Современный канонический учебник."/>
+<attvalue for="n6" value="20"/>
+<attvalue for="n7" value="0"/>
+<attvalue for="n8" value="#6D4C41"/>
+</attvalues><viz:color r="109" g="76" b="65"/></node>
+<node id="sub_conditional_reflex" label="Условный рефлекс" start="1903" end="2026"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1903"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Россия / СССР"/>
+<attvalue for="n5" value="Павлов; обучение как формирование временных связей."/>
+<attvalue for="n6" value="30"/>
+<attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#43A047"/>
+</attvalues><viz:color r="67" g="160" b="71"/></node>
+<node id="sub_field_surgery" label="Военно-полевая хирургия" start="1855" end="2026"><attvalues>
+<attvalue for="n1" value="practice"/>
+<attvalue for="n2" value="1855"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Россия"/>
+<attvalue for="n5" value="Пирогов; сортировка, эвакуация, этапное лечение."/>
+<attvalue for="n6" value="24"/>
+<attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#00897B"/>
+</attvalues><viz:color r="0" g="137" b="123"/></node>
+<node id="sub_blood_transfusion" label="Переливание крови" start="1901" end="2026"><attvalues>
+<attvalue for="n1" value="practice"/>
+<attvalue for="n2" value="1901"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Группы крови Ландштейнера; трупная кровь Юдина."/>
+<attvalue for="n6" value="24"/>
+<attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#00897B"/>
+</attvalues><viz:color r="0" g="137" b="123"/></node>
+<node id="sub_semashko_system" label="Система Семашко" start="1918" end="1991"><attvalues>
+<attvalue for="n1" value="context"/>
+<attvalue for="n2" value="1918"/>
+<attvalue for="n3" value="1991"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Централизованное государственное здравоохранение."/>
+<attvalue for="n6" value="24"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#D81B60"/>
+</attvalues><viz:color r="216" g="27" b="96"/></node>
+<node id="sub_viral_oncogenesis" label="Вирусная теория рака" start="1945" end="2026"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1945"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="СССР"/>
+<attvalue for="n5" value="Зильбер; вирусы как фактор канцерогенеза."/>
+<attvalue for="n6" value="30"/>
+<attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#43A047"/>
+</attvalues><viz:color r="67" g="160" b="71"/></node>
+<node id="sub_psychiatry" label="Психиатрия" start="1800" end="2026"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1800"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="От изоляции к клинической и биологической психиатрии."/>
+<attvalue for="n6" value="30"/>
+<attvalue for="n7" value="4"/>
+<attvalue for="n8" value="#43A047"/>
+</attvalues><viz:color r="67" g="160" b="71"/></node>
+<node id="sub_antibiotics" label="Антибиотики" start="1928" end="2026"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1928"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Вещества микробного происхождения, подавляющие бактерии; от пенициллина к резистентности."/>
+<attvalue for="n6" value="30"/>
+<attvalue for="n7" value="7"/>
+<attvalue for="n8" value="#43A047"/>
+</attvalues><viz:color r="67" g="160" b="71"/></node>
+<node id="pt_waksman" label="Сельман Ваксман" start="1888" end="1973"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1888"/>
+<attvalue for="n3" value="1973"/>
+<attvalue for="n4" value="Российская империя / США"/>
+<attvalue for="n5" value="Термин «антибиотик»; стрептомицин из почвенных актиномицетов; Нобель 1952."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="3"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_dherelle" label="Феликс д'Эрелль" start="1873" end="1949"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1873"/>
+<attvalue for="n3" value="1949"/>
+<attvalue for="n4" value="Канада / Франция"/>
+<attvalue for="n5" value="Открыл бактериофаги; фаговая терапия."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_dubos" label="Рене Дюбо" start="1901" end="1982"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1901"/>
+<attvalue for="n3" value="1982"/>
+<attvalue for="n4" value="Франция / США"/>
+<attvalue for="n5" value="Грамицидин; антибиотики из почвенных бактерий."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_streptomycin" label="Стрептомицин" start="1943" end="1943"><attvalues>
+<attvalue for="n1" value="discovery"/>
+<attvalue for="n2" value="1943"/>
+<attvalue for="n3" value="1943"/>
+<attvalue for="n4" value="США"/>
+<attvalue for="n5" value="Первый эффективный препарат против туберкулёза."/>
+<attvalue for="n6" value="28"/>
+<attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#FB8C00"/>
+</attvalues><viz:color r="251" g="140" b="0"/></node>
+<node id="sub_bacteriophage" label="Бактериофаг" start="1915" end="2026"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1915"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Вирусы бактерий; фаговая терапия и модель для молекулярной биологии."/>
+<attvalue for="n6" value="30"/>
+<attvalue for="n7" value="5"/>
+<attvalue for="n8" value="#43A047"/>
+</attvalues><viz:color r="67" g="160" b="71"/></node>
+<node id="pt_delbruck" label="Макс Дельбрюк" start="1906" end="1981"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1906"/>
+<attvalue for="n3" value="1981"/>
+<attvalue for="n4" value="Германия / США"/>
+<attvalue for="n5" value="Фаговая группа; рождение молекулярной биологии."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_luria" label="Сальвадор Лурия" start="1912" end="1991"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1912"/>
+<attvalue for="n3" value="1991"/>
+<attvalue for="n4" value="Италия / США"/>
+<attvalue for="n5" value="Фаги; флуктуационный тест Лурии–Дельбрюка."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_hershey" label="Альфред Херши" start="1908" end="1997"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1908"/>
+<attvalue for="n3" value="1997"/>
+<attvalue for="n4" value="США"/>
+<attvalue for="n5" value="Эксперимент Херши–Чейз."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_stanley" label="Уэнделл Стэнли" start="1904" end="1971"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1904"/>
+<attvalue for="n3" value="1971"/>
+<attvalue for="n4" value="США"/>
+<attvalue for="n5" value="Кристаллизация вируса табачной мозаики (1935)."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_hershey_chase" label="Эксперимент Херши–Чейз" start="1952" end="1952"><attvalues>
+<attvalue for="n1" value="discovery"/>
+<attvalue for="n2" value="1952"/>
+<attvalue for="n3" value="1952"/>
+<attvalue for="n4" value="США"/>
+<attvalue for="n5" value="Доказал, что ДНК — носитель наследственности."/>
+<attvalue for="n6" value="28"/>
+<attvalue for="n7" value="3"/>
+<attvalue for="n8" value="#FB8C00"/>
+</attvalues><viz:color r="251" g="140" b="0"/></node>
+<node id="pt_reverse_transcriptase" label="Обратная транскриптаза" start="1970" end="1970"><attvalues>
+<attvalue for="n1" value="discovery"/>
+<attvalue for="n2" value="1970"/>
+<attvalue for="n3" value="1970"/>
+<attvalue for="n4" value="США"/>
+<attvalue for="n5" value="Фермент ретровирусов (Темин и Балтимор); РНК → ДНК."/>
+<attvalue for="n6" value="28"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#FB8C00"/>
+</attvalues><viz:color r="251" g="140" b="0"/></node>
+<node id="sub_biostatistics" label="Биостатистика" start="1880" end="2026"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1880"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Статистические методы в биологии и медицине."/>
+<attvalue for="n6" value="30"/>
+<attvalue for="n7" value="3"/>
+<attvalue for="n8" value="#43A047"/>
+</attvalues><viz:color r="67" g="160" b="71"/></node>
+<node id="sub_epidemic_modeling" label="Эпидемиологическое моделирование" start="1927" end="2026"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1927"/>
+<attvalue for="n3" value="2026"/>
+<attvalue for="n4" value="Глобально"/>
+<attvalue for="n5" value="Математические модели распространения болезней."/>
+<attvalue for="n6" value="30"/>
+<attvalue for="n7" value="4"/>
+<attvalue for="n8" value="#43A047"/>
+</attvalues><viz:color r="67" g="160" b="71"/></node>
+<node id="pt_galton" label="Фрэнсис Гальтон" start="1822" end="1911"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1822"/>
+<attvalue for="n3" value="1911"/>
+<attvalue for="n4" value="Англия"/>
+<attvalue for="n5" value="Биометрия; корреляция и регрессия; ввёл термин «евгеника»."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="3"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_pearson" label="Карл Пирсон" start="1857" end="1936"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1857"/>
+<attvalue for="n3" value="1936"/>
+<attvalue for="n4" value="Англия"/>
+<attvalue for="n5" value="Хи-квадрат, корреляция; школа биометрии."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_fisher" label="Рональд Фишер" start="1890" end="1962"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1890"/>
+<attvalue for="n3" value="1962"/>
+<attvalue for="n4" value="Англия"/>
+<attvalue for="n5" value="Популяционная генетика, дисперсионный анализ, рандомизация."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="5"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_wright" label="Сьюэлл Райт" start="1889" end="1988"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1889"/>
+<attvalue for="n3" value="1988"/>
+<attvalue for="n4" value="США"/>
+<attvalue for="n5" value="Популяционная генетика; коэффициент инбридинга."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_haldane" label="Дж. Б. С. Холдейн" start="1892" end="1964"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1892"/>
+<attvalue for="n3" value="1964"/>
+<attvalue for="n4" value="Англия / Индия"/>
+<attvalue for="n5" value="Популяционная генетика; «Причины эволюции»."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_ross" label="Рональд Росс" start="1857" end="1932"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1857"/>
+<attvalue for="n3" value="1932"/>
+<attvalue for="n4" value="Англия / Индия"/>
+<attvalue for="n5" value="Малярия; математическая модель передачи (Нобель 1902)."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="2"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_bradford_hill" label="Остин Брэдфорд Хилл" start="1897" end="1991"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1897"/>
+<attvalue for="n3" value="1991"/>
+<attvalue for="n4" value="Англия"/>
+<attvalue for="n5" value="Рандомизированные испытания; критерии причинности."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="3"/>
+<attvalue for="n8" value="#1E88E5"/>
+</attvalues><viz:color r="30" g="136" b="229"/></node>
+<node id="pt_hardy_weinberg" label="Закон Харди–Вайнберга" start="1908" end="1908"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1908"/>
+<attvalue for="n3" value="1908"/>
+<attvalue for="n4" value="Англия / Германия"/>
+<attvalue for="n5" value="Равновесие частот аллелей в популяции."/>
+<attvalue for="n6" value="30"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#43A047"/>
+</attvalues><viz:color r="67" g="160" b="71"/></node>
+<node id="pt_sir_model" label="SIR-модель (Кермак–МакКендрик)" start="1927" end="1927"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1927"/>
+<attvalue for="n3" value="1927"/>
+<attvalue for="n4" value="Англия"/>
+<attvalue for="n5" value="Компартментальная модель: восприимчивые → инфицированные → выздоровевшие."/>
+<attvalue for="n6" value="30"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#43A047"/>
+</attvalues><viz:color r="67" g="160" b="71"/></node>
+<node id="pt_lotka_volterra" label="Уравнения Лотки–Вольтерры" start="1925" end="1926"><attvalues>
+<attvalue for="n1" value="concept"/>
+<attvalue for="n2" value="1925"/>
+<attvalue for="n3" value="1926"/>
+<attvalue for="n4" value="США / Италия"/>
+<attvalue for="n5" value="Модель динамики взаимодействующих популяций."/>
+<attvalue for="n6" value="30"/>
+<attvalue for="n7" value="1"/>
+<attvalue for="n8" value="#43A047"/>
+</attvalues><viz:color r="67" g="160" b="71"/></node>
+<node id="pt_thompson" label="Д'Арси Томпсон" start="1860" end="1948"><attvalues>
+<attvalue for="n1" value="person"/>
+<attvalue for="n2" value="1860"/>
+<attvalue for="n3" value="1948"/>
+<attvalue for="n4" value="Шотландия"/>
+<attvalue for="n5" value="«О росте и форме» — математическая биология."/>
+<attvalue for="n6" value="22"/>
+<attvalue for="n7" value="1"/>
 <attvalue for="n8" value="#1E88E5"/>
 </attvalues><viz:color r="30" g="136" b="229"/></node>
 </nodes><edges>
@@ -4321,5 +4961,421 @@
 <edge id="328" source="pt_hela" target="sub_consent" label="Случай Генриетты Лакс и требование согласия."><attvalues>
 <attvalue for="e1" value="MOTIVATED"/>
 <attvalue for="e2" value="Случай Генриетты Лакс и требование согласия."/>
+</attvalues></edge>
+<edge id="329" source="pt_sechenov" target="pt_sechenov_reflexes" label="Манифест физиологической психологии."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Манифест физиологической психологии."/>
+</attvalues></edge>
+<edge id="330" source="pt_pavlov" target="pt_pavlov_digestion" label="Лекции о пищеварении."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Лекции о пищеварении."/>
+</attvalues></edge>
+<edge id="331" source="pt_pirogov" target="pt_pirogov_topo" label="Атлас топографической анатомии."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Атлас топографической анатомии."/>
+</attvalues></edge>
+<edge id="332" source="pt_pirogov" target="pt_pirogov_field" label="Военно-полевая хирургия."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Военно-полевая хирургия."/>
+</attvalues></edge>
+<edge id="333" source="pt_metchnikoff" target="pt_metchnikoff_immunity" label="Фагоцитарная теория иммунитета."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Фагоцитарная теория иммунитета."/>
+</attvalues></edge>
+<edge id="334" source="pt_botkin" target="pt_botkin_course" label="Клинические лекции."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Клинические лекции."/>
+</attvalues></edge>
+<edge id="335" source="pt_osler" target="pt_osler_principles" label="Учебник внутренней медицины."><attvalues>
+<attvalue for="e1" value="AUTHORED"/>
+<attvalue for="e2" value="Учебник внутренней медицины."/>
+</attvalues></edge>
+<edge id="336" source="sub_physiology" target="pt_sechenov" label="Физиология нервной системы."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Физиология нервной системы."/>
+</attvalues></edge>
+<edge id="337" source="sub_physiology" target="pt_pavlov" label="Физиология пищеварения и ВНД."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Физиология пищеварения и ВНД."/>
+</attvalues></edge>
+<edge id="338" source="sub_neuro" target="pt_bekhterev" label="Неврология и психиатрия."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Неврология и психиатрия."/>
+</attvalues></edge>
+<edge id="339" source="sub_neuro" target="pt_pavlov" label="Высшая нервная деятельность."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Высшая нервная деятельность."/>
+</attvalues></edge>
+<edge id="340" source="sub_surgery" target="pt_pirogov" label="Военно-полевая и топографическая хирургия."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Военно-полевая и топографическая хирургия."/>
+</attvalues></edge>
+<edge id="341" source="sub_surgery" target="pt_sklifosovsky" label="Асептика и антисептика."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Асептика и антисептика."/>
+</attvalues></edge>
+<edge id="342" source="sub_surgery" target="pt_ilizarov" label="Ортопедия."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Ортопедия."/>
+</attvalues></edge>
+<edge id="343" source="sub_surgery" target="pt_vishnevsky" label="Местная анестезия."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Местная анестезия."/>
+</attvalues></edge>
+<edge id="344" source="sub_microbio" target="pt_ermolyeva" label="Советский пенициллин."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Советский пенициллин."/>
+</attvalues></edge>
+<edge id="345" source="sub_microbio" target="pt_gamaleya" label="Микробиология и эпидемиология."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Микробиология и эпидемиология."/>
+</attvalues></edge>
+<edge id="346" source="sub_virology" target="pt_zilber" label="Вирусология."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Вирусология."/>
+</attvalues></edge>
+<edge id="347" source="sub_virology" target="pt_chumakov" label="Полиовакцина."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Полиовакцина."/>
+</attvalues></edge>
+<edge id="348" source="sub_virology" target="pt_smorodintsev" label="Гриппозная вакцина."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Гриппозная вакцина."/>
+</attvalues></edge>
+<edge id="349" source="sub_transplant" target="pt_demikhov" label="Экспериментальная трансплантация."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Экспериментальная трансплантация."/>
+</attvalues></edge>
+<edge id="350" source="sub_cardio" target="pt_amosov" label="Кардиохирургия."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Кардиохирургия."/>
+</attvalues></edge>
+<edge id="351" source="sub_cardio" target="pt_bakulev" label="Сердечно-сосудистая хирургия."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Сердечно-сосудистая хирургия."/>
+</attvalues></edge>
+<edge id="352" source="sub_psychiatry" target="pt_bekhterev" label="Неврология и психиатрия."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Неврология и психиатрия."/>
+</attvalues></edge>
+<edge id="353" source="sub_psychiatry" target="pt_korsakov" label="Амнестический синдром."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Амнестический синдром."/>
+</attvalues></edge>
+<edge id="354" source="sub_psychiatry" target="pt_kashchenko" label="Организация помощи."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Организация помощи."/>
+</attvalues></edge>
+<edge id="355" source="sub_epidemiology" target="pt_samoylovich" label="Эпидемиология чумы."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Эпидемиология чумы."/>
+</attvalues></edge>
+<edge id="356" source="sub_socialmedicine" target="pt_erisman" label="Социальная гигиена."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Социальная гигиена."/>
+</attvalues></edge>
+<edge id="357" source="sub_socialmedicine" target="pt_semashko" label="Государственное здравоохранение."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Государственное здравоохранение."/>
+</attvalues></edge>
+<edge id="358" source="sub_conditional_reflex" target="pt_pavlov" label="Условные рефлексы."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Условные рефлексы."/>
+</attvalues></edge>
+<edge id="359" source="sub_field_surgery" target="pt_pirogov" label="Сортировка и эвакуация."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Сортировка и эвакуация."/>
+</attvalues></edge>
+<edge id="360" source="sub_field_surgery" target="pt_burdenko" label="Военно-полевая нейрохирургия."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Военно-полевая нейрохирургия."/>
+</attvalues></edge>
+<edge id="361" source="sub_blood_transfusion" target="pt_landsteiner" label="Группы крови."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Группы крови."/>
+</attvalues></edge>
+<edge id="362" source="sub_blood_transfusion" target="pt_yudin" label="Трупная кровь."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Трупная кровь."/>
+</attvalues></edge>
+<edge id="363" source="sub_semashko_system" target="pt_semashko" label="Централизованное здравоохранение."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Централизованное здравоохранение."/>
+</attvalues></edge>
+<edge id="364" source="sub_viral_oncogenesis" target="pt_zilber" label="Вирусо-генетическая теория рака."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Вирусо-генетическая теория рака."/>
+</attvalues></edge>
+<edge id="365" source="pt_pavlov" target="sub_conditional_reflex" label="Условный рефлекс (1903)."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Условный рефлекс (1903)."/>
+</attvalues></edge>
+<edge id="366" source="pt_chumakov" target="dis_polio" label="Живая полиовакцина."><attvalues>
+<attvalue for="e1" value="VACCINE_FOR"/>
+<attvalue for="e2" value="Живая полиовакцина."/>
+</attvalues></edge>
+<edge id="367" source="pt_smorodintsev" target="dis_influenza" label="Гриппозная вакцина."><attvalues>
+<attvalue for="e1" value="VACCINE_FOR"/>
+<attvalue for="e2" value="Гриппозная вакцина."/>
+</attvalues></edge>
+<edge id="368" source="pt_ermolyeva" target="dis_cholera" label="Бактериофаг против холеры."><attvalues>
+<attvalue for="e1" value="TREATS"/>
+<attvalue for="e2" value="Бактериофаг против холеры."/>
+</attvalues></edge>
+<edge id="369" source="pt_ermolyeva" target="pt_penicillin" label="Независимое получение пенициллина (крустозин)."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Независимое получение пенициллина (крустозин)."/>
+</attvalues></edge>
+<edge id="370" source="pt_sechenov" target="pt_pavlov" label="Сеченов повлиял на Павлова."><attvalues>
+<attvalue for="e1" value="INFLUENCED"/>
+<attvalue for="e2" value="Сеченов повлиял на Павлова."/>
+</attvalues></edge>
+<edge id="371" source="pt_botkin" target="pt_pavlov" label="Павлов работал в лаборатории Боткина."><attvalues>
+<attvalue for="e1" value="MENTORED"/>
+<attvalue for="e2" value="Павлов работал в лаборатории Боткина."/>
+</attvalues></edge>
+<edge id="372" source="pt_pasteur" target="pt_gamaleya" label="Гамалея учился у Пастера."><attvalues>
+<attvalue for="e1" value="MENTORED"/>
+<attvalue for="e2" value="Гамалея учился у Пастера."/>
+</attvalues></edge>
+<edge id="373" source="pt_pirogov" target="pt_burdenko" label="Пирогов — образец для военных хирургов."><attvalues>
+<attvalue for="e1" value="INFLUENCED"/>
+<attvalue for="e2" value="Пирогов — образец для военных хирургов."/>
+</attvalues></edge>
+<edge id="374" source="pt_metchnikoff" target="pt_zilber" label="Зильбер — продолжатель школы Мечникова."><attvalues>
+<attvalue for="e1" value="INFLUENCED"/>
+<attvalue for="e2" value="Зильбер — продолжатель школы Мечникова."/>
+</attvalues></edge>
+<edge id="375" source="sub_psychiatry" target="pt_antipsych" label="Психиатрия использует антипсихотики."><attvalues>
+<attvalue for="e1" value="USES"/>
+<attvalue for="e2" value="Психиатрия использует антипсихотики."/>
+</attvalues></edge>
+<edge id="376" source="era_coldwar" target="pt_ermolyeva" label="Советская микробиология."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Советская микробиология."/>
+</attvalues></edge>
+<edge id="377" source="era_coldwar" target="pt_chumakov" label="Советская вирусология."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Советская вирусология."/>
+</attvalues></edge>
+<edge id="378" source="era_coldwar" target="pt_smorodintsev" label="Советская вирусология."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Советская вирусология."/>
+</attvalues></edge>
+<edge id="379" source="era_coldwar" target="pt_demikhov" label="Советская трансплантология."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Советская трансплантология."/>
+</attvalues></edge>
+<edge id="380" source="era_coldwar" target="pt_amosov" label="Советская кардиохирургия."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Советская кардиохирургия."/>
+</attvalues></edge>
+<edge id="381" source="era_coldwar" target="pt_semashko" label="Советское здравоохранение."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Советское здравоохранение."/>
+</attvalues></edge>
+<edge id="382" source="era_coldwar" target="pt_zilber" label="Советская вирусология."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Советская вирусология."/>
+</attvalues></edge>
+<edge id="383" source="era_victorian" target="pt_botkin" label="Российская клиническая школа."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Российская клиническая школа."/>
+</attvalues></edge>
+<edge id="384" source="era_victorian" target="pt_sechenov" label="Российская физиология."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Российская физиология."/>
+</attvalues></edge>
+<edge id="385" source="era_interwar" target="pt_pavlov" label="Советская физиология."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Советская физиология."/>
+</attvalues></edge>
+<edge id="386" source="era_interwar" target="pt_burdenko" label="Советская нейрохирургия."><attvalues>
+<attvalue for="e1" value="CONTEXT_FOR"/>
+<attvalue for="e2" value="Советская нейрохирургия."/>
+</attvalues></edge>
+<edge id="387" source="sub_antibiotics" target="pt_fleming" label="Пенициллин."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Пенициллин."/>
+</attvalues></edge>
+<edge id="388" source="sub_antibiotics" target="pt_waksman" label="Стрептомицин."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Стрептомицин."/>
+</attvalues></edge>
+<edge id="389" source="sub_antibiotics" target="pt_dubos" label="Грамицидин."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Грамицидин."/>
+</attvalues></edge>
+<edge id="390" source="sub_antibiotics" target="pt_domagk" label="Сульфаниламиды."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Сульфаниламиды."/>
+</attvalues></edge>
+<edge id="391" source="sub_antibiotics" target="pt_ermolyeva" label="Советский пенициллин."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Советский пенициллин."/>
+</attvalues></edge>
+<edge id="392" source="pt_waksman" target="pt_streptomycin" label="Стрептомицин (1943)."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Стрептомицин (1943)."/>
+</attvalues></edge>
+<edge id="393" source="pt_streptomycin" target="dis_tb" label="Первый препарат против туберкулёза."><attvalues>
+<attvalue for="e1" value="TREATS"/>
+<attvalue for="e2" value="Первый препарат против туберкулёза."/>
+</attvalues></edge>
+<edge id="394" source="pt_amr" target="sub_antibiotics" label="Резистентность — следствие антибиотиков."><attvalues>
+<attvalue for="e1" value="DERIVED_FROM"/>
+<attvalue for="e2" value="Резистентность — следствие антибиотиков."/>
+</attvalues></edge>
+<edge id="395" source="sub_antibiotics" target="sub_microbio" label="Антибиотики — продукты микробов."><attvalues>
+<attvalue for="e1" value="DERIVED_FROM"/>
+<attvalue for="e2" value="Антибиотики — продукты микробов."/>
+</attvalues></edge>
+<edge id="396" source="pt_waksman" target="pt_koch" label="Почвенная микробиология — продолжение Коха."><attvalues>
+<attvalue for="e1" value="INFLUENCED"/>
+<attvalue for="e2" value="Почвенная микробиология — продолжение Коха."/>
+</attvalues></edge>
+<edge id="397" source="pt_dherelle" target="sub_bacteriophage" label="Бактериофаг (1917)."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Бактериофаг (1917)."/>
+</attvalues></edge>
+<edge id="398" source="sub_bacteriophage" target="pt_ermolyeva" label="Фаготерапия в СССР."><attvalues>
+<attvalue for="e1" value="APPLIED_BY"/>
+<attvalue for="e2" value="Фаготерапия в СССР."/>
+</attvalues></edge>
+<edge id="399" source="sub_bacteriophage" target="pt_crispr" label="Защита бактерий от фагов → CRISPR."><attvalues>
+<attvalue for="e1" value="SOURCE_FOR"/>
+<attvalue for="e2" value="Защита бактерий от фагов → CRISPR."/>
+</attvalues></edge>
+<edge id="400" source="sub_bacteriophage" target="sub_virology" label="Фаги — модель вирусологии."><attvalues>
+<attvalue for="e1" value="UNDERPINS"/>
+<attvalue for="e2" value="Фаги — модель вирусологии."/>
+</attvalues></edge>
+<edge id="401" source="sub_bacteriophage" target="sub_genetics" label="Фаги — модель генетики."><attvalues>
+<attvalue for="e1" value="UNDERPINS"/>
+<attvalue for="e2" value="Фаги — модель генетики."/>
+</attvalues></edge>
+<edge id="402" source="sub_virology" target="pt_delbruck" label="Фаги как модель вирусов."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Фаги как модель вирусов."/>
+</attvalues></edge>
+<edge id="403" source="sub_virology" target="pt_luria" label="Флуктуационный тест."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Флуктуационный тест."/>
+</attvalues></edge>
+<edge id="404" source="sub_virology" target="pt_stanley" label="Кристаллизация вируса."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Кристаллизация вируса."/>
+</attvalues></edge>
+<edge id="405" source="sub_genetics" target="pt_delbruck" label="Фаговая генетика."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Фаговая генетика."/>
+</attvalues></edge>
+<edge id="406" source="pt_hershey" target="pt_hershey_chase" label="Эксперимент Херши–Чейз (1952)."><attvalues>
+<attvalue for="e1" value="DISCOVERED"/>
+<attvalue for="e2" value="Эксперимент Херши–Чейз (1952)."/>
+</attvalues></edge>
+<edge id="407" source="pt_hershey_chase" target="pt_dna_helix" label="ДНК — носитель наследственности."><attvalues>
+<attvalue for="e1" value="CONTRIBUTED_TO"/>
+<attvalue for="e2" value="ДНК — носитель наследственности."/>
+</attvalues></edge>
+<edge id="408" source="pt_hershey_chase" target="sub_genetics" label="Молекулярная генетика."><attvalues>
+<attvalue for="e1" value="UNDERPINS"/>
+<attvalue for="e2" value="Молекулярная генетика."/>
+</attvalues></edge>
+<edge id="409" source="pt_stanley" target="pt_ivanovsky" label="Продолжил изучение вируса табачной мозаики."><attvalues>
+<attvalue for="e1" value="INFLUENCED"/>
+<attvalue for="e2" value="Продолжил изучение вируса табачной мозаики."/>
+</attvalues></edge>
+<edge id="410" source="pt_reverse_transcriptase" target="sub_viral_oncogenesis" label="Ретровирусы и рак."><attvalues>
+<attvalue for="e1" value="UNDERPINS"/>
+<attvalue for="e2" value="Ретровирусы и рак."/>
+</attvalues></edge>
+<edge id="411" source="sub_biostatistics" target="pt_galton" label="Корреляция и регрессия."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Корреляция и регрессия."/>
+</attvalues></edge>
+<edge id="412" source="sub_biostatistics" target="pt_pearson" label="Хи-квадрат."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Хи-квадрат."/>
+</attvalues></edge>
+<edge id="413" source="sub_biostatistics" target="pt_fisher" label="Дисперсионный анализ."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Дисперсионный анализ."/>
+</attvalues></edge>
+<edge id="414" source="pt_galton" target="pt_pearson" label="Пирсон — ученик Гальтона."><attvalues>
+<attvalue for="e1" value="MENTORED"/>
+<attvalue for="e2" value="Пирсон — ученик Гальтона."/>
+</attvalues></edge>
+<edge id="415" source="pt_eugenics" target="pt_galton" label="Гальтон ввёл термин «евгеника»."><attvalues>
+<attvalue for="e1" value="ESTABLISHED_BY"/>
+<attvalue for="e2" value="Гальтон ввёл термин «евгеника»."/>
+</attvalues></edge>
+<edge id="416" source="sub_rct" target="pt_fisher" label="Рандомизация и планирование."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Рандомизация и планирование."/>
+</attvalues></edge>
+<edge id="417" source="sub_rct" target="pt_bradford_hill" label="РКИ стрептомицина (1948)."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="РКИ стрептомицина (1948)."/>
+</attvalues></edge>
+<edge id="418" source="sub_ebm" target="pt_fisher" label="Статистическая основа EBM."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Статистическая основа EBM."/>
+</attvalues></edge>
+<edge id="419" source="sub_ebm" target="pt_bradford_hill" label="Критерии причинности."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Критерии причинности."/>
+</attvalues></edge>
+<edge id="420" source="inst_mrc" target="pt_bradford_hill" label="Брэдфорд Хилл работал в MRC."><attvalues>
+<attvalue for="e1" value="HOSTS"/>
+<attvalue for="e2" value="Брэдфорд Хилл работал в MRC."/>
+</attvalues></edge>
+<edge id="421" source="sub_genetics" target="pt_wright" label="Популяционная генетика."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Популяционная генетика."/>
+</attvalues></edge>
+<edge id="422" source="sub_genetics" target="pt_haldane" label="Популяционная генетика."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Популяционная генетика."/>
+</attvalues></edge>
+<edge id="423" source="sub_genetics" target="pt_fisher" label="Популяционная генетика."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Популяционная генетика."/>
+</attvalues></edge>
+<edge id="424" source="pt_hardy_weinberg" target="pt_mendel" label="Законы Менделя на уровне популяции."><attvalues>
+<attvalue for="e1" value="EXTENDED_TO"/>
+<attvalue for="e2" value="Законы Менделя на уровне популяции."/>
+</attvalues></edge>
+<edge id="425" source="pt_fisher" target="pt_mendel" label="Совместил менделизм с биометрией."><attvalues>
+<attvalue for="e1" value="INFLUENCED"/>
+<attvalue for="e2" value="Совместил менделизм с биометрией."/>
+</attvalues></edge>
+<edge id="426" source="sub_epidemic_modeling" target="pt_ross" label="Первая математическая модель передачи."><attvalues>
+<attvalue for="e1" value="DEVELOPED_BY"/>
+<attvalue for="e2" value="Первая математическая модель передачи."/>
+</attvalues></edge>
+<edge id="427" source="pt_ross" target="dis_malaria" label="Передача малярии через комара."><attvalues>
+<attvalue for="e1" value="TRACED"/>
+<attvalue for="e2" value="Передача малярии через комара."/>
+</attvalues></edge>
+<edge id="428" source="sub_epidemic_modeling" target="sub_epidemiology" label="Математическая основа эпидемиологии."><attvalues>
+<attvalue for="e1" value="UNDERPINS"/>
+<attvalue for="e2" value="Математическая основа эпидемиологии."/>
+</attvalues></edge>
+<edge id="429" source="pt_sir_model" target="sub_epidemic_modeling" label="Компартментальные модели."><attvalues>
+<attvalue for="e1" value="FOUNDATION_OF"/>
+<attvalue for="e2" value="Компартментальные модели."/>
+</attvalues></edge>
+<edge id="430" source="sub_epidemic_modeling" target="dis_influenza" label="Модель пандемий гриппа."><attvalues>
+<attvalue for="e1" value="DESCRIBES"/>
+<attvalue for="e2" value="Модель пандемий гриппа."/>
+</attvalues></edge>
+<edge id="431" source="pt_lotka_volterra" target="sub_systems_bio" label="Динамика популяций."><attvalues>
+<attvalue for="e1" value="FOUNDATION_OF"/>
+<attvalue for="e2" value="Динамика популяций."/>
+</attvalues></edge>
+<edge id="432" source="pt_thompson" target="sub_systems_bio" label="Математическая морфология."><attvalues>
+<attvalue for="e1" value="INFLUENCED"/>
+<attvalue for="e2" value="Математическая морфология."/>
 </attvalues></edge>
 </edges></graph></gexf>

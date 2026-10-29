@@ -328,3 +328,107 @@ pt_nuremberg,sub_expmed,CONSTRAINS,Ограничение эксперимент
 pt_eugenics,pt_nuremberg,BACKGROUND_TO,Расовая гигиена — предпосылка нацистских экспериментов.,directed
 pt_hela,pt_belmont,MOTIVATED,Линия без согласия подтолкнула дебаты об информированном согласии.,directed
 pt_hela,sub_consent,MOTIVATED,Случай Генриетты Лакс и требование согласия.,directed
+pt_sechenov,pt_sechenov_reflexes,AUTHORED,Манифест физиологической психологии.,directed
+pt_pavlov,pt_pavlov_digestion,AUTHORED,Лекции о пищеварении.,directed
+pt_pirogov,pt_pirogov_topo,AUTHORED,Атлас топографической анатомии.,directed
+pt_pirogov,pt_pirogov_field,AUTHORED,Военно-полевая хирургия.,directed
+pt_metchnikoff,pt_metchnikoff_immunity,AUTHORED,Фагоцитарная теория иммунитета.,directed
+pt_botkin,pt_botkin_course,AUTHORED,Клинические лекции.,directed
+pt_osler,pt_osler_principles,AUTHORED,Учебник внутренней медицины.,directed
+sub_physiology,pt_sechenov,DEVELOPED_BY,Физиология нервной системы.,directed
+sub_physiology,pt_pavlov,DEVELOPED_BY,Физиология пищеварения и ВНД.,directed
+sub_neuro,pt_bekhterev,DEVELOPED_BY,Неврология и психиатрия.,directed
+sub_neuro,pt_pavlov,DEVELOPED_BY,Высшая нервная деятельность.,directed
+sub_surgery,pt_pirogov,DEVELOPED_BY,Военно-полевая и топографическая хирургия.,directed
+sub_surgery,pt_sklifosovsky,DEVELOPED_BY,Асептика и антисептика.,directed
+sub_surgery,pt_ilizarov,DEVELOPED_BY,Ортопедия.,directed
+sub_surgery,pt_vishnevsky,DEVELOPED_BY,Местная анестезия.,directed
+sub_microbio,pt_ermolyeva,DEVELOPED_BY,Советский пенициллин.,directed
+sub_microbio,pt_gamaleya,DEVELOPED_BY,Микробиология и эпидемиология.,directed
+sub_virology,pt_zilber,DEVELOPED_BY,Вирусология.,directed
+sub_virology,pt_chumakov,DEVELOPED_BY,Полиовакцина.,directed
+sub_virology,pt_smorodintsev,DEVELOPED_BY,Гриппозная вакцина.,directed
+sub_transplant,pt_demikhov,DEVELOPED_BY,Экспериментальная трансплантация.,directed
+sub_cardio,pt_amosov,DEVELOPED_BY,Кардиохирургия.,directed
+sub_cardio,pt_bakulev,DEVELOPED_BY,Сердечно-сосудистая хирургия.,directed
+sub_psychiatry,pt_bekhterev,DEVELOPED_BY,Неврология и психиатрия.,directed
+sub_psychiatry,pt_korsakov,DEVELOPED_BY,Амнестический синдром.,directed
+sub_psychiatry,pt_kashchenko,DEVELOPED_BY,Организация помощи.,directed
+sub_epidemiology,pt_samoylovich,DEVELOPED_BY,Эпидемиология чумы.,directed
+sub_socialmedicine,pt_erisman,DEVELOPED_BY,Социальная гигиена.,directed
+sub_socialmedicine,pt_semashko,DEVELOPED_BY,Государственное здравоохранение.,directed
+sub_conditional_reflex,pt_pavlov,DEVELOPED_BY,Условные рефлексы.,directed
+sub_field_surgery,pt_pirogov,DEVELOPED_BY,Сортировка и эвакуация.,directed
+sub_field_surgery,pt_burdenko,DEVELOPED_BY,Военно-полевая нейрохирургия.,directed
+sub_blood_transfusion,pt_landsteiner,DEVELOPED_BY,Группы крови.,directed
+sub_blood_transfusion,pt_yudin,DEVELOPED_BY,Трупная кровь.,directed
+sub_semashko_system,pt_semashko,DEVELOPED_BY,Централизованное здравоохранение.,directed
+sub_viral_oncogenesis,pt_zilber,DEVELOPED_BY,Вирусо-генетическая теория рака.,directed
+pt_pavlov,sub_conditional_reflex,DISCOVERED,Условный рефлекс (1903).,directed
+pt_chumakov,dis_polio,VACCINE_FOR,Живая полиовакцина.,directed
+pt_smorodintsev,dis_influenza,VACCINE_FOR,Гриппозная вакцина.,directed
+pt_ermolyeva,dis_cholera,TREATS,Бактериофаг против холеры.,directed
+pt_ermolyeva,pt_penicillin,DEVELOPED_BY,Независимое получение пенициллина (крустозин).,directed
+pt_sechenov,pt_pavlov,INFLUENCED,Сеченов повлиял на Павлова.,directed
+pt_botkin,pt_pavlov,MENTORED,Павлов работал в лаборатории Боткина.,directed
+pt_pasteur,pt_gamaleya,MENTORED,Гамалея учился у Пастера.,directed
+pt_pirogov,pt_burdenko,INFLUENCED,Пирогов — образец для военных хирургов.,directed
+pt_metchnikoff,pt_zilber,INFLUENCED,Зильбер — продолжатель школы Мечникова.,directed
+sub_psychiatry,pt_antipsych,USES,Психиатрия использует антипсихотики.,directed
+era_coldwar,pt_ermolyeva,CONTEXT_FOR,Советская микробиология.,directed
+era_coldwar,pt_chumakov,CONTEXT_FOR,Советская вирусология.,directed
+era_coldwar,pt_smorodintsev,CONTEXT_FOR,Советская вирусология.,directed
+era_coldwar,pt_demikhov,CONTEXT_FOR,Советская трансплантология.,directed
+era_coldwar,pt_amosov,CONTEXT_FOR,Советская кардиохирургия.,directed
+era_coldwar,pt_semashko,CONTEXT_FOR,Советское здравоохранение.,directed
+era_coldwar,pt_zilber,CONTEXT_FOR,Советская вирусология.,directed
+era_victorian,pt_botkin,CONTEXT_FOR,Российская клиническая школа.,directed
+era_victorian,pt_sechenov,CONTEXT_FOR,Российская физиология.,directed
+era_interwar,pt_pavlov,CONTEXT_FOR,Советская физиология.,directed
+era_interwar,pt_burdenko,CONTEXT_FOR,Советская нейрохирургия.,directed
+sub_antibiotics,pt_fleming,DEVELOPED_BY,Пенициллин.,directed
+sub_antibiotics,pt_waksman,DEVELOPED_BY,Стрептомицин.,directed
+sub_antibiotics,pt_dubos,DEVELOPED_BY,Грамицидин.,directed
+sub_antibiotics,pt_domagk,DEVELOPED_BY,Сульфаниламиды.,directed
+sub_antibiotics,pt_ermolyeva,DEVELOPED_BY,Советский пенициллин.,directed
+pt_waksman,pt_streptomycin,DISCOVERED,Стрептомицин (1943).,directed
+pt_streptomycin,dis_tb,TREATS,Первый препарат против туберкулёза.,directed
+pt_amr,sub_antibiotics,DERIVED_FROM,Резистентность — следствие антибиотиков.,directed
+sub_antibiotics,sub_microbio,DERIVED_FROM,Антибиотики — продукты микробов.,directed
+pt_waksman,pt_koch,INFLUENCED,Почвенная микробиология — продолжение Коха.,directed
+pt_dherelle,sub_bacteriophage,DISCOVERED,Бактериофаг (1917).,directed
+sub_bacteriophage,pt_ermolyeva,APPLIED_BY,Фаготерапия в СССР.,directed
+sub_bacteriophage,pt_crispr,SOURCE_FOR,Защита бактерий от фагов → CRISPR.,directed
+sub_bacteriophage,sub_virology,UNDERPINS,Фаги — модель вирусологии.,directed
+sub_bacteriophage,sub_genetics,UNDERPINS,Фаги — модель генетики.,directed
+sub_virology,pt_delbruck,DEVELOPED_BY,Фаги как модель вирусов.,directed
+sub_virology,pt_luria,DEVELOPED_BY,Флуктуационный тест.,directed
+sub_virology,pt_stanley,DEVELOPED_BY,Кристаллизация вируса.,directed
+sub_genetics,pt_delbruck,DEVELOPED_BY,Фаговая генетика.,directed
+pt_hershey,pt_hershey_chase,DISCOVERED,Эксперимент Херши–Чейз (1952).,directed
+pt_hershey_chase,pt_dna_helix,CONTRIBUTED_TO,ДНК — носитель наследственности.,directed
+pt_hershey_chase,sub_genetics,UNDERPINS,Молекулярная генетика.,directed
+pt_stanley,pt_ivanovsky,INFLUENCED,Продолжил изучение вируса табачной мозаики.,directed
+pt_reverse_transcriptase,sub_viral_oncogenesis,UNDERPINS,Ретровирусы и рак.,directed
+sub_biostatistics,pt_galton,DEVELOPED_BY,Корреляция и регрессия.,directed
+sub_biostatistics,pt_pearson,DEVELOPED_BY,Хи-квадрат.,directed
+sub_biostatistics,pt_fisher,DEVELOPED_BY,Дисперсионный анализ.,directed
+pt_galton,pt_pearson,MENTORED,Пирсон — ученик Гальтона.,directed
+pt_eugenics,pt_galton,ESTABLISHED_BY,Гальтон ввёл термин «евгеника».,directed
+sub_rct,pt_fisher,DEVELOPED_BY,Рандомизация и планирование.,directed
+sub_rct,pt_bradford_hill,DEVELOPED_BY,РКИ стрептомицина (1948).,directed
+sub_ebm,pt_fisher,DEVELOPED_BY,Статистическая основа EBM.,directed
+sub_ebm,pt_bradford_hill,DEVELOPED_BY,Критерии причинности.,directed
+inst_mrc,pt_bradford_hill,HOSTS,Брэдфорд Хилл работал в MRC.,directed
+sub_genetics,pt_wright,DEVELOPED_BY,Популяционная генетика.,directed
+sub_genetics,pt_haldane,DEVELOPED_BY,Популяционная генетика.,directed
+sub_genetics,pt_fisher,DEVELOPED_BY,Популяционная генетика.,directed
+pt_hardy_weinberg,pt_mendel,EXTENDED_TO,Законы Менделя на уровне популяции.,directed
+pt_fisher,pt_mendel,INFLUENCED,Совместил менделизм с биометрией.,directed
+sub_epidemic_modeling,pt_ross,DEVELOPED_BY,Первая математическая модель передачи.,directed
+pt_ross,dis_malaria,TRACED,Передача малярии через комара.,directed
+sub_epidemic_modeling,sub_epidemiology,UNDERPINS,Математическая основа эпидемиологии.,directed
+pt_sir_model,sub_epidemic_modeling,FOUNDATION_OF,Компартментальные модели.,directed
+sub_epidemic_modeling,dis_influenza,DESCRIBES,Модель пандемий гриппа.,directed
+pt_lotka_volterra,sub_systems_bio,FOUNDATION_OF,Динамика популяций.,directed
+pt_thompson,sub_systems_bio,INFLUENCED,Математическая морфология.,directed
