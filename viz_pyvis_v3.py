@@ -111,6 +111,7 @@ def build_controls(layouts: dict, hubs: list) -> str:
         'oninput="doSearch(this.value)">'
         '<div id="searchresults" style="max-height:170px;overflow:auto;margin-top:2px;"></div>'
         '</div>'
+        '<div id="statusmsg" style="display:none;margin-top:4px;font-style:italic;color:#666666;font-size:12px;"></div>'
         '</div>'
     )
 
@@ -118,11 +119,69 @@ def build_controls(layouts: dict, hubs: list) -> str:
 var LAYOUT_CIRCULAR = __CIRCULAR__;
 var LAYOUT_RANDOM = __RANDOM__;
 var LAYOUT_RADIAL = __RADIAL__;
+var LOADING_MSGS = [
+  "Авиценна негодует…",
+  "Ждём окончания операции у Цезаря…",
+  "Все врачи заняты…",
+  "Пройдите регистрацию на госуслугах…",
+  "Ищем карточку пациента…",
+  "Гиппократ диктует клятву…",
+  "Гален сверяет баланс гуморов…",
+  "Стерилизуем инструменты…",
+  "Пастер кипятит пробирки…",
+  "Кох высевает культуру…",
+  "Мечников считает фагоцитов…",
+  "Пирогов накладывает гипс…",
+  "Павлов звонит в колокольчик…",
+  "Ищем бланк направления…",
+  "Талончик к терапевту, пожалуйста…",
+  "В очереди за справкой…",
+  "Медкарта в другом кабинете…",
+  "Рентген-кабинет закрыт на обед…",
+  "Везалий листает атлас…",
+  "Левенгук протирает линзу…",
+  "Флеминг замечает плесень…",
+  "Дженнер доит корову…",
+  "Сноу выключает помпу на Брод-стрит…",
+  "Земмельвейс моет руки…",
+  "Меряем давление…",
+  "Ищем вену…",
+  "Считаем пульс…",
+  "Лаборант запутался в пробирках…"
+];
+var _msgTimer = null;
+var _msgTimeout = null;
+var _stableListenerAdded = false;
+function _randomMsg(){
+  return LOADING_MSGS[Math.floor(Math.random() * LOADING_MSGS.length)];
+}
+function _stopLoading(){
+  var el = document.getElementById("statusmsg");
+  if(el){ el.style.display = "none"; }
+  if(_msgTimer){ clearInterval(_msgTimer); _msgTimer = null; }
+  if(_msgTimeout){ clearTimeout(_msgTimeout); _msgTimeout = null; }
+}
+function _startLoading(){
+  var el = document.getElementById("statusmsg");
+  if(!el) return;
+  if(!_stableListenerAdded && window.network){
+    network.on("stabilized", _stopLoading);
+    network.on("stabilizationIterationsDone", _stopLoading);
+    _stableListenerAdded = true;
+  }
+  el.textContent = _randomMsg();
+  el.style.display = "block";
+  if(_msgTimer){ clearInterval(_msgTimer); }
+  _msgTimer = setInterval(function(){ el.textContent = _randomMsg(); }, 1500);
+  if(_msgTimeout){ clearTimeout(_msgTimeout); }
+  _msgTimeout = setTimeout(_stopLoading, 4000);
+}
 function _unfixAll(){
   if(window.nodes){ nodes.forEach(function(n){ nodes.update({id: n.id, fixed: false}); }); }
 }
 function applyLayout(name){
   if(!window.network) return;
+  _startLoading();
   if(name === "circular" || name === "random" || name === "radial"){
     var lp = name === "circular" ? LAYOUT_CIRCULAR : (name === "random" ? LAYOUT_RANDOM : LAYOUT_RADIAL);
     network.setOptions({physics: false, layout: {hierarchical: {enabled: false}}});
